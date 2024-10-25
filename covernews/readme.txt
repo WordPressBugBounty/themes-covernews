@@ -37,6 +37,10 @@ CoverNews includes support for Infinite Scroll in Jetpack.
 
 
 == Change-log ==
+= 5.0.1 - Oct 25 2024 =
+* Update - RTL Scripts improvements
+* Update - Block Style improvement
+* Fixed - Some styling glitch
 
 = 5.0.0 - Oct 17 2024 =
 * New - Import Starter Site Dashboard
