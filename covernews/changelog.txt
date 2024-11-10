@@ -1,3 +1,7 @@
+### 5.0.2 - Nov 10 2024
+* Update - Theme Info Improvements
+* Update - Speed Improvements
+
 ### 5.0.1 - Oct 25 2024
 * Update - RTL Scripts improvements
 * Update - Block Style improvement

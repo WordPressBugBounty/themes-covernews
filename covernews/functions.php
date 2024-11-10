@@ -126,6 +126,8 @@ if (!function_exists('covernews_setup')) :
         add_theme_support('custom-line-height');
         add_theme_support('border');
         add_theme_support('link-color');
+
+        
     }
 endif;
 add_action('after_setup_theme', 'covernews_setup');
