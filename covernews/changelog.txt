@@ -1,6 +1,12 @@
-### 5.0.2 - Nov 10 2024
-* Update - Theme Info Improvements
-* Update - Speed Improvements
+### 5.1.0 - Nov 19 2024
+* New - WP 6.7 Compatibility
+* Update - Dashboard improvements
+* Update - Scripts improvements
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
+###  5.0.2 - Nov 10 2024
+* Update - Theme info improvements
 
 ### 5.0.1 - Oct 25 2024
 * Update - RTL Scripts improvements

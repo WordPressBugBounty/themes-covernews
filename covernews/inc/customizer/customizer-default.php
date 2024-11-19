@@ -46,7 +46,7 @@ function covernews_get_default_theme_options() {
     $defaults['banner_advertisement_scope'] = 'front-page-only';
 
     // breadcrumb options section
-    $defaults['enable_breadcrumb'] = 0;
+    $defaults['enable_breadcrumb'] = 1;
     $defaults['select_breadcrumb_mode'] = 'default';
 
     // Frontpage Section
