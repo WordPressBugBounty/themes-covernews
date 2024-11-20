@@ -417,7 +417,7 @@ function covernews_header_menu_desc($item_output, $item, $depth, $args)
 }
 add_filter('walker_nav_menu_start_el', 'covernews_header_menu_desc', 10, 4);
 
-add_action('after_setup_theme', 'covernews_transltion_init');
+add_action('init', 'covernews_transltion_init');
 
 function covernews_transltion_init()
 {
