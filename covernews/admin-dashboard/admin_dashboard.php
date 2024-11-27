@@ -162,7 +162,7 @@ if (!class_exists('AF_themes_info')) {
         __('Upgrade', 'covernews'), // Page title.
         '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'covernews') .'</span>', // Menu title.
         'manage_options', // Capability.
-        esc_url('https://afthemes.com/products/covernews-pro/') // Menu slug.
+         esc_url('https://afthemes.com/products/covernews-pro/') // Menu slug.
         
       );
     }
