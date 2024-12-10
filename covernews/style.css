@@ -3,13 +3,11 @@ Theme Name: CoverNews
 Theme URI: https://afthemes.com/products/covernews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
-Requires at least: 5.3
-WC requires at least: 3.0
-WC tested up to: 9.3
-Requires PHP: 5.6
+Requires at least: 4.0
+Requires PHP: 5.3
 Tested up to: 6.7
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 5.1.3
+Version: 5.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -2826,13 +2824,11 @@ body.custom-background .site-content .em-breadcrumbs .container {
 #secondary,
 .primary-1 {
     float: left;
-
 }
 
 .entry-content,
 #secondary .widget,
-.comments-area, .woocommerce div.product .woocommerce-tabs .panel
-{
+.comments-area{
     padding: 15px;
 }
 
@@ -3227,57 +3223,6 @@ body.dark.aft-main-banner-slider-list-tabbed .af-main-banner .col-sm-4 {
 
 .af-main-banner-featured-posts .section-title {
     font-weight: 700;
-
-}
-
-.woocommerce ul.products li.product{
-    padding-bottom: 15px;
-    margin: 5px;
-}
-
-.woocommerce-page.columns-3 ul.products li.product,
-.woocommerce.columns-3 ul.products li.product,
-.woocommerce ul.products.columns-3 li.product,
-.woocommerce-page ul.products.columns-3 li.product{
-    width: 31.73%;
-    background: #fff;
-}
-body.dark.woocommerce-page.columns-3 ul.products li.product,
-body.dark .woocommerce.columns-3 ul.products li.product,
-body.dark .woocommerce ul.products.columns-3 li.product,
-body.dark.woocommerce-page ul.products.columns-3 li.product{
-    background: #333;
-}
-.woocommerce .products ul, .woocommerce ul.products {
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.woocommerce ul.products li.product .onsale{
-    right: 0;
-    top: 0;
-    margin: 0;
-}
-.woocommerce ul.products li.product .star-rating {
-    margin: 5px 15px;
-}
-.woocommerce ul.products li.product h2.woocommerce-loop-product__title,
-.woocommerce ul.products li.product .price,
-.woocommerce ul.products li.product .button
-{
-    margin: 0 15px;
-    line-height: normal;
-}
-.woocommerce ul.products li.product .button {
-    height: auto;
-    padding: 8px 10px;
-}
-.woocommerce ul.products li.product .price{
-    padding: 5px 0;
-    font-weight: 700;
-}
-
-.af-main-banner-featured-products .woocommerce ul.products li.product {
-    width: 23.8%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3288,7 +3233,6 @@ body.dark.woocommerce-page ul.products.columns-3 li.product{
     .full-section-slider .no-gutter-col:nth-child(18) {
         border-left-width: 1px;
     }
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -3303,7 +3247,6 @@ body.dark.woocommerce-page ul.products.columns-3 li.product{
     .af-main-banner .no-gutter-col:nth-child(18) {
         border-left-width: 1px;
     }
-
 }
 
 .widget .slick-current .banner-half {
@@ -3318,7 +3261,6 @@ body.dark.woocommerce-page ul.products.columns-3 li.product{
     .banner-half {
         border-width: 1px;
     }
-
     .banner-half:last-child {
         border-left: 0;
     }
@@ -3352,25 +3294,21 @@ body.dark.woocommerce-page ul.products.columns-3 li.product{
 
 .trending-slides .marquee {
     overflow: hidden;
-
 }
 
 .trending-slides .marquee .js-marquee {
     margin: 0;
-
 }
 
 .trending-slides .marquee a {
     padding: 0 25px;
     font-weight: 400;
-
 }
 
 .trending-slides .marquee a img {
     width: 25px;
     height: auto;
     margin-right: 5px;
-
 }
 
 .trending-line .trending-now strong {
@@ -4099,67 +4037,6 @@ body.dark .af-main-banner .grid-item-metadata .posts-date a:hover{
 }
 .archive-layout-list .data-bg-hover:before{display: none;}
 
-.woocommerce ul{
-    list-style: none;
-}
-
-.woocommerce ul li.product{
-    margin-bottom: 20px;
-}
-.woocommerce ul li.product .af-grid-li{
-    background-color: #fff;
-    border: 1px solid rgba(0, 1, 1, 0.1);
-    border-radius: 3px;
-}
-.aft-product-list-thumb {
-    position: relative;
-}
-.aft-product-list-thumb img {
-    width: 100%;
-}
-.aft-product-list-desc {
-    padding: 20px;
-}
-.aft-product-list-title h2{
-    padding: .5em 0;
-    margin: 0;
-    font-size: 1em;
-}
-.aft-product-list-rating span.price .woocommerce-Price-amount{
-
-    font-weight: 700;
-    margin-bottom: .5em;
-    font-size: 16px;
-}
-.aft-product-list-rating span.price {
-    padding: 5px 0;
-    font-weight: 700;
-}
-.woocommerce ul li.product .price del{
-    color: inherit;
-    opacity: .5;
-    display: inline-block;
-}
-.woocommerce ul li.product .price ins {
-    font-weight: 700;
-    display: inline-block;
-}
-
-
-.home .banner-half.woocommerce ul li.product .onsale {
-    right: 0;
-    top: 0;
-    margin: 0;
-    left: inherit;
-}
-.home .banner-half.woocommerce ul li.product .onsale:hover{
-    background: #333;
-    color: #fff;
-}
-
-
-
-
 .spotlight-post-1 {
     margin-bottom: 0;
 
@@ -4177,7 +4054,6 @@ body.dark .af-main-banner .grid-item-metadata .posts-date a:hover{
     left: 0;
     width: 100%;
 }
-
 
 .categorised-article-list {
     margin-bottom: 15px;
@@ -8193,7 +8069,6 @@ div#infinite-handle {
     }
 }
 
-
 @media only screen and (max-width: 640px){
     .top-navigation ul li a {
         padding-right: 0;
@@ -8213,14 +8088,6 @@ div#infinite-handle {
     padding-bottom: 0;
 }
 
-.woocommerce ul.products li.product .woocommerce-loop-category__title{margin-left: 15px;}
-.woocommerce .aftwpl-product-list-add-to-cart a.button{border-radius: 3px;}
-
-@media only screen and (min-width: 1440px) {
-    .af-main-banner-featured-products .woocommerce ul.products li.product {
-        width: 24%;
-    }
-}
 @media only screen and (max-width: 768px) {
 
     figure.gallery-item .gallery-icon img {
@@ -8361,17 +8228,6 @@ div#infinite-handle {
     #primary .archive-layout-list .align-items-center.no-post-image .col-five.col-image {
         padding-right: 10px;
         padding-left: 10px;
-    }
-}
-@media only screen and (max-width: 320px) {
-    .woocommerce-page.columns-3 ul.products li.product,
-    .woocommerce.columns-3 ul.products li.product,
-    .woocommerce ul.products.columns-3 li.product,
-    .woocommerce-page ul.products.columns-3 li.product {
-        width: 100%;
-    }
-    .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n) {
-        float: none;
     }
 }
 
@@ -8665,6 +8521,7 @@ body.dark .comment-form input[type="email"],
 body.dark .comment-form input[type="url"], 
 body.dark .comment-form textarea{
     background: rgba(255,255,255,.05);
+    color: #fff;
 }
 body.dark.custom-background,
 body.dark{
@@ -9034,3 +8891,65 @@ body.aft-container-full-width .container {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* builder compatible css */
+.vcwb button,
+.fl-builder button{
+    height: unset;
+}
+
+body.full-width-content.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide,
+.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide {
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>:where(:not(.alignleft):not(.alignright):not(.alignfull)),
+.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.aligncenter{
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.fl-row-fixed-width,
+.aft-pagebuilder-page-section > .vce-row-container{
+    max-width: 1185px;
+}
+@media screen and (min-width: 1600px){
+    body.full-width-content.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide,
+    .aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide ,
+    .fl-row-fixed-width,
+    .aft-pagebuilder-page-section > .vce-row-container{
+        max-width: 1600px;
+    }
+}
+.aft-pagebuilder-page-section > .elementor,
+.aft-pagebuilder-page-section > .fl-builder-content ,
+.aft-pagebuilder-page-section > .brz-root__container ,
+.aft-pagebuilder-full-width-content .site-main>.rz-root__container,
+.aft-pagebuilder-full-width-content .site-main>.fl-builder-content {
+    max-width: unset;
+}
+.container-wrapper #primary.aft-pagebuilder-full-width-content {
+    width: 100%;
+    padding: 0;
+}
+.vce-row-container [class*="col-"]:not([class*="elementor-col-"]) {
+    padding-left: 0;
+    padding-right: 0;
+}
+body a.wc-block-components-button {
+    color: #fff;
+}
+.dark .wc-block-components-button:hover,
+.wc-block-components-button:hover{
+    background-color: #dfdcde;
+    color: #515151;
+}
+.wc-block-components-form .wc-block-components-text-input label, .wc-block-components-text-input label {
+    color: inherit;
+}
+/* builder compatible css */

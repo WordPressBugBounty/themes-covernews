@@ -61,6 +61,12 @@ body.rtl #secondary .covernews_social_contacts_widget ul li:nth-child(6n){
     margin-left: 0;
 }
 
+body.rtl .aft-full-title-first .em-post-format ,
+body.rtl.single-post .entry-content-wrap .em-post-format {
+	margin-right: 0;
+    margin-left: 5px;
+}
+
 body.rtl .slider-figcaption .grid-item-metadata .item-metadata,
 body.rtl span.item-metadata.posts-author,
 body.rtl span.aft-comment-count,

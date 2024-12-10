@@ -37,7 +37,7 @@
     the_post_navigation(array(
         'prev_text' => __('<span class="em-post-navigation">Previous</span> %title', 'covernews'),
         'next_text' => __('<span class="em-post-navigation">Next</span> %title', 'covernews'),
-        'in_same_term' => true,
+        // 'in_same_term' => true,
         'screen_reader_text' => __('Post Navigation', 'covernews'),
     ));
 ?>
