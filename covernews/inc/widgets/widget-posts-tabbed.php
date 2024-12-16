@@ -85,13 +85,13 @@ if (!class_exists('CoverNews_Tabbed_Posts')) :
                 aria-controls="<?php echo esc_attr($tab_id); ?>-popular"
                 aria-selected="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
                 data-toggle="tab"
-                class="font-family-1 widget-title <?php echo $is_recent_active ? '' : 'active'; ?>">
+                class="font-family-1 widget-title">
                 <?php echo esc_html($popular_title); ?>
               </a>
             </li>
 
             <?php if ($enable_categorised_tab == 'true'): ?>
-              <li class="tab tab-categorised" role="presentation">
+              <li class=" tab tab-categorised" role="presentation">
                 <a href="#<?php echo esc_attr($tab_id); ?>-categorised"
                   aria-label="<?php esc_attr_e('Categorised', 'covernews'); ?>"
                   role="tab"

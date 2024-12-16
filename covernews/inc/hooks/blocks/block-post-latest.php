@@ -16,13 +16,7 @@ $all_posts = covernews_get_posts(5);
   <div class="container">
     <div class="row">
       <div class="widget-title-section">
-        <?php if (!empty($covernews_latest_posts_title)): ?>
-          <h4 class="widget-title header-after1">
-            <span class="header-after">
-              <?php echo apply_filters('the_title', $covernews_latest_posts_title); ?>
-            </span>
-          </h4>
-        <?php endif; ?>
+        <?php if (!empty($covernews_latest_posts_title)): covernews_render_section_title($covernews_latest_posts_title); endif; ?>
 
       </div>
       <div class="row">

@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="row">
                     <?php
-                    
+
 
                     if (has_nav_menu('aft-top-nav') || ($show_date == true)) : ?>
                         <div class="col-xs-12 col-sm-12 col-md-8 device-center">
@@ -74,13 +74,22 @@
         <?php
         $class = '';
         $background = '';
+        // if (has_header_image()) {
+        //     $class = 'data-bg';
+        //     $background = get_header_image();
+        // }
+
+        $background = '';
+        $inline_style = '';
         if (has_header_image()) {
-            $class = 'data-bg';
+            $class = 'af-header-image data-bg';
             $background = get_header_image();
+            // Set inline style for background-image
+            $inline_style = 'style="background-image: url(' . esc_url($background) . ');"';
         }
 
         ?>
-        <div class="masthead-banner <?php echo esc_attr($class); ?>" data-background="<?php echo esc_attr($background); ?>">
+        <div class="masthead-banner <?php echo esc_attr($class); ?>"  <?php echo $inline_style; ?> >
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">

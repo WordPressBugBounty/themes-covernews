@@ -33,13 +33,7 @@ if (!function_exists('covernews_front_page_main_section_1')) :
           <?php if ($covernews_enable_main_slider): ?>
             <div class="for-main-row">
               <div class="main-story-wrapper col-sm-6">
-                <?php if ($covernews_slider_title): ?>
-                  <h4 class="header-after1">
-                    <span class="header-after <?php echo esc_attr($color_class); ?>">
-                      <?php echo apply_filters('the_title', $covernews_slider_title); ?>
-                    </span>
-                  </h4>
-                <?php endif; ?>
+                <?php if ($covernews_slider_title): covernews_render_section_title($covernews_slider_title, $color_class); endif; ?>
                 <div class="main-slider-wrapper">
                   <div class="main-slider full-slider-mode">
                     <?php
@@ -91,14 +85,7 @@ if (!function_exists('covernews_front_page_main_section_1')) :
               ?>
 
               <div class="af-main-banner-editors-picks categorized-story col-sm-3">
-                <?php if ($covernews_editors_picks_title): ?>
-                  <h4 class="header-after1">
-                    <span class="header-after <?php echo esc_attr($color_class); ?>">
-
-                      <?php echo apply_filters('the_title', $covernews_editors_picks_title); ?>
-                    </span>
-                  </h4>
-                <?php endif; ?>
+                <?php if ($covernews_editors_picks_title): covernews_render_section_title($covernews_editors_picks_title, $color_class); endif; ?>
                 <div class="featured-posts-grid i-row row">
 
                   <?php
@@ -158,13 +145,7 @@ if (!function_exists('covernews_front_page_main_section_1')) :
               $color_class = covernews_get_category_color_class($covernews_trending_slider_category);
               ?>
               <div class="trending-story col-sm-3">
-                <?php if ($covernews_trending_slider_title): ?>
-                  <h4 class="header-after1">
-                    <span class="header-after <?php echo esc_attr($color_class); ?>">
-                      <?php echo apply_filters('the_title', $covernews_trending_slider_title); ?>
-                    </span>
-                  </h4>
-                <?php endif; ?>
+                <?php if ($covernews_trending_slider_title): covernews_render_section_title($covernews_trending_slider_title, $color_class); endif; ?>
                 <?php do_action('covernews_action_banner_trending_posts'); ?>
               </div>
             </div>
@@ -187,15 +168,7 @@ if (!function_exists('covernews_front_page_main_section_1')) :
 
             <div class="af-main-banner-featured-posts grid-layout">
 
-              <?php if (!empty($covernews_featured_news_title)): ?>
-
-                <h4 class="header-after1 ">
-                  <span class="header-after <?php echo esc_attr($color_class); ?>">
-                    <?php echo apply_filters('the_title', $covernews_featured_news_title); ?>
-                  </span>
-
-                </h4>
-              <?php endif; ?>
+              <?php if (!empty($covernews_featured_news_title)): covernews_render_section_title($covernews_featured_news_title, $color_class);endif; ?>
 
               <?php do_action('covernews_action_banner_featured_posts'); ?>
             </div>

@@ -61,13 +61,7 @@ if (!class_exists('CoverNews_Double_Col_Categorised_Posts')) :
 
 
           <div class="col-sm-6 <?php echo esc_attr($layout_1); ?>">
-            <?php if (!empty($title_1)): ?>
-              <h4 class="widget-title header-after1">
-                <span class="header-after">
-                  <?php echo esc_html($title_1); ?>
-                </span>
-              </h4>
-            <?php endif; ?>
+            <?php if (!empty($title_1)): covernews_render_section_title($title_1); endif; ?>
             <?php $all_posts = covernews_get_posts($number_of_posts_1, $category_1); ?>
             <?php
             $count_1 = 1;
@@ -123,13 +117,7 @@ if (!class_exists('CoverNews_Double_Col_Categorised_Posts')) :
           </div>
 
           <div class="col-sm-6 <?php echo esc_attr($layout_2); ?>">
-            <?php if (!empty($title_2)): ?>
-              <h4 class="widget-title header-after1">
-                <span class="header-after">
-                  <?php echo esc_html($title_2); ?>
-                </span>
-              </h4>
-            <?php endif; ?>
+            <?php if (!empty($title_2)): covernews_render_section_title($title_2); endif; ?>
             <?php $all_posts = covernews_get_posts($number_of_posts_2, $category_2); ?>
             <?php
             $count_2 = 1;

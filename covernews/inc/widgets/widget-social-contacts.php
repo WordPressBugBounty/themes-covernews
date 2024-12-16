@@ -46,13 +46,7 @@ class CoverNews_Social_Contacts extends AFthemes_Widget_Base
         ?>
         <?php if (!empty($title)): ?>
         <div class="em-title-subtitle-wrap">
-            <?php if (!empty($title)): ?>
-                <h4 class="widget-title header-after1">
-                        <span class="header-after">
-                            <?php echo esc_html($title);  ?>
-                            </span>
-                </h4>
-            <?php endif; ?>
+            <?php if (!empty($title)): covernews_render_section_title($title); endif; ?>
         </div>
     <?php endif; ?>
         <?php

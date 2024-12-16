@@ -5,7 +5,7 @@
  *
  * @since CoverNews 1.0.0
  */
-if (!function_exists('covernews_get_posts')):
+if (!function_exists('covernews_get_posts')) :
   function covernews_get_posts($number_of_posts, $category = '0')
   {
 
@@ -35,7 +35,7 @@ endif;
  *
  * @since CoverNews 1.0.0
  */
-if (!function_exists('covernews_get_terms')):    function covernews_get_terms($category_id = 0, $taxonomy = 'category', $default = '')
+if (!function_exists('covernews_get_terms')) :    function covernews_get_terms($category_id = 0, $taxonomy = 'category', $default = '')
   {
     $taxonomy = !empty($taxonomy) ? $taxonomy : 'category';
 
@@ -71,7 +71,7 @@ endif;
  *
  * @since CoverNews 1.0.0
  */
-if (!function_exists('covernews_get_terms_link')):    function covernews_get_terms_link($category_id = 0)
+if (!function_exists('covernews_get_terms_link')) :    function covernews_get_terms_link($category_id = 0)
   {
 
     if (absint($category_id) > 0) {
@@ -103,8 +103,20 @@ if (!function_exists('covernews_get_excerpt')) :
     $covernews_global_read_more_texts = covernews_get_option('global_read_more_texts');
 
     if (!empty($covernews_global_read_more_texts)) {
-      $covernews_read_more = '<div class="aft-readmore-wrapper"><a href="' . get_permalink($post_id) . '" class="aft-readmore">' . $covernews_global_read_more_texts . '</a></div>';
+      $post_title = get_the_title($post_id);
+
+      $covernews_read_more = sprintf(
+        '<div class="aft-readmore-wrapper">
+              <a href="%1$s" class="aft-readmore" aria-label="%2$s">%3$s</a>
+          </div>',
+        esc_url(get_permalink($post_id)),  // %1$s: Link to the post
+        esc_attr(sprintf(__('Read more about %s', 'covernews'), $post_title)), // %2$s: Aria-label
+        esc_html($covernews_global_read_more_texts) // %3$s: "Read More" text
+      );
+
+      $covernews_read_more; // Output without filters
     }
+
     if ($archive_content_view == 'archive-content-excerpt') {
 
       if ($widget_excerpt == 'default-excerpt') {
@@ -131,7 +143,7 @@ endif;
  *
  * @since CoverNews 1.0.0
  */
-if (!function_exists('covernews_no_image_url')):
+if (!function_exists('covernews_no_image_url')) :
   function covernews_no_image_url()
   {
     $url = get_template_directory_uri() . '/assets/images/no-image.png';
@@ -145,7 +157,7 @@ endif;
  *
  * @since CoverNews 1.0.0
  */
-if (!function_exists('covernews_post_format')):
+if (!function_exists('covernews_post_format')) :
   function covernews_post_format($post_id)
   {
     $post_format = get_post_format($post_id);
@@ -176,7 +188,7 @@ endif;
  *
  * @param array $args  Post Arguments.
  */
-if (!function_exists('covernews_render_posts')):
+if (!function_exists('covernews_render_posts')) :
   function covernews_render_posts($type, $show_excerpt, $excerpt_length, $number_of_posts, $category = '0')
   {
 
@@ -224,9 +236,9 @@ if (!function_exists('covernews_render_posts')):
 
     if (!empty($args) && is_array($args)) {
       $all_posts = new WP_Query($args);
-      if ($all_posts->have_posts()):
+      if ($all_posts->have_posts()) :
         echo '<ul class="article-item article-list-item article-tabbed-list article-item-left">';
-        while ($all_posts->have_posts()):
+        while ($all_posts->have_posts()) :
           $all_posts->the_post();
 
 ?>
@@ -253,8 +265,7 @@ if (!function_exists('covernews_render_posts')):
                 <div class="col-sm-4 col-image">
 
                   <div class="tab-article-image">
-                    <a href="<?php the_permalink(); ?>" class="post-thumb"
-                      aria-label="<?php echo esc_attr(get_the_title($covernews_post_id)); ?>">
+                    <a href="<?php the_permalink(); ?>" class="post-thumb" aria-label="<?php echo esc_attr(get_the_title($covernews_post_id)); ?>">
                       <?php covernews_the_post_thumbnail($thumbnail_size, $covernews_post_id); ?>
                     </a>
                   </div>
@@ -281,10 +292,10 @@ if (!function_exists('covernews_render_posts')):
                         <?php covernews_post_item_meta(); ?>
 
                       </div>
-                      <?php if ($show_excerpt != 'false'): ?>
+                      <?php if ($show_excerpt != 'false') : ?>
                         <div class="full-item-discription">
                           <div class="post-description">
-                            <?php if (absint($excerpt_length) > 0): ?>
+                            <?php if (absint($excerpt_length) > 0) : ?>
                               <?php
                               $excerpt = covernews_get_excerpt($excerpt_length, get_the_content());
                               echo wp_kses_post(wpautop($excerpt));
@@ -301,11 +312,26 @@ if (!function_exists('covernews_render_posts')):
               </div>
             </div>
           </li>
-<?php
+    <?php
         endwhile;
         wp_reset_postdata();
         echo '</ul>';
       endif;
     }
+  }
+endif;
+
+
+if (!function_exists('covernews_render_section_title')) :
+  function covernews_render_section_title($section_title, $color_class = '')
+  { ?>
+    <h2 class="widget-title header-after1">
+      <span class="header-after <?php echo esc_attr($color_class); ?>">
+        <?php //echo esc_html($section_title);  
+        ?>
+        <?php echo apply_filters('the_title', $section_title); ?>
+      </span>
+    </h2>
+<?php
   }
 endif;
