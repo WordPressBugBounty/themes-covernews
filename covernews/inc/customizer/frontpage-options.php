@@ -244,12 +244,38 @@ $wp_customize->add_control( 'select_main_banner_section_order_1',
         'type'        => 'select',
         'choices'               => array(
             'order-1' => esc_html__( "Default", 'covernews' ),
-            'order-2' => esc_html__( "Order 2", 'covernews' ),
+            'order-2' => esc_html__( "Order 2", 'covernews' )
+            
         ),
         'priority'    => 23,
         'active_callback' => 'covernews_main_banner_section_status'
     ));
 
+    //section title
+    $wp_customize->add_setting(
+        'main_story_panel_section_title',
+        array(
+            'sanitize_callback' => 'sanitize_text_field',
+        )
+    );
+
+    $wp_customize->add_control(
+        new CoverNews_Section_Title(
+            $wp_customize,
+            'main_story_panel_section_title',
+            array(
+                'label' => esc_html__("Main Story Section", 'covernews'),
+                'section' => 'frontpage_main_banner_section_settings',
+                'priority' => 23,
+                'active_callback' => function ($control) {
+                    return (covernews_main_banner_section_status($control)
+                        
+                    );
+                },
+
+            )
+        )
+    );
 
 // Setting - number_of_slides.
 $wp_customize->add_setting('main_news_slider_title',
@@ -293,7 +319,31 @@ $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customi
         'active_callback' => 'covernews_main_banner_section_status'
     )));
 
+//section title
+$wp_customize->add_setting(
+    'editors_picks_panel_section_title',
+    array(
+        'sanitize_callback' => 'sanitize_text_field',
+    )
+);
 
+$wp_customize->add_control(
+    new CoverNews_Section_Title(
+        $wp_customize,
+        'editors_picks_panel_section_title',
+        array(
+            'label' => esc_html__("Editor's Picks Section", 'covernews'),
+            'section' => 'frontpage_main_banner_section_settings',
+            'priority' => 23,
+            'active_callback' => function ($control) {
+                return (covernews_main_banner_section_status($control)
+                    
+                );
+            },
+
+        )
+    )
+);
 
 // Setting - number_of_slides.
 $wp_customize->add_setting('editors_picks_title',
@@ -337,6 +387,31 @@ $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customi
         'active_callback' => 'covernews_main_banner_section_status'
     )));
 
+    //section title
+$wp_customize->add_setting(
+    'trending_story_panel_section_title',
+    array(
+        'sanitize_callback' => 'sanitize_text_field',
+    )
+);
+
+$wp_customize->add_control(
+    new CoverNews_Section_Title(
+        $wp_customize,
+        'trending_story_panel_section_title',
+        array(
+            'label' => esc_html__("Trending Story Section", 'covernews'),
+            'section' => 'frontpage_main_banner_section_settings',
+            'priority' => 23,
+            'active_callback' => function ($control) {
+                return (covernews_main_banner_section_status($control)
+                    
+                );
+            },
+
+        )
+    )
+);
 
 // Setting - number_of_slides.
 $wp_customize->add_setting('trending_slider_title',

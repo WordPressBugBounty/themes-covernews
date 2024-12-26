@@ -65,7 +65,7 @@ if (!class_exists('CoverNews_author_info')) :
         <?php endif; ?>
         <div class="em-author-details">
           <?php if (!empty($name)) : ?>
-            <h4 class="em-author-display-name"><?php echo esc_html($name); ?></h4>
+            <h3 class="em-author-display-name"><?php echo esc_html($name); ?></h3>
           <?php endif; ?>
           <?php if (!empty($phone)) : ?>
             <a href="tel:<?php echo esc_attr($phone); ?>" class="em-author-display-phone" aria-label="Telephone"><?php echo esc_html($phone); ?></a>

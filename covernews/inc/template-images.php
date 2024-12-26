@@ -70,8 +70,12 @@ if (!function_exists('covernews_the_post_thumbnail')) :
                 }
             } else {
                 // Fallback to first image in content if no thumbnail is set
-                $post_content = get_post_field('post_content', $post_id);
+                // $post_content = get_post_field('post_content', $post_id);
+                // $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post_content, $matches);
+
+                $post_content = substr(get_post_field('post_content', $post_id), 0, 3000);
                 $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post_content, $matches);
+        
 
                 if (isset($matches[1][0])) {
 

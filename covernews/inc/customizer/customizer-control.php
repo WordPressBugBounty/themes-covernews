@@ -5,6 +5,24 @@
  * @package CoverNews
  */
 
+
+
+class CoverNews_Section_Title extends WP_Customize_Control {
+    public $type = 'section-title';
+    public $label = '';
+    public $description = '';
+
+    public function render_content() {
+        ?>
+        <h3><?php echo esc_html( $this->label ); ?></h3>
+        <?php if (!empty($this->description)) { ?>
+            <span class="customize-control-description"><?php echo esc_html($this->description); ?></span>
+        <?php } ?>
+        <?php
+    }
+}
+
+
 /**
  * Customize Control for Taxonomy Select.
  *

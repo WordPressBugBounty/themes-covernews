@@ -1059,11 +1059,13 @@ body.aft-dark-mode :where(.wp-block-woocommerce-mini-cart-contents) {
 	text-transform: uppercase;
 	font-size: 12px;
 }
-span.sku_wrapper, span.posted_in {
+span.sku_wrapper, span.posted_in, span.tagged_as {
 	display: block;
 	font-weight: 700;
 }
-
+body.home .woocommerce-products-header{
+    display: none;
+}
 .taxonomy-product_cat.wp-block-post-terms a,
 .product_meta > span span, .product_meta > span a {
 	font-weight: 500;

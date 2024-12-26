@@ -128,6 +128,8 @@ if ( ! function_exists( 'covernews_banner_mode_status' ) ) :
 endif;
 
 
+
+
 /*select page for slider*/
 if ( ! function_exists( 'covernews_featured_news_section_status' ) ) :
 
