@@ -347,7 +347,7 @@ function covernews_render_tabbed_container($tabs, $tab_id = 'default-tab', $show
               ?>
                   <li class="tab tab-<?php echo esc_attr($tab_key); ?>" role="presentation">
                       <a href="#<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
-                          aria-label="<?php echo esc_attr(ucfirst(__($tab_key, 'covernews'))); ?>"
+                          aria-label="<?php echo esc_attr($tab_key); ?>"
                           role="tab"
                           id="<?php echo esc_attr($tab_id . '-' . $tab_key . '-tab'); ?>"
                           aria-controls="<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
