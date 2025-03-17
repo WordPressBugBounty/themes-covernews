@@ -912,12 +912,12 @@ body .wc-block-add-to-cart-form .quantity .qty {
 	margin: 0;
 }
 body .wc-block-grid__product {
-	text-align: left;
+	/* text-align: left; */
 }
 body .wp-block-button.wc-block-components-product-button,
 body .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
 	/* align-items: flex-start !important; */
-	margin: 0 !important;
+	/* margin: 0 !important; */
 }
 .wc-block-grid .wp-block-button button {
 	height: unset;

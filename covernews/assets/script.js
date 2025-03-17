@@ -261,6 +261,8 @@
           ],
         });
 
+        
+
       e('.trending-posts-carousel')
         .not('.slick-initialized')
         .slick({
@@ -466,9 +468,12 @@
         n.setInstaHeight(),
         n.scroll_up();
     }),
-    e(window).on('scroll', function () {
-      n.stickyMenu(), n.show_hide_scroll_top();
-    }),
+    e('.aft-void-menu').on('click', function (event) {
+      event.preventDefault();
+    });
+  e(window).on('scroll', function () {
+    n.stickyMenu(), n.show_hide_scroll_top();
+  }),
     e(window).on('resize', function () {
       n.mobileMenu.menuMobile();
     }),

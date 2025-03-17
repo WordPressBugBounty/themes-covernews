@@ -62,84 +62,26 @@ if (!class_exists('CoverNews_Tabbed_Posts')) :
       echo $args['before_widget'];
       $is_recent_active = true;
 ?>
-      <div class="tabbed-container">
-        <div class="tabbed-head">
-          <ul class="nav nav-tabs af-tabs tab-warpper" role="tablist">
-            <li class="tab tab-recent" role="presentation">
-              <a href="#<?php echo esc_attr($tab_id); ?>-recent"
-                aria-label="<?php esc_attr_e('Recent', 'covernews'); ?>"
-                role="tab"
-                id="<?php echo esc_attr($tab_id); ?>-recent-tab"
-                aria-controls="<?php echo esc_attr($tab_id); ?>-recent"
-                aria-selected="<?php echo $is_recent_active ? 'true' : 'false'; ?>"
-                data-toggle="tab"
-                class="font-family-1 widget-title <?php echo $is_recent_active ? 'active' : ''; ?>">
-                <?php echo esc_html($latest_title); ?>
-              </a>
-            </li>
-            <li role="presentation" class="tab tab-popular">
-              <a href="#<?php echo esc_attr($tab_id); ?>-popular"
-                aria-label="<?php esc_attr_e('Popular', 'covernews'); ?>"
-                role="tab"
-                id="<?php echo esc_attr($tab_id); ?>-popular-tab"
-                aria-controls="<?php echo esc_attr($tab_id); ?>-popular"
-                aria-selected="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-                data-toggle="tab"
-                class="font-family-1 widget-title">
-                <?php echo esc_html($popular_title); ?>
-              </a>
-            </li>
+      <?php
+      $tabs = [
+        'recent' => [
+          'title' => $latest_title,
+        ],
+        'popular' => [
+          'title' => $popular_title,
+        ],
+      ];
 
-            <?php if ($enable_categorised_tab == 'true'): ?>
-              <li class=" tab tab-categorised" role="presentation">
-                <a href="#<?php echo esc_attr($tab_id); ?>-categorised"
-                  aria-label="<?php esc_attr_e('Categorised', 'covernews'); ?>"
-                  role="tab"
-                  id="<?php echo esc_attr($tab_id); ?>-categorised-tab"
-                  aria-controls="<?php echo esc_attr($tab_id); ?>-categorised"
-                  aria-selected="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-                  data-toggle="tab"
-                  class="font-family-1 widget-title">
-                  <?php echo esc_html($categorised_title); ?>
-                </a>
-              </li>
-            <?php endif; ?>
-          </ul>
-        </div>
-        <div class="tab-content">
-          <div id="<?php echo esc_attr($tab_id); ?>-recent"
-            role="tabpanel"
-            aria-labelledby="<?php echo esc_attr($tab_id); ?>-recent-tab"
-            aria-hidden="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-            class="tab-pane <?php echo $is_recent_active ? 'active' : ''; ?>">
+      if ($enable_categorised_tab === 'true') {
+        $tabs['categorised'] = [
+          'title' => $categorised_title,
+          'category' => $category,
+        ];
+      }
 
-            <?php
-            covernews_render_posts('recent', $show_excerpt, $excerpt_length, $number_of_posts);
-            ?>
-          </div>
-          <div id="<?php echo esc_attr($tab_id); ?>-popular"
-            role="tabpanel"
-            aria-labelledby="<?php echo esc_attr($tab_id); ?>-popular-tab"
-            aria-hidden="<?php echo $is_recent_active ? 'true' : 'false'; ?>"
-            class="tab-pane <?php echo $is_recent_active ? '' : 'active'; ?>">
+      covernews_render_tabbed_container($tabs, $tab_id, $show_excerpt, $excerpt_length, $number_of_posts, $is_recent_active);
 
-            <?php
-            covernews_render_posts('popular', $show_excerpt, $excerpt_length, $number_of_posts);
-            ?>
-          </div>
-          <?php if ($enable_categorised_tab == 'true'): ?>
-            <div id="<?php echo esc_attr($tab_id); ?>-categorised"
-              role="tabpanel"
-              aria-labelledby="<?php echo esc_attr($tab_id); ?>-categorised-tab"
-              aria-hidden="<?php echo $is_recent_active ? 'true' : 'false'; ?>"
-              class="tab-pane <?php echo $is_recent_active ? '' : 'active'; ?>">
-              <?php
-              covernews_render_posts('categorised', $show_excerpt, $excerpt_length, $number_of_posts, $category);
-              ?>
-            </div>
-          <?php endif; ?>
-        </div>
-      </div>
+      ?>
     <?php
       // close the widget container
       echo $args['after_widget'];
@@ -167,7 +109,6 @@ if (!class_exists('CoverNews_Tabbed_Posts')) :
         'true' => __('Yes', 'covernews')
 
       );
-
 
       // generate the text input for the title of the widget. Note that the first parameter matches text_fields array entry
 

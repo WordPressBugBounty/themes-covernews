@@ -107,11 +107,12 @@ if (!function_exists('covernews_get_excerpt')) :
 
       $covernews_read_more = sprintf(
         '<div class="aft-readmore-wrapper">
-              <a href="%1$s" class="aft-readmore" aria-label="%2$s">%3$s</a>
+              <a href="%1$s" class="aft-readmore" aria-label="%2$s">%3$s<span class="screen-reader-text">%4$s</span></a>
           </div>',
         esc_url(get_permalink($post_id)),  // %1$s: Link to the post
         esc_attr(sprintf(__('Read more about %s', 'covernews'), $post_title)), // %2$s: Aria-label
-        esc_html($covernews_global_read_more_texts) // %3$s: "Read More" text
+        esc_html($covernews_global_read_more_texts), // %3$s: "Read More" text
+        esc_html(sprintf(__('Read more about %s', 'covernews'), $post_title)) // %4$s: Screen-reader text, translation-ready.
       );
 
       $covernews_read_more; // Output without filters
@@ -335,3 +336,52 @@ if (!function_exists('covernews_render_section_title')) :
 <?php
   }
 endif;
+
+function covernews_render_tabbed_container($tabs, $tab_id = 'default-tab', $show_excerpt = false, $excerpt_length = 0, $number_of_posts = 5, $is_recent_active = true) {
+  ?>
+  <div class="tabbed-container">
+      <div class="tabbed-head">
+          <ul class="nav nav-tabs af-tabs tab-warpper" role="tablist">
+              <?php foreach ($tabs as $tab_key => $tab_data): 
+                  $is_active = $is_recent_active && $tab_key === 'recent';
+              ?>
+                  <li class="tab tab-<?php echo esc_attr($tab_key); ?>" role="presentation">
+                      <a href="#<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
+                          aria-label="<?php echo esc_attr(ucfirst(__($tab_key, 'covernews'))); ?>"
+                          role="tab"
+                          id="<?php echo esc_attr($tab_id . '-' . $tab_key . '-tab'); ?>"
+                          aria-controls="<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
+                          aria-selected="<?php echo $is_active ? 'true' : 'false'; ?>"
+                          data-toggle="tab"
+                          class="font-family-1 widget-title <?php echo $is_active ? 'active' : ''; ?>">
+                          <?php echo esc_html($tab_data['title']); ?>
+                      </a>
+                  </li>
+              <?php endforeach; ?>
+          </ul>
+      </div>
+      <div class="tab-content">
+          <?php foreach ($tabs as $tab_key => $tab_data): 
+              $is_active = $is_recent_active && $tab_key === 'recent';
+          ?>
+              <div id="<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
+                  role="tabpanel"
+                  aria-labelledby="<?php echo esc_attr($tab_id . '-' . $tab_key . '-tab'); ?>"
+                  aria-hidden="<?php echo $is_active ? 'false' : 'true'; ?>"
+                  class="tab-pane <?php echo $is_active ? 'active' : ''; ?>">
+                  <?php
+                  covernews_render_posts(
+                      $tab_key,
+                      $show_excerpt,
+                      $excerpt_length,
+                      $number_of_posts,
+                      isset($tab_data['category']) ? $tab_data['category'] : null
+                  );
+                  ?>
+              </div>
+          <?php endforeach; ?>
+      </div>
+  </div>
+  <?php
+}
+
