@@ -1,8 +1,8 @@
 === CoverNews===
 
 Contributors: AF themes
-Tested up to: 6.7
-Stable tag: 5.3.0
+Tested up to: 6.8
+Stable tag: 5.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
