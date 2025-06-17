@@ -160,9 +160,9 @@ class AdminNotice
 
     $notice_header = sprintf(
       '<h2>%1$s</h2><p class="about-description">%2$s</p></hr>',
-      esc_html__('Howdy!', 'covernews'),
+      esc_html__('👋 Welcome, and Thank You!', 'covernews'),
       sprintf(
-        esc_html__('%s is now installed and ready to use. We\'ve assembled some links to get you started.', 'covernews'),
+        esc_html__('%s is now active. We\'re here to help you turn your ideas into a beautiful, professional website — quickly and confidently.', 'covernews'),
         $this->theme_name
       )
     );
@@ -180,8 +180,7 @@ class AdminNotice
     $notice_starter_msg = sprintf(
       '<div class="aft-notice-col-2">
 				<div class="aft-general-info">
-					<h3><span class="dashicons dashicons-images-alt2">
-					</span>%1$s</h3>
+					<h3>%1$s</h3>
 					<p>%2$s</p>
 				</div>
 				<div class="aft-general-info-link %9$s ">
@@ -195,12 +194,13 @@ class AdminNotice
 					</div>
 				</div>
 				</div>',
-      __('Explore Our Pre-Built Starter Websites!', 'covernews'),
-      esc_html__('Let your imagination soar! Designed with User-Friendly features, incorporating the Latest Trends and SEO-Friendly Markups. We genuinely appreciate you choosing our theme!', 'covernews'),
+      __('🚀 Start With One Click', 'covernews'),
+      esc_html__('Choose from 100+ starter sites designed for blogs, magazines, businesses & more.
+      Setup is simple — no coding required.', 'covernews'),
       $covernews_templatespare_url,
       $covernews_templatespare_title,
       esc_url($demo_link),
-      esc_html__('Demos/product', 'covernews'),
+      esc_html__('View Demos', 'covernews'),
       esc_url(admin_url() . "admin.php?page=" . $this->page_slug),
       esc_html__('Theme dashboard', 'covernews'),
       esc_attr($btn_class),
@@ -212,25 +212,25 @@ class AdminNotice
     $notice_external_msg = sprintf(
       '<div class="aft-notice-col-3">
 			<div class="aft-documentation">
-				<h3><span class="dashicons dashicons-format-aside"></span>%1$s</h3>
+				<h3>%1$s</h3>
 				<p>%2$s</p>
 			</div>
 			<div class="aft-documentation-links">
 				<div>
 					<a href="https://docs.afthemes.com/covernews/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%3$s</a>
 					<a href="https://www.youtube.com/watch?v=xGoGkII8ZUM&list=PL8nUD79gscmjTcKOtozDjH44CK1xHgzfM" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%4$s</a>
-					<a href="https://afthemes.com/blog/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%5$s</a>
+					<a href="https://afthemes.com/supports/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%5$s</a>
 				</div>
 				<div>
 					<a href="https://wordpress.org/support/theme/covernews/reviews/?filter=5" class="button" target="_blank">%6$s</a>
 				</div>
 			</div>
 			</div>',
-      __('Documentation', 'covernews'),
-      esc_html__('Please check our full documentation for detailed information on how to setup and customize the theme.', 'covernews'),
-      esc_html__('Docs', 'covernews'),
+      __('🤝 We\'re Here for You', 'covernews'),
+      esc_html__('Whether you\'re just starting or customizing your site', 'covernews'),
+      esc_html__('Documentation', 'covernews'),
       esc_html__('Videos', 'covernews'),
-      esc_html__('Blog', 'covernews'),
+      esc_html__('Support', 'covernews'),
       esc_html__('Rate This Theme', 'covernews')
 
     );
