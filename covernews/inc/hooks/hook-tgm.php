@@ -15,11 +15,7 @@ if ( ! function_exists( 'covernews_recommended_plugins' ) ) :
     function covernews_recommended_plugins() {
 
         $plugins = array(
-            array(
-                'name'     => esc_html__( 'AF Companion', 'covernews' ),
-                'slug'     => 'af-companion',
-                'required' => false,
-            ),
+            
             array(
                 'name'     => esc_html__( 'Templatespare', 'covernews' ),
                 'slug'     => 'templatespare',
@@ -33,16 +29,6 @@ if ( ! function_exists( 'covernews_recommended_plugins' ) ) :
             array(
                 'name'     => esc_html__( 'Blockspare', 'covernews' ),
                 'slug'     => 'blockspare',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Latest Posts Block', 'covernews' ),
-                'slug'     => 'latest-posts-block-lite',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Magic Content Box', 'covernews' ),
-                'slug'     => 'magic-content-box-lite',
                 'required' => false,
             ),
             array(
