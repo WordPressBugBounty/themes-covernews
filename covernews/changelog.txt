@@ -1,3 +1,14 @@
+### 5.4.4 - Jun 11 2025 =
+* New - Spanish language file
+* New - Dutch language file
+* New - Russian language file
+* New - Ukranian language file
+* New - Swedish language file
+* New - Emoji scrips Toggle Option
+* Option - Customizing > Theme Options > Global Settings
+* Update - GDPR compatible
+* Update - Speed optimization
+
 ### 5.4.2 - Jun 24 2025
 * Update - Default admin panel
 * Update - Recommneded plugins

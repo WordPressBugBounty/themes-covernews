@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Functions which enhance the theme by hooking into WordPress
  *
@@ -29,11 +30,11 @@ function covernews_body_classes($classes)
     $sticky_header = covernews_get_option('disable_sticky_header_option');
     if ($sticky_header ==  false) {
         $sticky_header_class = covernews_get_option('sticky_header_direction');
-        $classes[] = $sticky_header_class.' aft-sticky-header';
+        $classes[] = $sticky_header_class . ' aft-sticky-header';
     }
 
     $sticky_sidebar = covernews_get_option('frontpage_sticky_sidebar');
-    if($sticky_sidebar){
+    if ($sticky_sidebar) {
         $classes[] = 'aft-sticky-sidebar';
     }
 
@@ -57,12 +58,12 @@ function covernews_body_classes($classes)
         } else {
             $page_layout = $global_alignment;
         }
-    } 
-    
+    }
+
     $container_mode = covernews_get_option('select_container_mode');
-        if ($container_mode) {
-            $classes[] = 'aft-container-' . $container_mode;
-        }
+    if ($container_mode) {
+        $classes[] = 'aft-container-' . $container_mode;
+    }
 
     $section_mode = covernews_get_option('select_main_banner_section_mode');
     if ($section_mode) {
@@ -148,8 +149,6 @@ function covernews_body_classes($classes)
         }
     }
     return $classes;
-
-
 }
 
 add_filter('body_class', 'covernews_body_classes');
@@ -173,7 +172,7 @@ add_action('wp_head', 'covernews_pingback_header');
  *
  * @since  CoverNews 1.0.0
  */
-if (!function_exists('covernews_post_format')):
+if (!function_exists('covernews_post_format')) :
     function covernews_post_format($post_id)
     {
         $post_format = get_post_format($post_id);
@@ -191,8 +190,6 @@ if (!function_exists('covernews_post_format')):
             default:
                 echo "";
         }
-
-
     }
 
 endif;
@@ -211,7 +208,6 @@ if (!function_exists('covernews_get_block')) :
     {
 
         get_template_part('inc/hooks/blocks/block-post', $block);
-
     }
 endif;
 
@@ -268,7 +264,7 @@ if (!function_exists('covernews_get_breadcrumb')) :
 
         $select_breadcrumbs = covernews_get_option('select_breadcrumb_mode');
 
-        ?>
+?>
         <div class="em-breadcrumbs font-family-1 covernews-breadcrumbs">
             <div class="row">
                 <?php
@@ -284,7 +280,7 @@ if (!function_exists('covernews_get_breadcrumb')) :
                 ?>
             </div>
         </div>
-        <?php
+<?php
 
 
     }
@@ -319,7 +315,6 @@ if (!function_exists('covernews_get_breadcrumb_trail')) :
         );
 
         breadcrumb_trail($breadcrumb_args);
-
     }
 
 endif;
@@ -327,22 +322,21 @@ endif;
 /**
  * Front-page main banner section layout
  */
-if(!function_exists('covernews_front_page_main_section')){
+if (!function_exists('covernews_front_page_main_section')) {
 
-    function covernews_front_page_main_section(){
+    function covernews_front_page_main_section()
+    {
 
         $hide_on_blog = covernews_get_option('disable_main_banner_on_blog_archive');
 
-            if ($hide_on_blog) {
-                if (is_front_page() && !is_home()) {
-                    do_action('covernews_action_front_page_main_section_1');
-                }
-
-            } else {
-                if (is_front_page() || is_home()) {
-                    do_action('covernews_action_front_page_main_section_1');
-                }
-
+        if ($hide_on_blog) {
+            if (is_front_page() && !is_home()) {
+                do_action('covernews_action_front_page_main_section_1');
+            }
+        } else {
+            if (is_front_page() || is_home()) {
+                do_action('covernews_action_front_page_main_section_1');
+            }
         }
     }
 }
@@ -361,9 +355,9 @@ if (!function_exists('covernews_excerpt_length')) :
 
     function covernews_excerpt_length($length)
     {
-        
-        if ( is_admin() ) {
-                return $length;
+
+        if (is_admin()) {
+            return $length;
         }
 
         return 15;
@@ -403,8 +397,8 @@ if (!function_exists('covernews_numeric_pagination')) :
     {
         the_posts_pagination(array(
             'mid_size' => 3,
-            'prev_text' => __( 'Previous', 'covernews' ),
-            'next_text' => __( 'Next', 'covernews' ),
+            'prev_text' => __('Previous', 'covernews'),
+            'next_text' => __('Next', 'covernews'),
         ));
     }
 
@@ -424,7 +418,7 @@ if (!function_exists('covernews_toggle_lazy_load')) :
     function covernews_toggle_lazy_load()
     {
         $covernews_lazy_load = covernews_get_option('global_toggle_image_lazy_load_setting');
-        if($covernews_lazy_load == 'disable'){
+        if ($covernews_lazy_load == 'disable') {
             add_filter('wp_lazy_loading_enabled', '__return_false');
         }
     }
@@ -432,3 +426,42 @@ if (!function_exists('covernews_toggle_lazy_load')) :
 endif;
 
 add_action('wp_loaded', 'covernews_toggle_lazy_load');
+
+add_action('init', 'covernews_disable_wp_emojis');
+
+function covernews_disable_wp_emojis()
+{
+    $disable_emoji = covernews_get_option('disable_wp_emoji');
+    if ($disable_emoji) {
+        remove_action('wp_head', 'print_emoji_detection_script', 7);
+        remove_action('admin_print_scripts', 'print_emoji_detection_script');
+        remove_action('wp_print_styles', 'print_emoji_styles');
+        remove_action('admin_print_styles', 'print_emoji_styles');
+        remove_filter('the_content_feed', 'wp_staticize_emoji');
+        remove_filter('comment_text_rss', 'wp_staticize_emoji');
+        remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+        add_filter('tiny_mce_plugins', 'covernews_disable_emojis_tinymce');
+        add_filter('wp_resource_hints', 'covernews_disable_emojis_remove_dns_prefetch', 10, 2);
+    }
+}
+
+function covernews_disable_emojis_tinymce($plugins)
+{
+    if (is_array($plugins)) {
+        return array_diff($plugins, array('wpemoji'));
+    }
+    return array();
+}
+
+function covernews_disable_emojis_remove_dns_prefetch($urls, $relation_type)
+{
+    if ('dns-prefetch' === $relation_type) {
+        $emoji_svg_url = 'https://s.w.org/images/core/emoji/';
+        foreach ($urls as $key => $url) {
+            if (strpos($url, $emoji_svg_url) !== false) {
+                unset($urls[$key]);
+            }
+        }
+    }
+    return $urls;
+}
