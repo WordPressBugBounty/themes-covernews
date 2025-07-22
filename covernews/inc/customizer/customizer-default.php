@@ -117,6 +117,7 @@ function covernews_get_default_theme_options() {
     $defaults['frontpage_show_latest_posts'] = 1;
     $defaults['frontpage_latest_posts_section_title'] = __('You may have missed', 'covernews');
 
+    $defaults['global_font_family_type']      = 'google';
     $defaults['site_title_font_size']    = 48;
     $defaults['footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved.', 'covernews');
     $defaults['hide_footer_menu_section']  = 0;

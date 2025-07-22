@@ -37,6 +37,22 @@ CoverNews includes support for Infinite Scroll in Jetpack.
 
 
 == Change-log ==
+= 5.5.0 - Jul 22 2025 =
+* New - Option to disable WordPress emojis (disable_wp_emoji)
+* New - Global font family type option: Google Fonts or System Fonts
+* Update - Google Fonts now filtered for allowed variants (400, 700)
+* Update - Added preconnect and preload optimizations only when required
+* New - Spanish language file
+* New - Dutch language file
+* New - Russian language file
+* New - Ukranian language file
+* New - Swedish language file
+* New - Emoji scrips Toggle Option
+* Option - Customizing > Theme Options > Global Settings
+* Update - GDPR compatible
+* Update - Speed optimization
+* Update - Block Style improvement
+* Fixed - Some styling glitch
 
 = 5.4.3 - Jun 11 2025 =
 * New - Spanish language file

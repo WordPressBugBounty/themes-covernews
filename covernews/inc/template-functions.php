@@ -26,6 +26,10 @@ function covernews_body_classes($classes)
         $classes[] = $global_layout;
     }
 
+    $archive_class = covernews_get_option('archive_layout');
+    if (!empty($archive_class)) {
+        $classes[] = $archive_class;
+    }
 
     $sticky_header = covernews_get_option('disable_sticky_header_option');
     if ($sticky_header ==  false) {

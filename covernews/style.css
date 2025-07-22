@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.8
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 5.4.3
+Version: 5.5.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -6529,6 +6529,10 @@ header#masthead {
     margin-bottom: 10px;
 }
 
+.elementor-template-full-width header#masthead {
+    margin-bottom: 0;
+}
+
 footer.site-footer {
     margin-top: 10px;
 }
@@ -6893,6 +6897,41 @@ a.awpa-linkedin.awpa-icon-linkedin {
 }
 
 /*wp-post-author====================*/
+
+/* AD SECTION DESIGN */
+.latest-posts-full {
+    margin-bottom: 15px;
+}
+.covernews-ad-after-content,
+.covernews-ad-sidebar,
+.covernews-ad-archive-before {
+    margin-bottom: 20px;
+}
+.covernews-ad-archive-after {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div#aft-inner-row {display: flex;flex-wrap:wrap;}
+.covernews-ad-archive-between.float-l.col-1.pad {width: 33.33%;}
+
+.archive-layout-list .covernews-ad-archive-between.float-l.col-1.pad,
+.archive-layout-full-2 .covernews-ad-archive-between.float-l.col-1.pad,
+.archive-layout-full .covernews-ad-archive-between.float-l.col-1.pad{
+    width: 100%;
+}
+
+.archive-layout-grid-2 .covernews-ad-archive-between.float-l.col-1.pad {width: 50%;}
+
+@media screen and (max-width: 480px) {
+.archive-layout-grid-2 .covernews-ad-archive-between.float-l.col-1.pad {width: 100%;}
+}
+
+.latest-posts-grid,
+.covernews-ad-archive-between.float-l.col-1.pad {
+    margin-bottom: 15px;
+}
+
+/* AD SECTION DESIGN */
 
 /*exclusive---*/
 .exclusive-posts {
@@ -7890,14 +7929,16 @@ body:not(.full-width-content):not(.single-content-mode-boxed) article .alignwide
     }
 
     .main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title {
-        font-size: 38px;
+        font-size: 30px;
         font-weight: 700;
         margin-bottom: 0;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .elementor-section.elementor-section-boxed > .elementor-container,
+    .elementor-section.elementor-section-boxed > .elementor-container{
+        padding: 0;
+    }
     .container {
         padding: 0 20px;
     }
@@ -8024,6 +8065,7 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
     .i-row.row {
         margin: 0;
     }
+    .covernews-ad-archive-between.float-l.col-1.pad,
     .full-width-content .col-sm-4.latest-posts-grid:not(.covernews-same-grid) {
         width: 25%;
     }
@@ -8744,6 +8786,9 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
     .latest-posts-grid:nth-child(2n+1) {
         clear: left;
     }
+    .covernews-ad-archive-between.float-l.col-1.pad {
+        width: 50%;
+    }
 
     .latest-posts-grid,
     .covernews_single_col_categorised_posts .base-border {
@@ -8906,7 +8951,7 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
         height: unset;
         aspect-ratio: 3 / 2;
     }
-
+    .covernews-ad-archive-between.float-l.col-1.pad,
     .aft-banner-2 .slider-with-4-editors-picks .col-sm-6,
     .secondary-footer .col-sm-6 {
         width: 100%;
@@ -9610,7 +9655,7 @@ body.aft-container-wide .container {
 body.aft-container-full-width .container {
     width: 100%;
     max-width: 100%;
-    padding: 0;
+    padding: 0 15px;
     margin: 0;
     overflow: hidden;
 }

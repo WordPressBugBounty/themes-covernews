@@ -130,34 +130,37 @@ if (!function_exists('covernews_setup')) :
 endif;
 add_action('after_setup_theme', 'covernews_setup');
 
-
 /**
  * Return Google Fonts URL based on theme options and site language.
  *
  * @since 1.0.0
- * @return string Google Fonts URL.
+ * @return string Google Fonts URL or empty string if system fonts are selected.
  */
-function covernews_fonts_url()
-{
-  $fonts_url = '';
-  $fonts = array();
-  $subsets = 'latin'; // Default to 'latin' subset.
-
-  // Adjust subsets dynamically based on the site language.
-  $locale = get_locale();
-
-  // Add additional subsets if the language requires it.
-  if (strpos($locale, 'cs') !== false || strpos($locale, 'pl') !== false || strpos($locale, 'hu') !== false) {
-    $subsets .= ',latin-ext'; // Add 'latin-ext' subset for Czech, Polish, Hungarian, etc.
-  } elseif (strpos($locale, 'ru') !== false) {
-    $subsets .= ',cyrillic'; // Add 'cyrillic' subset for Russian.
-  } elseif (strpos($locale, 'el') !== false) {
-    $subsets .= ',greek'; // Add 'greek' subset for Greek.
-  } elseif (strpos($locale, 'vi') !== false) {
-    $subsets .= ',vietnamese'; // Add 'vietnamese' subset for Vietnamese.
+function covernews_fonts_url() {
+  // Check if the user has selected Google Fonts
+  $global_font_family_type = covernews_get_option('global_font_family_type');
+  if ($global_font_family_type !== 'google') {
+    return ''; // Don't load Google Fonts if using system fonts
   }
 
-  // Include the necessary fonts.
+  $fonts_url = '';
+  $fonts = array();
+  $subsets = 'latin';
+
+  // Adjust subsets based on site language
+  $locale = get_locale();
+
+  if (strpos($locale, 'cs') !== false || strpos($locale, 'pl') !== false || strpos($locale, 'hu') !== false) {
+    $subsets .= ',latin-ext';
+  } elseif (strpos($locale, 'ru') !== false) {
+    $subsets .= ',cyrillic';
+  } elseif (strpos($locale, 'el') !== false) {
+    $subsets .= ',greek';
+  } elseif (strpos($locale, 'vi') !== false) {
+    $subsets .= ',vietnamese';
+  }
+
+  // Load fonts conditionally
   if ('off' !== _x('on', 'Source Sans Pro font: on or off', 'covernews')) {
     $fonts[] = 'Source+Sans+Pro:400,700';
   }
@@ -166,12 +169,11 @@ function covernews_fonts_url()
     $fonts[] = 'Lato:400,700';
   }
 
-  // Generate the Google Fonts URL if fonts are available.
   if (!empty($fonts)) {
     $fonts_url = add_query_arg(array(
       'family'  => urlencode(implode('|', $fonts)),
       'subset'  => urlencode($subsets),
-      'display' => 'swap', // Use 'swap' to improve font loading performance.
+      'display' => 'swap',
     ), 'https://fonts.googleapis.com/css');
   }
 
@@ -182,13 +184,11 @@ function covernews_fonts_url()
  * Add preconnect links for Google Fonts domains to improve performance.
  *
  * @param array  $urls          URLs to print for resource hints.
- * @param string $relation_type The relation type of the URLs (e.g., 'preconnect').
+ * @param string $relation_type The relation type (e.g., 'preconnect').
  * @return array Filtered URLs.
  */
-function covernews_add_preconnect_links($urls, $relation_type)
-{
-  if ('preconnect' === $relation_type) {
-    // Preconnect to Google Fonts domains.
+function covernews_add_preconnect_links($urls, $relation_type) {
+  if ('preconnect' === $relation_type && covernews_get_option('global_font_family_type') === 'google') {
     $urls[] = 'https://fonts.googleapis.com';
     $urls[] = 'https://fonts.gstatic.com';
   }
@@ -200,18 +200,14 @@ add_filter('wp_resource_hints', 'covernews_add_preconnect_links', 10, 2);
 /**
  * Preload Google Fonts stylesheets in the <head> for performance.
  */
-function covernews_preload_google_fonts()
-{
+function covernews_preload_google_fonts() {
   $fonts_url = covernews_fonts_url();
 
   if ($fonts_url) {
-    // Add a preload link for the font stylesheet.
     printf(
       "<link rel='preload' href='%s' as='style' onload=\"this.onload=null;this.rel='stylesheet'\" type='text/css' media='all' crossorigin='anonymous'>\n",
       esc_url($fonts_url)
     );
-
-    // Preconnect to Google Fonts origins.
     echo "<link rel='preconnect' href='https://fonts.googleapis.com' crossorigin='anonymous'>\n";
     echo "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous'>\n";
   }
@@ -219,18 +215,17 @@ function covernews_preload_google_fonts()
 add_action('wp_head', 'covernews_preload_google_fonts', 1);
 
 /**
- * Enqueue the theme's Google Fonts stylesheet with additional optimization.
+ * Enqueue the theme's Google Fonts stylesheet.
  */
-function covernews_enqueue_google_fonts()
-{
+function covernews_enqueue_google_fonts() {
   $fonts_url = covernews_fonts_url();
 
   if ($fonts_url) {
-    // Enqueue Google Fonts stylesheet.
     wp_enqueue_style('covernews-google-fonts', $fonts_url, array(), null, 'all');
   }
 }
 add_action('wp_enqueue_scripts', 'covernews_enqueue_google_fonts');
+
 
 
 /**
@@ -247,7 +242,10 @@ function covernews_content_width()
 add_action('after_setup_theme', 'covernews_content_width', 0);
 
 
-
+/**
+ * Load Init for Hook files.
+ */
+require get_template_directory() . '/inc/custom-style.php';
 
 /**
  * Enqueue scripts and styles.
@@ -272,7 +270,10 @@ function covernews_scripts()
   }
 
   wp_enqueue_style('covernews-style', get_template_directory_uri() . '/style' . $min . '.css', array(), $covernews_version);
-
+  $global_font_family_type = covernews_get_option('global_font_family_type');
+        if ($global_font_family_type == 'system') {
+  wp_add_inline_style('covernews-style', covernews_custom_style());
+        }
 
   wp_enqueue_script('covernews-navigation', get_template_directory_uri() . '/js/navigation.js', array(),  $covernews_version, true);
   wp_enqueue_script('covernews-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(),  $covernews_version, true);

@@ -223,6 +223,29 @@ $wp_customize->add_section(
 );
 
 
+// Setting - global content alignment of news.
+$wp_customize->add_setting(
+    'global_font_family_type',
+    array(
+        'default' => $default['global_font_family_type'],
+        'capability' => 'edit_theme_options',
+        'sanitize_callback' => 'covernews_sanitize_select',
+    )
+);
+
+$wp_customize->add_control(
+    'global_font_family_type',
+    array(
+        'label' => esc_html__('Global Fonts Family', 'covernews'),
+        'section' => 'site_layout_settings',
+        'type' => 'select',
+        'choices' => array(
+            'google' => esc_html__('Google Fonts', 'covernews'),
+            'system' => esc_html__('System Fonts', 'covernews')
+        ),
+        'priority' => 100,
+    )
+);
 
 // Setting - Disable Emoji Script.
 $wp_customize->add_setting(
