@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.8
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 5.5.0
+Version: 5.5.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -3196,9 +3196,9 @@ body.dark.aft-main-banner-slider-list-tabbed .af-main-banner .col-sm-4 {
     font-weight: 700;
 }
 
-.banner-exclusive-posts-wrapper {
+/* .banner-exclusive-posts-wrapper {
     margin-top: 20px;
-}
+} */
 
 .trending-line {
     border: 1px solid;
@@ -7745,10 +7745,10 @@ body.default .entry-content>[class*="wp-block-"] .covernews-post-tile .covernews
 }
 
 .aft-grid-double-column.no-post-image .data-bg-categorised,
-.align-content-left .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
-.align-content-right .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
+.aft-container-default .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
 .archive-layout-list .align-items-center.no-post-image .data-bg-categorised {
     height: unset;
+    aspect-ratio: unset !important;
 }
 
 .no-post-image .categorised-article.inside-img .figure-categories.figure-categories-bg,
@@ -8018,8 +8018,7 @@ body.aft-container-default.full-width-content .full-plus-list .spotlight-post:fi
 .aft-container-default.full-width-content .aft-grid-double-column.has-post-image .data-bg-categorised,
 .aft-container-default .em-reated-posts .data-bg-categorised,
 .aft-container-default.default-content-layout .posts-carousel .data-bg-featured,
-.aft-container-default.align-content-left .col-md-4.latest-posts-grid .data-bg-categorised,
-.aft-container-default.align-content-right .col-md-4.latest-posts-grid .data-bg-categorised,
+.aft-container-default .col-md-4.latest-posts-grid .data-bg-categorised,
 .aft-container-default .covernews_double_col_categorised_posts .data-bg-categorised,
 .aft-container-default .archive-layout-list .data-bg-categorised,
 .aft-container-default .aft-grid-double-column.has-post-image .data-bg-categorised,
@@ -8035,8 +8034,7 @@ body.aft-container-full-width.full-width-content .full-plus-list .spotlight-post
 .aft-container-full-width.full-width-content .aft-grid-double-column.has-post-image .data-bg-categorised,
 .aft-container-full-width .em-reated-posts .data-bg-categorised,
 .aft-container-full-width.default-content-layout .posts-carousel .data-bg-featured,
-.aft-container-full-width.align-content-left .col-md-4.latest-posts-grid .data-bg-categorised,
-.aft-container-full-width.align-content-right .col-md-4.latest-posts-grid .data-bg-categorised,
+.aft-container-full-width .col-md-4.latest-posts-grid .data-bg-categorised,
 .aft-container-full-width .covernews_double_col_categorised_posts .data-bg-categorised,
 .aft-container-full-width .archive-layout-list .data-bg-categorised,
 .aft-container-full-width .aft-grid-double-column.has-post-image .data-bg-categorised,
@@ -8052,8 +8050,7 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
 .aft-container-wide.full-width-content .aft-grid-double-column.has-post-image .data-bg-categorised,
 .aft-container-wide .em-reated-posts .data-bg-categorised,
 .aft-container-wide.default-content-layout .posts-carousel .data-bg-featured,
-.aft-container-wide.align-content-left .col-md-4.latest-posts-grid .data-bg-categorised,
-.aft-container-wide.align-content-right .col-md-4.latest-posts-grid .data-bg-categorised,
+.aft-container-wide .col-md-4.latest-posts-grid .data-bg-categorised,
 .aft-container-wide .covernews_double_col_categorised_posts .data-bg-categorised,
 .aft-container-wide .archive-layout-list .data-bg-categorised,
 .aft-container-wide .aft-grid-double-column.has-post-image .data-bg-categorised {
@@ -8065,9 +8062,12 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
     .i-row.row {
         margin: 0;
     }
-    .covernews-ad-archive-between.float-l.col-1.pad,
+    .full-width-content.archive-layout-grid .covernews-ad-archive-between.float-l.col-1.pad,
     .full-width-content .col-sm-4.latest-posts-grid:not(.covernews-same-grid) {
         width: 25%;
+    }
+    .full-width-content.archive-layout-grid-2 .covernews-ad-archive-between.float-l.col-1.pad {
+        width: 50%;
     }
 }
 
@@ -8868,9 +8868,12 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
 }
 
 @media only screen and (max-width: 768px) {
+    .af-main-banner-editors-picks .data-bg-featured{
+        height: unset;
+        aspect-ratio: 3 / 2;
+    }
     .aft-main-banner-slider-grid-2 .slider-with-2-editors-picks .col-sm-6.odd-grid .data-bg-featured,
-    .trending-story.categorized-story .data-bg-featured,
-    .af-main-banner-editors-picks .data-bg-featured {
+    .trending-story.categorized-story .data-bg-featured{
         height: 220px;
     }
     .aft-banner-4 .editors-picks-carousel,
@@ -9076,7 +9079,6 @@ body.aft-container-wide.full-width-content .full-plus-list .spotlight-post:first
 
     .aft-main-banner-slider-grid-2 .slider-with-2-editors-picks .col-sm-6.odd-grid .data-bg-featured,
     .trending-story.categorized-story .data-bg-featured,
-    .af-main-banner-editors-picks .data-bg-featured,
     .aft-banner-2 .slider-with-3-editors-picks .data-bg-featured {
         height: 260px;
     }

@@ -1,3 +1,20 @@
+### 5.5.1 - Jul 25 2025
+* New - German language file
+* New - Arabic language file
+* New - French language file
+* New - Italian language file
+* New - Japanese language file
+* New - Polish language file
+* New - Portugese language file
+* New - Spanish language file
+* New - Dutch language file
+* New - Russian language file
+* New - Ukranian language file
+* New - Swedish language file
+* Update - Layout improvement
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
 ### 5.5.0 - Jul 22 2025
 * New - Option to disable WordPress emojis (disable_wp_emoji)
 * New - Global font family type option: Google Fonts or System Fonts

@@ -1,461 +1,412 @@
-# Translation of Themes - CoverNews in Spanish (Spain)
-# This file is distributed under the same license as the Themes - CoverNews package.
+#
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-17 21:36:25+0000\n"
+"Project-Id-Version: Colab Free\n"
+"POT-Creation-Date: 2025-07-23 08:46:59+0000\n"
+"PO-Revision-Date: 2025-07-23 08:46:59+0000\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.1\n"
-"Language: es\n"
-"Project-Id-Version: Themes - CoverNews\n"
-
-#. Description of the theme
-#: style.css
-#, gp-priority: high
-msgid "CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/"
-msgstr "CoverNews es un tema gratuito, limpio y elegante para WordPress que es perfecto para blogs y revistas online. Con la ayuda de las opciones de personalización en vivo y los widgets personalizados, puedes diseñar tu web a tu gusto y previsualizar los cambios en vivo. Este tema es totalmente adaptable y se ve bien en todos los tamaños de pantalla, desde los dispositivos pequeños hasta los grandes. Como incluye muchas características útiles para construir una web de aspecto impresionante, puedes implementar el diseño como un blog personal, diarios de noticias modernos, revistas de moda, blogs de viajes y revistas, sitios de noticias vibrantes y mucho más. También es compatible con el plugin WooCommerce que te ayuda a integrar fácilmente un negocio online con tu blog. El tema está bien optimizado y ayuda a posicionar tu web en los primeros puestos de los motores de búsqueda, y los usuarios obtendrán un excelente apoyo del equipo en caso de que surjan dificultades durante el uso del tema. Hay tres demostraciones disponibles en este tema, así que elige la que más te guste y empieza a construir una web. Mira nuestras demostraciones: https://afthemes.com/products/covernews/#aft-view-starter-sites  Videos: https://www.youtube.com/@wpafthemes/ Documentación: https://docs.afthemes.com/covernews/"
+"X-Generator: Colab Tool\n"
 
 #. Theme Name of the theme
-#: style.css inc/hooks/hook-patterns.php:13
-#, gp-priority: high
+#: inc/hooks/hook-patterns.php:13
 msgid "CoverNews"
 msgstr "CoverNews"
 
-#: admin-dashboard/rest-api/class-admin-notice.php:230
-msgid "Whether you're just starting or customizing your site"
-msgstr ""
+#. Theme URI of the theme
+msgid "https://afthemes.com/products/covernews/"
+msgstr "https://afthemes.com/products/covernews/"
 
-#: admin-dashboard/rest-api/class-admin-notice.php:229
-msgid "🤝 We're Here for You"
-msgstr ""
-
-#: admin-dashboard/rest-api/class-admin-notice.php:198
+#. Description of the theme
 msgid ""
-"Choose from 100+ starter sites designed for blogs, magazines, businesses & more.\n"
-"      Setup is simple — no coding required."
+"CoverNews is a clean and elegant free WordPress theme that is perfect for "
+"online blog and magazine. With the help of block patterns, live customizer "
+"options and custom widgets, you can design your website as you like and "
+"preview the changes live. This theme is fully responsive that looks "
+"beautiful on all the screen sizes from small to large devices. As it "
+"includes many useful features that require to build an awesome looking "
+"website, you can implement the layout as a personal blog, modern news "
+"journals, fashion magazine, travel blogging & magazine, vibrant news sites "
+"and more. It is also compatible with Elementor, Gutenberg along with "
+"WooCommerce plugin that helps you to integrate an online business with your "
+"blog easily. The RTL language supported theme is well optimized that helps "
+"to rank your website in the top of search engines and users will get an "
+"outstanding support from the team if there will be any difficulties while "
+"using the theme. There are a number demos available for this theme so import"
+" the one you like and start to build a website. See our demos: "
+"https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: "
+"https://www.youtube.com/@wpafthemes/ Docs: "
+"https://docs.afthemes.com/covernews/"
 msgstr ""
+"CoverNews es un tema limpio y elegante de WordPress gratuito que es perfecto"
+" para blogs y revistas en línea. Con la ayuda de patrones de bloque, "
+"opciones de personalizador en vivo y widgets personalizados, puede diseñar "
+"su sitio web a medida que desee y obtener una vista previa de los cambios en"
+" vivo. Este tema es totalmente receptivo que se ve hermoso en todos los "
+"tamaños de pantalla, desde dispositivos pequeños hasta grandes. Como incluye"
+" muchas características útiles que requieren construir un sitio web de "
+"aspecto increíble, puede implementar el diseño como un blog personal, "
+"revistas de noticias modernas, revista de moda, blogs y revistas de viajes, "
+"vibrantes sitios de noticias y más. También es compatible con Elementor, "
+"Gutenberg, junto con WooCommerce Plugin que le ayuda a integrar un negocio "
+"en línea con su blog fácilmente. El tema compatible con el idioma RTL está "
+"bien optimizado que ayuda a clasificar su sitio web en la parte superior de "
+"los motores de búsqueda y los usuarios recibirán un apoyo excepcional del "
+"equipo si habrá alguna dificultad al usar el tema. Hay un número de "
+"demostraciones disponibles para este tema, así que importe el que le guste y"
+" comience a crear un sitio web. Vea nuestras demostraciones: "
+"https://afthemes.com/products/covernews/#aft-view-starter-sites videos: "
+"https://www.youtube.com/@wpafthemes/ Docs: "
+"https://docs.afthemes.com/coblews/"
 
-#: admin-dashboard/rest-api/class-admin-notice.php:197
-msgid "🚀 Start With One Click"
+#. Author of the theme
+msgid "AF themes"
+msgstr "AF themes"
+
+#. Author URI of the theme
+msgid "https://www.afthemes.com/"
+msgstr "https://www.afthemes.com/"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se puede encontrar esa página."
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links"
+" below or a search?"
 msgstr ""
+"Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías "
+"intentar una búsqueda o usar uno de los enlaces que se muestran a "
+"continuación?"
 
-#: admin-dashboard/rest-api/class-admin-notice.php:165
-msgid "%s is now active. We're here to help you turn your ideas into a beautiful, professional website — quickly and confidently."
-msgstr ""
-
-#: admin-dashboard/rest-api/class-admin-notice.php:163
-msgid "👋 Welcome, and Thank You!"
-msgstr ""
-
-#: inc/hooks/blocks/block-post-header-layout-1.php:147
-msgid "Toggle Primary Menu"
-msgstr "Alternar menú principal"
-
-#: inc/customizer/frontpage-options.php:403
-msgid "Trending Story Section"
-msgstr "Sección de historias en tendencia"
-
-#: inc/customizer/frontpage-options.php:335
-msgid "Editor's Picks Section"
-msgstr "Sección de selección del editor"
-
-#: inc/customizer/frontpage-options.php:267
-msgid "Main Story Section"
-msgstr "Sección de historia principal"
-
-#: inc/widgets/widgets-common-functions.php:113
-#: inc/widgets/widgets-common-functions.php:115
-msgid "Read more about %s"
-msgstr "Leer más sobre %s"
-
-#. Template Name of the theme
-msgid "Page Builder Full Width"
-msgstr "Ancho completo del maquetador de páginas"
-
-#. Template Name of the theme
-msgid "Blank Canvas"
-msgstr "Lienzo en blanco"
-
-#: template-parts/content.php:41
-msgid "Post Navigation"
-msgstr "Navegación de entradas"
-
-#: admin-dashboard/admin_dashboard.php:545
-#: admin-dashboard/rest-api/class-admin-notice.php:149
-msgid "The \"Get Started\" action will install/activate the Templatespare and Blockspare plugins for Starter Sites and Templates."
-msgstr "La acción «Primeros pasos» instalará/activará los plugins Templatespare y Blockspare para sitios de inicio y plantillas."
-
-#: admin-dashboard/admin_dashboard.php:544
-#: admin-dashboard/rest-api/class-admin-notice.php:148
-msgid "Get Started"
-msgstr "Primeros pasos"
-
-#: admin-dashboard/admin_dashboard.php:366
-msgid "One-click Import, Header/Footer Builder, Multilingual Support! Powered by Elespare."
-msgstr "¡Importación con un clic, maquetador de cabeceras/pies de página, soporte multilingüe! Funciona gracias a Elespare."
-
-#: admin-dashboard/admin_dashboard.php:365
-msgid "Elespare plugin version should be more than %s."
-msgstr "La versión del plugin Elespare debe ser superior a %s."
-
-#: admin-dashboard/admin_dashboard.php:294
-msgid "One-click Demo Import, Block Editor Ready, No Code Required! Built with Blockspare."
-msgstr "Importación de demos con un clic, listo para el editor de bloques, ¡no necesitas código! Construido con Blockspare."
-
-#: admin-dashboard/admin_dashboard.php:289
-msgid "Blockspare plugin version should be more than %s."
-msgstr "La versión del plugin Blockspare debe ser superior a %s."
-
-#: admin-dashboard/admin_dashboard.php:220
-msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
-msgstr "¡Importa un sitio inicial, personalízalo y publícalo en 3 sencillos pasos!"
-
-#: admin-dashboard/admin_dashboard.php:217
-msgid "The Templatespare plugin should be updated to the latest version"
-msgstr "El plugin Templatespare debe actualizarse a la última versión"
+#: admin-dashboard/admin_dashboard.php:46
+#: admin-dashboard/admin_dashboard.php:47
+msgid "%s"
+msgstr "%s"
 
 #: admin-dashboard/admin_dashboard.php:109
 #: admin-dashboard/admin_dashboard.php:110
-msgid "Dashboard"
-msgstr ""
-
-#: admin-dashboard/admin_dashboard.php:143
-#: admin-dashboard/admin_dashboard.php:144
-msgid "Elementor Kits"
-msgstr "Elementor Kits"
-
-#: admin-dashboard/admin_dashboard.php:153
-#: admin-dashboard/admin_dashboard.php:154
-msgid "Block Patterns"
-msgstr "Patrones de bloques"
-
-#: admin-dashboard/admin_dashboard.php:133
-#: admin-dashboard/admin_dashboard.php:134
 msgid "Starter Sites"
 msgstr "Sitios de inicio"
 
-#: inc/customizer/theme-options.php:225
-msgid "Full Width"
-msgstr "Ancho completo"
+#: admin-dashboard/admin_dashboard.php:119
+#: admin-dashboard/admin_dashboard.php:120
+msgid "Block Patterns"
+msgstr "Patrones de bloques"
 
-#: inc/customizer/theme-options.php:224
-msgid "Wide"
-msgstr "Ancho"
+#: admin-dashboard/admin_dashboard.php:129
+#: admin-dashboard/admin_dashboard.php:130
+msgid "Elementor Kits"
+msgstr "Elementor Kits"
 
-#: inc/customizer/theme-options.php:219
-msgid "Select Conatiner Width"
-msgstr "Selecciona el ancho del contenedor"
+#: admin-dashboard/admin_dashboard.php:140
+#: admin-dashboard/admin_dashboard.php:141
+msgid "Customize"
+msgstr "Personalizar"
 
-#: inc/customizer/theme-options.php:218
-msgid "Conatiner Width"
-msgstr "Ancho del contenedor"
+#: admin-dashboard/admin_dashboard.php:151
+#: admin-dashboard/admin_dashboard.php:152
+msgid "Settings"
+msgstr "Ajustes"
 
-#: inc/notice-upgrade.php:212
-msgid "Have Queries?"
-msgstr "¿Tienes consultas que hacer?"
+#: admin-dashboard/admin_dashboard.php:162
+#: admin-dashboard/admin_dashboard.php:163
+msgid "Upgrade"
+msgstr "Mejora"
 
-#: inc/notice-upgrade.php:202
-msgid "All Themes Plan"
-msgstr "Plan All Themes"
+#: admin-dashboard/admin_dashboard.php:213
+msgid "The Templatespare plugin should be updated to the latest version"
+msgstr "El plugin Templatespare debe actualizarse a la última versión"
 
-#: inc/notice-upgrade.php:197
-msgid "Power Bundle"
-msgstr "Power Bundle"
+#: admin-dashboard/admin_dashboard.php:216
+msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
+msgstr ""
+"¡Importa un sitio de inicio, personalízalo y publícalo en 3 sencillos pasos!"
 
-#: inc/notice-upgrade.php:192
-msgid "Claim Your Discount"
-msgstr "Solicita tu descuento"
+#: admin-dashboard/admin_dashboard.php:285
+msgid "Blockspare plugin version should be more than %s."
+msgstr "La versión del plugin Blockspare debe ser superior a %s."
 
-#. Translators: %1$s current user display name., %2$s this theme name., %3$s
-#. discount coupon code., %4$s discount percentage.
-#: inc/notice-upgrade.php:177
-msgid "%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit with an exclusive gift: %4$s premium features! Use code %3$s at checkout. Wishing you a season filled with joyous holidays and even happier savings! 🎄✨"
-msgstr "%1$s 🎁 ¡Espero que te encante nuestro tema gratuito %2$s! ¿Listo para una actualización? Sumérgete en el espíritu festivo con un regalo exclusivo: ¡%4$s funciones premium! Utiliza el código %3$s al pagar. ¡Te deseamos una temporada llena de felices fiestas y ahorros aún más felices! 🎄✨"
+#: admin-dashboard/admin_dashboard.php:290
+msgid ""
+"One-click Demo Import, Block Editor Ready, No Code Required! Built with "
+"Blockspare."
+msgstr ""
+"Importación de demos con un clic, listo para el editor de bloques, ¡no "
+"necesitas código! Construido con Blockspare."
 
-#: inc/hooks/patterns/section-4.php:9
-msgid "Section 4"
-msgstr "Sección 4"
+#: admin-dashboard/admin_dashboard.php:361
+msgid "Elespare plugin version should be more than %s."
+msgstr "La versión del plugin Elespare debe ser superior a %s."
 
-#: inc/hooks/patterns/section-3.php:9
-msgid "Section 3"
-msgstr "Sección 3"
+#: admin-dashboard/admin_dashboard.php:362
+msgid ""
+"One-click Import, Header/Footer Builder, Multilingual Support! Powered by "
+"Elespare."
+msgstr ""
+"¡Importación con un clic, maquetador de cabeceras/pies de página, "
+"compatibilidad con multiidioma! Funciona gracias a Elespare."
 
-#: inc/hooks/patterns/section-2.php:9
-msgid "Section 2"
-msgstr "Sección 2"
+#: admin-dashboard/admin_dashboard.php:436
+msgid "Are you sure you want to install this plugin?"
+msgstr "¿Estás seguro de querer instalar este plugin?"
 
-#: inc/hooks/patterns/section-1.php:9
-msgid "Section 1"
-msgstr "Sección 1"
+#: admin-dashboard/admin_dashboard.php:437
+#: admin-dashboard/rest-api/api-request.php:29
+msgid "Install Now"
+msgstr "Instalar ahora"
 
-#: inc/hooks/patterns/full.php:188 inc/hooks/patterns/section-4.php:54
-msgid "Categories"
-msgstr "Categorías"
-
-#: inc/hooks/patterns/full.php:160 inc/hooks/patterns/section-4.php:26
-msgid "Single Column"
-msgstr "Columna única"
-
-#: inc/hooks/patterns/full.php:152 inc/hooks/patterns/section-4.php:18
-msgid "Express Tile"
-msgstr "Azulejos exprés"
-
-#: inc/hooks/patterns/full.php:130 inc/hooks/patterns/full.php:170
-#: inc/hooks/patterns/section-3.php:83 inc/hooks/patterns/section-4.php:36
-msgid "Advertisement"
-msgstr "Publicidad"
-
-#: inc/hooks/patterns/full.php:92 inc/hooks/patterns/section-3.php:45
-msgid "Connect to Us"
-msgstr "Contacta con nosotros"
-
-#: inc/hooks/patterns/full.php:84 inc/hooks/patterns/section-3.php:37
-msgid "Post List"
-msgstr "Lista de entradas"
-
-#: inc/hooks/patterns/full.php:74 inc/hooks/patterns/full.php:180
-#: inc/hooks/patterns/section-3.php:27 inc/hooks/patterns/section-4.php:46
-msgid "Post Grid"
-msgstr "Cuadrícula de entradas"
-
-#: inc/hooks/patterns/full.php:66 inc/hooks/patterns/section-3.php:19
-msgid "Post Slider"
-msgstr "Carrusel de entradas"
-
-#: inc/hooks/patterns/full.php:47 inc/hooks/patterns/section-2.php:35
-msgid "We mainly focus on quality code and elegant design with incredible support. Our WordPress themes and plugins empower you to create an elegant, professional, and easy-to-maintain website in no time at all. Even on mobile and tablet screens, your website will look great"
-msgstr "Nos centramos principalmente en un código de calidad y un diseño elegante con un soporte increíble. Nuestros temas y plugins de WordPress te permiten crear un sitio elegante, profesional y fácil de mantener en muy poco tiempo. Incluso en pantallas de móviles y tabletas, tu web se verá genial"
-
-#: inc/hooks/patterns/full.php:41 inc/hooks/patterns/section-2.php:29
-msgid "About Author"
-msgstr "Sobre el autor"
-
-#: inc/hooks/patterns/full.php:31 inc/hooks/patterns/section-2.php:19
-msgid "Express Grid"
-msgstr "Cuadrícula exprés"
-
-#: inc/hooks/patterns/block-5.php:9 inc/hooks/patterns/block-5.php:16
-#: inc/hooks/patterns/full.php:142
-msgid "Post Carousel"
-msgstr "Carrusel de entradas"
-
-#: inc/hooks/patterns/block-4.php:16 inc/hooks/patterns/full.php:56
-msgid "Three Columns"
-msgstr "Tres columnas"
-
-#: inc/hooks/patterns/block-4.php:9
-msgid "Three Columns Posts"
-msgstr "Entradas en tres columnas"
-
-#: inc/hooks/patterns/block-3.php:9 inc/hooks/patterns/block-3.php:16
-#: inc/hooks/patterns/full.php:20
-msgid "Featured News"
-msgstr "Noticias destacadas"
-
-#: inc/hooks/patterns/block-2.php:9
-msgid "Main Banner"
-msgstr "Banner principal"
-
-#: inc/hooks/patterns/block-1.php:9
-msgid "Ticker News"
-msgstr "Teletipo de noticias"
-
-#: inc/customizer/theme-options.php:420
-msgid "Show Tags Below Content"
-msgstr "Mostrar etiquetas bajo el contenido"
-
-#: inc/customizer/theme-options.php:588
-msgid "Select Excerpt display mode"
-msgstr "Selecciona cómo mostrar el extracto"
-
-#: inc/customizer/theme-options.php:587
-msgid "Excerpt Mode"
-msgstr "Modo de extracto"
-
-#: inc/hooks/hook-tgm.php:20
-msgid "Templatespare"
-msgstr "Templatespare"
-
-#: inc/customizer/theme-options.php:342
-msgid "Enable"
+#: admin-dashboard/admin_dashboard.php:438
+#: admin-dashboard/rest-api/api-request.php:74
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
 msgstr "Activar"
 
-#: inc/customizer/theme-options.php:338
-msgid "Show Comment Count"
-msgstr "Mostrar el contador de comentarios"
+#: admin-dashboard/admin_dashboard.php:439
+#: admin-dashboard/rest-api/api-request.php:70
+msgid "Activated"
+msgstr "Activado"
 
-#: inc/hooks/hook-tgm.php:30
-msgid "Blockspare"
-msgstr "Blockspare"
+#: admin-dashboard/admin_dashboard.php:535
+#: admin-dashboard/rest-api/api-request.php:104
+#: admin-dashboard/rest-api/class-admin-notice.php:144
+msgid "Get Starter Sites"
+msgstr "Obtén sitios de inicio"
 
-#: inc/hooks/hook-tgm.php:25
-msgid "Elespare"
-msgstr "Elespare"
+#: admin-dashboard/admin_dashboard.php:540
+#: admin-dashboard/rest-api/class-admin-notice.php:148
+#: admin-dashboard/src/components/blockspare.demo.js:13
+#: admin-dashboard/src/components/elespare-demo.js:13
+#: admin-dashboard/src/components/templatespare-demo.js:13
+msgid "Get Started"
+msgstr "Primeros pasos"
 
-#: inc/hooks/hook-tgm.php:40
-msgid "Free Live Chat using 3CX"
-msgstr "Chat en vivo gratuito con 3CX"
+#: admin-dashboard/admin_dashboard.php:541
+#: admin-dashboard/rest-api/class-admin-notice.php:149
+msgid ""
+"The \"Get Started\" action will install/activate the Templatespare and "
+"Blockspare plugins for Starter Sites and Templates."
+msgstr ""
+"La acción «Primeros pasos» instalará/activará los plugins Templatespare y "
+"Blockspare para sitios de inicio y plantillas."
 
-#: admin-dashboard/rest-api/class-ajaxcall.php:72
-msgid "Sorry, you are not allowed to activate plugins on this site."
-msgstr "Lo siento, no tienes permisos para activar plugins para este sitio."
+#: admin-dashboard/rest-api/api-request.php:99
+msgid "By"
+msgstr "Por"
 
-#: admin-dashboard/rest-api/class-ajaxcall.php:18
-#: admin-dashboard/rest-api/class-ajaxcall.php:79
-#: admin-dashboard/rest-api/class-ajaxcall.php:153
-msgid "Error - unable to verify nonce, please try again."
-msgstr "Error: no se ha podido verificar el nonce, por favor, inténtalo de nuevo."
+#: admin-dashboard/rest-api/api-request.php:126
+msgid "More Details"
+msgstr "Más detalles"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:163
+msgid "Howdy!"
+msgstr "¡Hola!"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:165
+msgid ""
+"%s is now installed and ready to use. We've assembled some links to get you "
+"started."
+msgstr ""
+"%s ahora está instalado y listo para usar. Hemos reunido algunos enlaces "
+"para comenzar."
+
+#: admin-dashboard/rest-api/class-admin-notice.php:198
+msgid "Explore Our Pre-Built Starter Websites!"
+msgstr "¡Explore nuestros sitios web de inicio preconstruidos!"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:199
+msgid ""
+"Let your imagination soar! Designed with User-Friendly features, "
+"incorporating the Latest Trends and SEO-Friendly Markups. We genuinely "
+"appreciate you choosing our theme!"
+msgstr ""
+"¡Deja que tu imaginación se dispare! Diseñado con características fáciles de"
+" usar, incorporando las últimas tendencias y marcas de SEO。¡Realmente "
+"apreciamos que elija nuestro tema!"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:203
+msgid "Demos/product"
+msgstr "Demostraciones/producto"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:205
+msgid "Theme dashboard"
+msgstr "Escritorio del tema"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:229
+#: admin-dashboard/src/components/json/sidebar-content.js:4
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:230
+#: admin-dashboard/src/components/json/sidebar-content.js:7
+msgid ""
+"Please check our full documentation for detailed information on how to setup"
+" and customize the theme."
+msgstr ""
+"Consulte nuestra documentación completa para obtener información detallada "
+"sobre cómo configurar y personalizar el tema."
+
+#: admin-dashboard/rest-api/class-admin-notice.php:231
+msgid "Docs"
+msgstr "Documento"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:232
+msgid "Videos"
+msgstr "Vídeos"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:233
+msgid "Blog"
+msgstr "Blog"
+
+#: admin-dashboard/rest-api/class-admin-notice.php:234
+#: admin-dashboard/src/components/json/dashboard-content.js:18
+msgid "Rate This Theme"
+msgstr "Califica este tema"
 
 #: admin-dashboard/rest-api/class-ajaxcall.php:10
 #: admin-dashboard/rest-api/class-ajaxcall.php:146
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "Lo siento, no tienes permisos para instalar plugins en este sitio."
 
-#: admin-dashboard/rest-api/class-admin-notice.php:232
-msgid "Videos"
-msgstr "Vídeos"
+#: admin-dashboard/rest-api/class-ajaxcall.php:18
+#: admin-dashboard/rest-api/class-ajaxcall.php:79
+#: admin-dashboard/rest-api/class-ajaxcall.php:153
+msgid "Error - unable to verify nonce, please try again."
+msgstr "Error: no se puede verificar el nonce, inténtalo de nuevo."
 
-#: admin-dashboard/rest-api/class-admin-notice.php:231
-msgid "Documentation"
-msgstr "Documentación"
+#: admin-dashboard/rest-api/class-ajaxcall.php:72
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr "Lo siento, no tienes permisos para activar plugins para este sitio."
 
-#: admin-dashboard/rest-api/class-admin-notice.php:205
-msgid "Theme dashboard"
-msgstr "Escritorio del tema"
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en «%1$s»"
 
-#: admin-dashboard/rest-api/api-request.php:126
-msgid "More Details"
-msgstr "Más detalles"
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
 
-#: admin-dashboard/admin_dashboard.php:539
-#: admin-dashboard/rest-api/api-request.php:104
-#: admin-dashboard/rest-api/class-admin-notice.php:144
-msgid "Get Starter Sites"
-msgstr "Obtén sitios de inicio"
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
 
-#: admin-dashboard/rest-api/api-request.php:99
-msgid "By"
-msgstr "Por"
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:137
+msgid "%1$s by %2$s."
+msgstr "%1$s por %2$s."
 
-#: admin-dashboard/admin_dashboard.php:443
-#: admin-dashboard/rest-api/api-request.php:70
-msgid "Activated"
-msgstr "Activado"
+#: functions.php:80 inc/hooks/blocks/block-post-header-layout-1.php:149
+msgid "Primary Menu"
+msgstr "Menú principal"
 
-#: admin-dashboard/admin_dashboard.php:441
-#: admin-dashboard/rest-api/api-request.php:29
-msgid "Install Now"
-msgstr "Instalar ahora"
+#: functions.php:81
+msgid "Top Menu"
+msgstr "Menú superior"
 
-#: admin-dashboard/admin_dashboard.php:440
-msgid "Are you sure you want to install this plugin?"
-msgstr "¿Estás seguro de querer instalar este plugin?"
+#: functions.php:82
+msgid "Social Menu"
+msgstr "Menú social"
 
-#: inc/notice-upgrade.php:207
-msgid "Maybe Later"
-msgstr "Quizá más tarde"
+#: functions.php:83
+msgid "Footer Menu"
+msgstr "Menú del pie de página"
 
-#: inc/notice-upgrade.php:73 inc/notice-upgrade.php:93
-msgid "Cheatin&#8217; huh?"
-msgstr "Haciendo trampas, ¿eh?"
+#: functions.php:161
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "en"
 
-#: inc/notice-upgrade.php:69 inc/notice-upgrade.php:89
-msgid "Action failed. Please refresh the page and retry."
-msgstr "Acción fallida. Por favor, refresca la página e inténtalo de nuevo."
+#: functions.php:165
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "en"
 
-#: inc/customizer/theme-options.php:269 inc/customizer/theme-options.php:343
-msgid "Disable"
-msgstr "Desactivar"
+#: header.php:44
+msgid "Skip to content"
+msgstr "Saltar al contenido"
 
-#: inc/customizer/theme-options.php:268
-msgid "Enable "
-msgstr "Activar"
+#: inc/customizer/customizer-control.php:93
+msgid "All"
+msgstr "Todo"
 
-#: inc/customizer/theme-options.php:264
-msgid "Image Lazy Loading"
-msgstr "Carga diferida de imágenes"
+#: inc/customizer/customizer-default.php:54
+msgid "Flash Story"
+msgstr "Historia flash"
 
-#: inc/customizer/customizer.php:179
-msgid "Background Color will not be applicable for this mode."
-msgstr "El color de fondo no será aplicable para este modo."
+#: inc/customizer/customizer-default.php:61
+msgid "Main Story"
+msgstr "Historia principal"
 
-#: inc/customizer/customizer.php:160
-msgid "Dark"
-msgstr "Oscuro"
+#: inc/customizer/customizer-default.php:68
+msgid "Editor's Picks"
+msgstr "Selecciones del editor"
 
-#: inc/customizer/customizer.php:155
-msgid "Select global site mode"
-msgstr "Selecciona el modo global del sitio"
+#: inc/customizer/customizer-default.php:71
+msgid "Trending Story"
+msgstr "Historia en tendencia"
+
+#: inc/customizer/customizer-default.php:76
+msgid "Featured Story"
+msgstr "Historia destacada"
+
+#: inc/customizer/customizer-default.php:98
+#: inc/customizer/theme-options.php:611
+msgid "Read More"
+msgstr "Leer más"
+
+#: inc/customizer/customizer-default.php:110
+msgid "More Stories"
+msgstr "Más historias"
+
+#: inc/customizer/customizer-default.php:118
+msgid "You may have missed"
+msgstr "Te pueden interesar"
+
+#: inc/customizer/customizer-default.php:121
+msgid "Copyright &copy; All rights reserved."
+msgstr "Copyright &copy; Todos los derechos reservados."
+
+#: inc/customizer/customizer.php:89
+msgid "Site Title Size"
+msgstr "Tamaño del título del sitio"
+
+#: inc/customizer/customizer.php:98
+msgid "Site Title/Tagline Color"
+msgstr "Color del título y la descripción corta del sitio"
+
+#: inc/customizer/customizer.php:113
+msgid "Header Image Mode"
+msgstr "Modo de imagen de la cabecera"
+
+#: inc/customizer/customizer.php:114
+msgid "Image visibility may vary as per the mode"
+msgstr "La visibilidad de la imagen puede variar según el modo"
+
+#: inc/customizer/customizer.php:119
+msgid "Set as Background"
+msgstr "Establecer como fondo"
+
+#: inc/customizer/customizer.php:120
+msgid "Show Full Image"
+msgstr "Mostrar la imagen completa"
+
+#: inc/customizer/customizer.php:136
+msgid "Disable Image Tint/Overlay"
+msgstr "Deshabilitar el tinte/superposición de la imagen"
 
 #: inc/customizer/customizer.php:154
 msgid "Site Mode"
-msgstr "Modo del sitio"
+msgstr "Modo de sitio"
 
-#: inc/customizer/theme-options.php:481
-msgid "Bottom"
-msgstr "Inferior"
-
-#: inc/customizer/theme-options.php:480
-msgid "Top"
-msgstr "Superior"
-
-#: inc/customizer/theme-options.php:476
-msgid "Sidebar Sticky Position"
-msgstr "Posición de la barra lateral fija"
-
-#: inc/customizer/theme-options.php:439
-msgid "Sidebar Settings"
-msgstr "Ajustes de la barra lateral"
-
-#: inc/customizer/theme-options.php:403
-msgid "Spacious"
-msgstr "Amplio"
-
-#: inc/customizer/theme-options.php:398
-msgid "Individual posts edit panel also have the option"
-msgstr "El panel de edición de las entradas individuales también tiene la opción"
-
-#: inc/customizer/theme-options.php:397
-msgid "Global Content Mode"
-msgstr "Modo de contenido global"
-
-#: inc/customizer/theme-options.php:377
-msgid "Show Featured Image"
-msgstr "Mostrar la imagen destacada"
-
-#: inc/customizer/theme-options.php:359
-msgid "Single Posts Settings"
-msgstr "Ajustes de las entradas individuales"
-
-#: inc/customizer/theme-options.php:182
-msgid "NavXT"
-msgstr "NavXT"
-
-#: inc/customizer/theme-options.php:181
-msgid "Rank Math"
-msgstr "Rank Math"
-
-#: inc/customizer/theme-options.php:180
-msgid "Yoast SEO"
-msgstr "Yoast SEO"
-
-#: inc/customizer/theme-options.php:175
-msgid "Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default"
-msgstr "Por favor, asegúrate de que has activado las migas de pan del plugin antes de elegir otras que no sean las migas de pan por defecto"
-
-#: inc/customizer/theme-options.php:174
-msgid "Select Breadcrumbs"
-msgstr "Seleccionar las migas de pan"
-
-#: inc/customizer/theme-options.php:457
-msgid "Make Sidebar Sticky"
-msgstr "Hacer fija la barra lateral"
-
-#: inc/customizer/frontpage-options.php:247
-msgid "Order 2"
-msgstr "Orden 2"
+#: inc/customizer/customizer.php:155
+msgid "Select global site mode"
+msgstr "Seleccionar el modo de sitio global"
 
 #: inc/customizer/customizer.php:159 inc/customizer/frontpage-options.php:246
 #: inc/customizer/theme-options.php:179 inc/customizer/theme-options.php:223
@@ -463,898 +414,512 @@ msgstr "Orden 2"
 msgid "Default"
 msgstr "Por defecto"
 
-#: inc/customizer/frontpage-options.php:242
-msgid "Select Banner Section Order"
-msgstr "Selecciona el orden de la sección del banner"
+#: inc/customizer/customizer.php:160
+msgid "Dark"
+msgstr "Oscuro"
+
+#: inc/customizer/customizer.php:179
+msgid "Background Color will not be applicable for this mode."
+msgstr "El color de fondo no será aplicable para este modo."
+
+#: inc/customizer/customizer.php:200
+msgid "CoverNews Pro"
+msgstr "CoverNews Pro"
+
+#: inc/customizer/customizer.php:201
+msgid "Upgrade now"
+msgstr "Actualizar ahora"
+
+#: inc/customizer/frontpage-options.php:21
+msgid "Frontpage Options"
+msgstr "Opciones de portada"
+
+#: inc/customizer/frontpage-options.php:29
+#: admin-dashboard/src/components/json/home-content.js:13
+msgid "Banner Advertisement"
+msgstr "Anuncio de banner"
+
+#: inc/customizer/frontpage-options.php:51
+msgid "Banner Section Advertisement"
+msgstr "Anuncio de la sección de banner"
+
+#: inc/customizer/frontpage-options.php:52
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr "Tamaño recomendado %1$s px × %2$s px"
+
+#: inc/customizer/frontpage-options.php:74
+msgid "URL Link"
+msgstr "URL del enlace"
+
+#: inc/customizer/frontpage-options.php:91
+msgid "Open in new tab"
+msgstr "Abrir en una nueva pestaña"
+
+#: inc/customizer/frontpage-options.php:110
+msgid "Show banner advertisement on"
+msgstr "Mostrar anuncio de banner en"
+
+#: inc/customizer/frontpage-options.php:111
+msgid "Select scope to display on banner advertisement section"
+msgstr ""
+"Seleccione el alcance para mostrar en la sección de anuncios de banner"
+
+#: inc/customizer/frontpage-options.php:115
+msgid "Show on Homepage only"
+msgstr "Mostrar solo en la página de inicio"
+
+#: inc/customizer/frontpage-options.php:116
+msgid "Show sitewide"
+msgstr "Mostrar sitio en todo"
+
+#: inc/customizer/frontpage-options.php:126
+msgid "Flash Posts"
+msgstr "Publicaciones Flash"
+
+#: inc/customizer/frontpage-options.php:143
+msgid "Enable Flash Posts Section"
+msgstr "Habilitar la sección de publicaciones flash"
+
+#: inc/customizer/frontpage-options.php:163
+msgid "Flash Story Title"
+msgstr "Título de Flash Story"
+
+#: inc/customizer/frontpage-options.php:184
+msgid "Flash Posts Category"
+msgstr "Categoría de entradas flash"
+
+#: inc/customizer/frontpage-options.php:185
+msgid "Select category to be shown on trending posts "
+msgstr "Selecciona la categoría que mostrar en las entradas destacadas "
+
+#: inc/customizer/frontpage-options.php:203
+msgid "Main Banner Section"
+msgstr "Sección principal de banner"
+
+#: inc/customizer/frontpage-options.php:222
+msgid "Enable Main Banner Slider"
+msgstr "Habilitar el control deslizante principal de Banner"
 
 #: inc/customizer/frontpage-options.php:241
 msgid "Banner Section Order"
-msgstr "Orden de la sección del banner"
+msgstr "Orden de la sección de banner"
 
-#: inc/customizer/customizer.php:120
-msgid "Show Full Image"
-msgstr "Mostrar la imagen completa"
+#: inc/customizer/frontpage-options.php:242
+msgid "Select Banner Section Order"
+msgstr "Seleccionar orden de sección de banner"
 
-#: inc/customizer/customizer.php:119
-msgid "Set as Background"
-msgstr "Establecer como fondo"
+#: inc/customizer/frontpage-options.php:247
+msgid "Order 2"
+msgstr "Orden 2"
 
-#: inc/customizer/customizer.php:114
-msgid "Image visibility may vary as per the mode"
-msgstr "La visibilidad de la imagen puede variar según el modo"
+#: inc/customizer/frontpage-options.php:267
+msgid "Main Story Section"
+msgstr "Sección de la historia principal"
 
-#: inc/customizer/customizer.php:113
-msgid "Header Image Mode"
-msgstr "Modo de imagen de la cabecera"
+#: inc/customizer/frontpage-options.php:291
+msgid "Main Story Slider Title"
+msgstr "Título del control deslizante de la historia principal"
 
-#: inc/customizer/theme-options.php:310
-msgid "Date Display Format"
-msgstr "Formato de visualización de la fecha"
+#: inc/customizer/frontpage-options.php:312
+msgid "Slider Posts Category"
+msgstr "Categoría de publicaciones deslizantes"
 
-#: inc/customizer/theme-options.php:287
-msgid "Date and Author Display"
-msgstr "Visualización de la fecha y el autor"
+#: inc/customizer/frontpage-options.php:313
+msgid "Select category to be shown on Main Story slider section"
+msgstr ""
+"Seleccione la categoría que se mostrará en la sección Slider de la historia "
+"principal"
+
+#: inc/customizer/frontpage-options.php:335
+msgid "Editor's Picks Section"
+msgstr "Sección de selección del editor"
+
+#: inc/customizer/frontpage-options.php:359
+msgid "Editor's Picks Title"
+msgstr "Título de las selecciones del editor"
+
+#: inc/customizer/frontpage-options.php:380
+msgid "Editor's Picks Category"
+msgstr "Categoría de selecciones del editor"
+
+#: inc/customizer/frontpage-options.php:381
+msgid "Select category to be shown on Editor's Picks section"
+msgstr ""
+"Seleccione la categoría que se mostrará en la sección Picks del editor"
+
+#: inc/customizer/frontpage-options.php:403
+msgid "Trending Story Section"
+msgstr "Sección de la historia de tendencias"
+
+#: inc/customizer/frontpage-options.php:427
+msgid "Trending Vertical Slider Title"
+msgstr "Título del control deslizante vertical de tendencia"
+
+#: inc/customizer/frontpage-options.php:448
+msgid "Trending News Category"
+msgstr "Categoría de noticias de tendencia"
+
+#: inc/customizer/frontpage-options.php:449
+msgid "Select category to be shown on Trending section"
+msgstr "Seleccione la categoría que se muestre en la sección de tendencias"
+
+#: inc/customizer/frontpage-options.php:470
+msgid "Disable main banner section on blog archive"
+msgstr "Deshabilitar la sección principal de banner en el archivo de blogs"
+
+#: inc/customizer/frontpage-options.php:471
+msgid ""
+"The option will disable trending news, main slider, featured news, featured "
+"products from blog archive page."
+msgstr ""
+"La opción deshabilitará las noticias de tendencia, el control deslizante "
+"principal, las noticias destacadas, los productos destacados de la página "
+"del archivo del blog."
+
+#: inc/customizer/frontpage-options.php:486
+#: admin-dashboard/src/components/json/freepro-content.js:54
+msgid "Featured Posts Section"
+msgstr "Sección de publicaciones destacadas"
+
+#: inc/customizer/frontpage-options.php:504
+msgid "Enable Featured New Section"
+msgstr "Habilitar nueva sección destacada"
+
+#: inc/customizer/frontpage-options.php:526
+msgid "Featured Posts Section Title"
+msgstr "Título de la sección de publicaciones destacadas"
+
+#: inc/customizer/frontpage-options.php:546
+msgid "Featured Posts Category"
+msgstr "Categoría de publicaciones destacadas"
+
+#: inc/customizer/frontpage-options.php:547
+msgid "Select category to be shown on featured section "
+msgstr "Selecciona la categoría que se mostrará en la sección destacada "
+
+#: inc/customizer/frontpage-options.php:562
+msgid "Frontpage Layout Settings"
+msgstr "Ajustes de diseño de la página de inicio"
+
+#: inc/customizer/frontpage-options.php:581
+msgid "Frontpage Content alignment"
+msgstr "Alineación de contenido de la página principal"
+
+#: inc/customizer/frontpage-options.php:582
+msgid "Select frontpage content alignment"
+msgstr "Selecciona la alineación del contenido de la página de inicio"
+
+#: inc/customizer/frontpage-options.php:586
+msgid "Home Content - Home Sidebar"
+msgstr "Contenido de inicio - Barra lateral de la página de inicio"
+
+#: inc/customizer/frontpage-options.php:587
+msgid "Home Sidebar - Home Content"
+msgstr "Barra lateral de inicio - Contenido de la página de inicio"
+
+#: inc/customizer/frontpage-options.php:588
+msgid "Only Home Content"
+msgstr "Solo el contenido de la página de inicio"
+
+#: inc/customizer/theme-options.php:21
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: inc/customizer/theme-options.php:31
+msgid "Preloader Options"
+msgstr "Opciones de precarga"
+
+#: inc/customizer/theme-options.php:49
+msgid "Enable preloader"
+msgstr "Habilitar precarga"
+
+#: inc/customizer/theme-options.php:66
+#: admin-dashboard/src/components/json/home-content.js:6
+msgid "Header Options"
+msgstr "Opciones de la cabecera"
+
+#: inc/customizer/theme-options.php:83
+msgid "Show date on top header"
+msgstr "Mostrar fecha en el encabezado superior"
+
+#: inc/customizer/theme-options.php:105
+msgid "Show social menu on top header"
+msgstr "Mostrar menú social en el encabezado superior"
+
+#: inc/customizer/theme-options.php:125
+msgid "Disable Sticky Header"
+msgstr "Desactivar encabezado pegajoso"
+
+#: inc/customizer/theme-options.php:136
+msgid "Breadcrumb Options"
+msgstr "Opciones de las migas de pan"
+
+#: inc/customizer/theme-options.php:154
+msgid "Show breadcrumbs"
+msgstr "Mostrar las migas de pan"
+
+#: inc/customizer/theme-options.php:174
+msgid "Select Breadcrumbs"
+msgstr "Seleccionar las migas de pan"
+
+#: inc/customizer/theme-options.php:175
+msgid ""
+"Please ensure that you have enabled the plugin's breadcrumbs before choosing"
+" other than Default"
+msgstr ""
+"Por favor, asegúrate de que has activado las migas de pan del plugin antes "
+"de elegir otras que no sean las migas de pan por defecto"
+
+#: inc/customizer/theme-options.php:180
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/customizer/theme-options.php:181
+msgid "Rank Math"
+msgstr "Rank Math"
+
+#: inc/customizer/theme-options.php:182
+msgid "NavXT"
+msgstr "NavXT"
+
+#: inc/customizer/theme-options.php:200
+msgid "Global Settings"
+msgstr "Ajustes generales"
+
+#: inc/customizer/theme-options.php:218
+msgid "Conatiner Width"
+msgstr "Ancho de conatiner"
+
+#: inc/customizer/theme-options.php:219
+msgid "Select Conatiner Width"
+msgstr "Seleccione el ancho de Conatiner"
+
+#: inc/customizer/theme-options.php:224
+msgid "Wide"
+msgstr "Ancho"
+
+#: inc/customizer/theme-options.php:225
+msgid "Full Width"
+msgstr "Ancho completo"
 
 #: inc/customizer/theme-options.php:241
 msgid "Content Alignment"
 msgstr "Alineación del contenido"
 
-#: inc/notice-review.php:108
-msgid "Got any support queries?"
-msgstr "¿Tienes alguna consulta de soporte?"
+#: inc/customizer/theme-options.php:242
+msgid "Select global content alignment"
+msgstr "Seleccione la alineación global de contenido"
 
-#: inc/notice-review.php:103
-msgid "I've already done."
-msgstr "Ya lo he hecho."
+#: inc/customizer/theme-options.php:246
+msgid "Content - Primary sidebar"
+msgstr "Contenido - Barra lateral principal"
 
-#: inc/notice-review.php:98
-msgid "Remind me later"
-msgstr "Recuérdamelo más tarde"
+#: inc/customizer/theme-options.php:247
+msgid "Primary sidebar - Content"
+msgstr "Barra lateral principal - Contenido"
 
-#: inc/notice-review.php:93
-msgid "Sure thing"
-msgstr "Por supuesto"
+#: inc/customizer/theme-options.php:248 inc/hooks/hook-meta.php:80
+msgid "Full width content"
+msgstr "Contenido de ancho completo"
 
-#. Translators: %1$s current user display name.
-#: inc/notice-review.php:79
-msgid "Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we hope you are loving it! We would appreciate it if you can %3$sgive us a 5 star rating on WordPress.org%4$s! We'll continue to develop exciting new features for free in the future by sharing the love!"
-msgstr "¡Hola, %1$s! Hemos notado que has estado usando %2$s desde hace algún tiempo, ¡esperamos que te guste! Apreciaríamos si pudieras %3$sdarnos una valoración de 5 estrellas en WordPress.org%4$s¡Continuaremos desarrollando nuevas y excitantes características gratis por compartir el agradecimiento!"
+#: inc/customizer/theme-options.php:264
+msgid "Image Lazy Loading"
+msgstr "Imagen Carga perezosa"
 
-#: inc/customizer/theme-options.php:125
-msgid "Disable Sticky Header"
-msgstr "Desactivar la cabecera fija"
+#: inc/customizer/theme-options.php:268
+msgid "Enable "
+msgstr "Activar "
 
-#: inc/customizer/theme-options.php:316
-msgid "WordPress Default Date Format"
-msgstr "Formato de fecha predeterminado de WordPress"
+#: inc/customizer/theme-options.php:269 inc/customizer/theme-options.php:343
+msgid "Disable"
+msgstr "Desactivar"
 
-#: inc/customizer/theme-options.php:315
-msgid "Date Format by Theme"
-msgstr "Formato de fecha del tema"
+#: inc/customizer/theme-options.php:287
+msgid "Date and Author Display"
+msgstr "Fecha y exhibición del autor"
+
+#: inc/customizer/theme-options.php:288
+msgid "Select date and author display settings below post title"
+msgstr ""
+"Seleccione la fecha y la configuración de visualización del autor a "
+"continuación Título de la publicación"
+
+#: inc/customizer/theme-options.php:292
+msgid "Show Date and Author"
+msgstr "Mostrar la fecha y el autor"
+
+#: inc/customizer/theme-options.php:293
+msgid "Show Date Only"
+msgstr "Mostrar solo la fecha"
+
+#: inc/customizer/theme-options.php:294
+msgid "Show Author Only"
+msgstr "Mostrar solo autor"
+
+#: inc/customizer/theme-options.php:295
+msgid "Hide All"
+msgstr "Ocultar todo"
+
+#: inc/customizer/theme-options.php:310
+msgid "Date Display Format"
+msgstr "Formato de visualización de fecha"
 
 #: inc/customizer/theme-options.php:311
 msgid "Select date display display format"
-msgstr "Selecciona el formato de visualización de la fecha"
+msgstr "Seleccione Formato de visualización de visualización de fecha"
 
-#: inc/customizer/theme-options.php:593
-msgid "Default Excerpt"
-msgstr "Extracto por defecto"
+#: inc/customizer/theme-options.php:315
+msgid "Date Format by Theme"
+msgstr "Formato de fecha por tema"
+
+#: inc/customizer/theme-options.php:316
+msgid "WordPress Default Date Format"
+msgstr "Formato de fecha por defecto de WordPress"
+
+#: inc/customizer/theme-options.php:338
+msgid "Show Comment Count"
+msgstr "Mostrar recuento de comentarios"
+
+#: inc/customizer/theme-options.php:342
+msgid "Enable"
+msgstr "Activar"
+
+#: inc/customizer/theme-options.php:359
+msgid "Single Posts Settings"
+msgstr "Configuración de publicaciones individuales"
+
+#: inc/customizer/theme-options.php:377
+msgid "Show Featured Image"
+msgstr "Mostrar la imagen destacada"
+
+#: inc/customizer/theme-options.php:397
+msgid "Global Content Mode"
+msgstr "Modo de contenido global"
+
+#: inc/customizer/theme-options.php:398
+msgid "Individual posts edit panel also have the option"
+msgstr ""
+"El panel de edición de publicaciones individuales también tiene la opción"
+
+#: inc/customizer/theme-options.php:403
+msgid "Spacious"
+msgstr "Espacioso"
+
+#: inc/customizer/theme-options.php:420
+msgid "Show Tags Below Content"
+msgstr "Mostrar etiquetas a continuación contenido"
+
+#: inc/customizer/theme-options.php:424
+#: inc/widgets/widget-posts-tabbed.php:102
+#: inc/widgets/widget-posts-tabbed.php:109
+msgid "Yes"
+msgstr "Sí"
+
+#: inc/customizer/theme-options.php:425
+#: inc/widgets/widget-posts-tabbed.php:103
+#: inc/widgets/widget-posts-tabbed.php:108
+msgid "No"
+msgstr "No"
+
+#: inc/customizer/theme-options.php:439
+msgid "Sidebar Settings"
+msgstr "Ajustes de la barra lateral"
+
+#: inc/customizer/theme-options.php:457
+msgid "Make Sidebar Sticky"
+msgstr "Hacer que la barra lateral sea fija"
+
+#: inc/customizer/theme-options.php:476
+msgid "Sidebar Sticky Position"
+msgstr "Posición de la barra lateral fija"
+
+#: inc/customizer/theme-options.php:480
+msgid "Top"
+msgstr "Superior"
+
+#: inc/customizer/theme-options.php:481
+msgid "Bottom"
+msgstr "Inferior"
+
+#: inc/customizer/theme-options.php:498
+msgid "Archive Settings"
+msgstr "Ajustes del archivo"
+
+#: inc/customizer/theme-options.php:516
+msgid "Archive layout"
+msgstr "Plantilla de pagina de archivo"
+
+#: inc/customizer/theme-options.php:517
+msgid "Select layout for archive"
+msgstr "Seleccionar la estructura del archivo"
+
+#: inc/customizer/theme-options.php:522 inc/hooks/patterns/full.php:9
+msgid "Full"
+msgstr "Completo"
+
+#: inc/customizer/theme-options.php:523
+msgid "Grid"
+msgstr "Cuadrícula"
+
+#: inc/customizer/theme-options.php:539
+msgid "Image alignment"
+msgstr "Alineación de la imagen"
+
+#: inc/customizer/theme-options.php:540
+msgid "Select image alignment for archive"
+msgstr "Seleccione la alineación de imágenes para el archivo"
+
+#: inc/customizer/theme-options.php:544
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/customizer/theme-options.php:545
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/customizer/theme-options.php:562
+msgid "Content view"
+msgstr "Vista de contenido"
+
+#: inc/customizer/theme-options.php:563
+msgid "Select content view for archive"
+msgstr "Seleccione la vista de contenido para el archivo"
+
+#: inc/customizer/theme-options.php:567
+msgid "Post excerpt"
+msgstr "Extracto de post"
+
+#: inc/customizer/theme-options.php:568
+msgid "Full Content"
+msgstr "Contenido completo"
+
+#: inc/customizer/theme-options.php:569
+msgid "None"
+msgstr "Ninguna"
+
+#: inc/customizer/theme-options.php:587
+msgid "Excerpt Mode"
+msgstr "Modo de extracto"
+
+#: inc/customizer/theme-options.php:588
+msgid "Select Excerpt display mode"
+msgstr "Seleccione el modo de visualización de extracto"
 
 #: inc/customizer/theme-options.php:592
 msgid "Trimmed Content"
 msgstr "Contenido recortado"
 
-#: inc/customizer/theme-options.php:200
-msgid "Global Settings"
-msgstr "Ajustes globales"
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:364
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] "El siguiente plugin recomendado está desactivado: %1$s."
-msgstr[1] "Los siguientes plugin recomendado están desactivados: %1$s."
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:358
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] "El siguiente plugin necesario está desactivado: %1$s."
-msgstr[1] "Los siguientes plugins necesarios estás desactivados: %1$s."
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:352
-msgid "There is an update available for: %1$s."
-msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] "Hay una actualización disponible para: %1$s."
-msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:346
-msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
-msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
-msgstr[0] "El siguiente plugin tiene que actualizarse a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
-msgstr[1] "Los siguientes plugins tienes que actualizarse a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:340
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] "Este tema recomienda el siguiente plugin: %1$s"
-msgstr[1] "Este tema recomienda los siguientes plugins: %1$s"
-
-#. translators: 1: plugin name(s).
-#: lib/tgm/class-tgm-plugin-activation.php:334
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] "Este tema necesita el siguiente plugin: %1$s."
-msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
-
-#: inc/customizer/customizer-default.php:118
-msgid "You may have missed"
-msgstr "Te pueden interesar"
-
-#: inc/customizer/theme-options.php:643
-msgid "Show on single posts"
-msgstr "Mostrar en entradas individuales"
+#: inc/customizer/theme-options.php:593
+msgid "Default Excerpt"
+msgstr "Extracto predeterminado"
 
 #: inc/customizer/theme-options.php:625
 msgid "Related Posts"
 msgstr "Entradas relacionadas"
 
-#: inc/customizer/customizer-default.php:110
-msgid "More Stories"
-msgstr "Más historias"
-
-#: inc/template-tags.php:90
-msgid "ago"
-msgstr "atrás"
-
-#. Template Name of the theme
-msgid "Front-page Template"
-msgstr "Plantilla de portada"
-
-#: template-parts/content.php:39
-msgid "<span class=\"em-post-navigation\">Next</span> %title"
-msgstr "<span class=\"em-post-navigation\">Siguiente</span> %title"
-
-#: template-parts/content.php:38
-msgid "<span class=\"em-post-navigation\">Previous</span> %title"
-msgstr "<span class=\"em-post-navigation\">Anterior</span> %title"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:19
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Segir leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Parece que lo que buscas no está disponible. Puede que la búsqueda te ayude."
-
-#: template-parts/content-none.php:38
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Lo sentimos, pero no hay nada que corresponda con tus criterios de búsqueda. Inténtalo de nuevo con otras palabras diferentes."
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:25
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Nada encontrado"
-
-#. translators: %s: search query.
-#: search.php:22
-msgid "Search Results for: %s"
-msgstr "Resultados de búsqueda para: %s"
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: lib/tgm/class-tgm-plugin-activation.php:3520
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Instalando Plugin %1$s (%2$d/%3$d)"
-
-#: lib/tgm/class-tgm-plugin-activation.php:3518
-msgid "All installations have been completed."
-msgstr "Todas las instalaciones han sido completadas."
-
-#: lib/tgm/class-tgm-plugin-activation.php:3515
-msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "El proceso de instalación está iniciándose. Este proceso puede llevar un rato en algunos servidores, por favor, ten paciencia."
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: lib/tgm/class-tgm-plugin-activation.php:3512
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Instalando y activando Plugin %1$s (%2$d/%3$d)"
-
-#: lib/tgm/class-tgm-plugin-activation.php:3510
-msgid "All installations and activations have been completed."
-msgstr "Todas las instalaciones y activaciones han sido completadas."
-
-#. translators: 1: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:3509
-#: lib/tgm/class-tgm-plugin-activation.php:3517
-msgid "%1$s done."
-msgstr "%1$s hecho."
-
-#: lib/tgm/class-tgm-plugin-activation.php:3507
-msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "El proceso de instalación y activación está iniciándose. Este proceso puede llevar un rato en algunos servidores, por favor, ten paciencia."
-
-#. translators: 1: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:3503
-msgid "The installation of %1$s failed."
-msgstr "La instalación de %1$s falló."
-
-#. translators: 1: plugin name, 2: error message.
-#: lib/tgm/class-tgm-plugin-activation.php:3501
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "Se produjo un error al instalar %1$s: <strong>%2$s</strong>."
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: lib/tgm/class-tgm-plugin-activation.php:3498
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr "Actualizando Plugin %1$s (%2$d/%3$d)"
-
-#: lib/tgm/class-tgm-plugin-activation.php:3158
-msgid "Plugin activation failed."
-msgstr "La activación del Plugin ha fallado."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2934
-msgid "No plugins are available to be activated at this time."
-msgstr "No existen plugins disponibles para activar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2908
-msgid "No plugins were selected to be activated. No action taken."
-msgstr "No se ha seleccionado ningún plugin para activar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2802
-msgid "No plugins are available to be updated at this time."
-msgstr "No existen plugins disponibles para actualizar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2800
-msgid "No plugins are available to be installed at this time."
-msgstr "No existen plugins disponibles para instalar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2759
-msgid "No plugins were selected to be updated. No action taken."
-msgstr "No se ha seleccionado ningún plugin para actualizar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2757
-msgid "No plugins were selected to be installed. No action taken."
-msgstr "No se ha seleccionado ningún plugin para instalar."
-
-#: admin-dashboard/admin_dashboard.php:442
-#: admin-dashboard/rest-api/api-request.php:74
-#: lib/tgm/class-tgm-plugin-activation.php:2726
-msgid "Activate"
-msgstr "Activar"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2723
-msgid "Update"
-msgstr "Actualizar"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2717
-msgid "Install"
-msgstr "Instalar"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2684
-msgid "Upgrade message from the plugin author:"
-msgstr "Actualizar mensaje del autor del plugin:"
-
-#. translators: %2$s: plugin name in screen reader markup
-#: lib/tgm/class-tgm-plugin-activation.php:2614
-msgid "Activate %2$s"
-msgstr "Activar %2$s"
-
-#. translators: %2$s: plugin name in screen reader markup
-#: lib/tgm/class-tgm-plugin-activation.php:2608
-msgid "Update %2$s"
-msgstr "Actualizar %2$s"
-
-#. translators: %2$s: plugin name in screen reader markup
-#: lib/tgm/class-tgm-plugin-activation.php:2603
-msgid "Install %2$s"
-msgstr "Instalar %2$s"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2554
-msgid "Status"
-msgstr "Estado"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2553
-msgid "Version"
-msgstr "Versión"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2549
-msgid "Type"
-msgstr "Tipo"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2548
-msgid "Source"
-msgstr "Fuente"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2547
-msgid "Plugin"
-msgstr "Plugin"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2533
-msgid "No plugins to install, update or activate."
-msgstr "No hay plugins para instalar, actualizar o activar."
-
-#: lib/tgm/class-tgm-plugin-activation.php:2510
-msgid "Available version:"
-msgstr "Versión disponible:"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2498
-msgid "Minimum required version:"
-msgstr "Versión mínima requerida:"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2490
-msgid "Installed version:"
-msgstr "Versión instalada:"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2482
-msgctxt "as in: \"version nr unknown\""
-msgid "unknown"
-msgstr "desconocida"
-
-#. translators: 1: number of plugins.
-#: lib/tgm/class-tgm-plugin-activation.php:2400
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] "Para Activar <span class=\"count\">(%s)</span>"
-msgstr[1] "Para Activar <span class=\"count\">(%s)</span>"
-
-#. translators: 1: number of plugins.
-#: lib/tgm/class-tgm-plugin-activation.php:2396
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Actualización Disponible <span class=\"count\">(%s)</span>"
-msgstr[1] "Actualización Disponible <span class=\"count\">(%s)</span>"
-
-#. translators: 1: number of plugins.
-#: lib/tgm/class-tgm-plugin-activation.php:2392
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
-msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
-
-#. translators: 1: number of plugins.
-#: lib/tgm/class-tgm-plugin-activation.php:2388
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Todo <span class=\"count\">(%s)</span>"
-msgstr[1] "Todo <span class=\"count\">(%s)</span>"
-
-#. translators: 1: install status, 2: update status
-#: lib/tgm/class-tgm-plugin-activation.php:2342
-msgctxt "Install/Update Status"
-msgid "%1$s, %2$s"
-msgstr "%1$s, %2$s"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2333
-msgid "Update recommended"
-msgstr "Actualización recomendada"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2330
-msgid "Requires Update"
-msgstr "Requiere actualización"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2327
-msgid "Required Update not Available"
-msgstr "Actualización requerida no disponible"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2321
-msgid "Active"
-msgstr "Activo"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2319
-msgid "Installed But Not Activated"
-msgstr "Instalado pero no activado"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2315
-msgid "Not Installed"
-msgstr "No instalado"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2298
-msgid "Pre-Packaged"
-msgstr "Pre-empaquetado"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2295
-msgid "External Source"
-msgstr "Recurso externo"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2292
-msgid "WordPress Repository"
-msgstr "Repositorio de WordPress"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2276
-msgid "Recommended"
-msgstr "Recomendado"
-
-#: lib/tgm/class-tgm-plugin-activation.php:2273
-msgid "Required"
-msgstr "Obligatorio"
-
-#. translators: %s: version number
-#: lib/tgm/class-tgm-plugin-activation.php:1982
-msgid "TGMPA v%s"
-msgstr "TGMPA v%s"
-
-#: lib/tgm/class-tgm-plugin-activation.php:1121
-#: lib/tgm/class-tgm-plugin-activation.php:2948
-msgctxt "plugin A *and* plugin B"
-msgid "and"
-msgstr "y"
-
-#: lib/tgm/class-tgm-plugin-activation.php:937
-msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
-msgstr "El paquete del plugin remoto contiene más de un fichero, pero los ficheros no están empaquetados en una carpeta."
-
-#: lib/tgm/class-tgm-plugin-activation.php:934
-#: lib/tgm/class-tgm-plugin-activation.php:937
-msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
-msgstr "Por favor, contacte con el proveedor del plugin y pregunta cómo paquetizar su plugin de acuerdo a la guía de WordPress."
-
-#: lib/tgm/class-tgm-plugin-activation.php:934
-msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
-msgstr "El paquete del plugin remoto no contiene una carpeta con la nomenclatura deseada y el renombrado no funciona."
-
-#: lib/tgm/class-tgm-plugin-activation.php:523
-msgid "Update Required"
-msgstr "Actualización requerida"
-
-#: lib/tgm/class-tgm-plugin-activation.php:522
-msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr "Este plugin debe actualizarse para que sea compatible con tu tema."
-
-#: lib/tgm/class-tgm-plugin-activation.php:397
-msgid "Please contact the administrator of this site for help."
-msgstr "Por favor, contacta con el administrador de este sitio para ayuda."
-
-#: lib/tgm/class-tgm-plugin-activation.php:396
-msgid "There are one or more required or recommended plugins to install, update or activate."
-msgstr "Hay uno o más plugins necesarios o recomendados a instalar, actualizar o activar."
-
-#. translators: 1: dashboard link.
-#: lib/tgm/class-tgm-plugin-activation.php:394
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr "Todos los plugin instalados y activados correctamente. %1$s"
-
-#. translators: 1: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:392
-msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
-msgstr "Plugin no activado. Una versión superior de %s es necesaria para este tema. Por favor actualiza el plugin."
-
-#. translators: 1: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:390
-msgid "No action taken. Plugin %1$s was already active."
-msgstr "No se realizó ninguna acción. El plugin %1$s ya estaba activado."
-
-#: lib/tgm/class-tgm-plugin-activation.php:388
-#: lib/tgm/class-tgm-plugin-activation.php:2952
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] "El siguiente plugin se ha activado correctamente:"
-msgstr[1] "Los siguiente plugins se han activado correctamente:"
-
-#: lib/tgm/class-tgm-plugin-activation.php:387
-#: lib/tgm/class-tgm-plugin-activation.php:3159
-msgid "Plugin activated successfully."
-msgstr "Plugin activado correctamente."
-
-#: lib/tgm/class-tgm-plugin-activation.php:386
-#: lib/tgm/class-tgm-plugin-activation.php:827
-#: lib/tgm/class-tgm-plugin-activation.php:2533
-#: lib/tgm/class-tgm-plugin-activation.php:3580
-msgid "Return to the Dashboard"
-msgstr "Volver al escritorio"
-
-#: lib/tgm/class-tgm-plugin-activation.php:385
-msgid "Return to Required Plugins Installer"
-msgstr "Volver al instalador de plugins requeridos"
-
-#: lib/tgm/class-tgm-plugin-activation.php:380
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] "Comenzar a activar el plugin"
-msgstr[1] "Iniciar activación de plugins"
-
-#: lib/tgm/class-tgm-plugin-activation.php:375
-msgid "Begin updating plugin"
-msgid_plural "Begin updating plugins"
-msgstr[0] "Comenzar a actualizar el plugin"
-msgstr[1] "Iniciar actualización del plugins"
-
-#: lib/tgm/class-tgm-plugin-activation.php:370
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] "Comenzar a instalar el plugin"
-msgstr[1] "Instalando Plugins"
-
-#: lib/tgm/class-tgm-plugin-activation.php:333
-msgid "Something went wrong with the plugin API."
-msgstr "Algo salió mal con la API de plugins."
-
-#. translators: %s: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:332
-msgid "Updating Plugin: %s"
-msgstr "Actualizando Plugin: %s"
-
-#. translators: %s: plugin name.
-#: lib/tgm/class-tgm-plugin-activation.php:330
-msgid "Installing Plugin: %s"
-msgstr "Instalando plugin: %s"
-
-#: lib/tgm/class-tgm-plugin-activation.php:328
-msgid "Install Plugins"
-msgstr "Instalar Plugins"
-
-#: lib/tgm/class-tgm-plugin-activation.php:327
-msgid "Install Required Plugins"
-msgstr "Instalar Plugins Requeridos"
-
-#: admin-dashboard/admin_dashboard.php:167
-msgid "Upgrade Now"
-msgstr "Actualizar ahora"
-
-#: admin-dashboard/admin_dashboard.php:121
-#: admin-dashboard/admin_dashboard.php:122
-msgid "Customize"
-msgstr "Personalizar"
-
-#: admin-dashboard/rest-api/class-admin-notice.php:234
-msgid "Rate This Theme"
-msgstr "Califica este tema"
-
-#: admin-dashboard/rest-api/class-admin-notice.php:203
-msgid "View Demos"
-msgstr "Ver las demostraciones"
-
-#: admin-dashboard/admin_dashboard.php:166
-msgid "Upgrade to Pro"
-msgstr "Mejora a Pro"
-
-#: admin-dashboard/rest-api/class-admin-notice.php:233
-msgid "Support"
-msgstr "Ayuda"
-
-#: lib/tgm/class-tgm-plugin-activation.php:395
-msgid "Dismiss this notice"
-msgstr "Descartar este aviso"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:876
-msgctxt "weekly archives date format"
-msgid "W"
-msgstr "W"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:847
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:1294
-msgctxt "daily archives date format"
-msgid "j"
-msgstr "j"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:846
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:904
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:1290
-msgctxt "monthly archives date format"
-msgid "F"
-msgstr "F"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:845
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:875
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:903
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:931
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:1286
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:828
-msgctxt "hour archives time format"
-msgid "g a"
-msgstr "g a"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:810
-msgctxt "minute archives time format"
-msgid "i"
-msgstr "i"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:792
-msgctxt "minute and hour archives time format"
-msgid "g:i a"
-msgstr "g:i a"
-
-#. Translators: Weekly archive title. %s is the week date format.
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:319
-msgid "Week %s"
-msgstr "Semana %s"
-
-#. Translators: Minute archive title. %s is the minute time format.
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:317
-msgid "Minute %s"
-msgstr "Minuto %s"
-
-#. Translators: %s is the page number.
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:315
-msgid "Comment Page %s"
-msgstr "Cómo la página %s"
-
-#. Translators: %s is the page number.
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:313
-msgid "Page %s"
-msgstr "Página %s"
-
-#. Translators: %s is the search query.
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:311
-msgid "Search results for: %s"
-msgstr "Resultados de búsqueda para: %s"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:309
-msgid "Archives"
-msgstr "Archivos"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:308
-msgid "404 Not Found"
-msgstr "404 Página no Encontrada"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:307
-msgid "Home"
-msgstr "Inicio"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:306
-msgctxt "breadcrumbs aria label"
-msgid "Breadcrumbs"
-msgstr "Migas de pan"
-
-#: lib/breadcrumb-trail/inc/breadcrumbs.php:305
-msgid "Browse:"
-msgstr "Examinar:"
-
-#. translators: number of items in the mini cart.
-#: inc/woocommerce.php:258
-msgid "%d item"
-msgid_plural "%d items"
-msgstr[0] "%d artículo"
-msgstr[1] "%d artículos"
-
-#: inc/woocommerce.php:254
-msgid "View your shopping cart"
-msgstr "Ver tu carrito de la compra"
-
-#: inc/widgets/widgets-register-sidebars.php:64
-msgid "Displays items on footer third column."
-msgstr "Muestra elementos en la tercera columna del pie de página."
-
-#: inc/widgets/widgets-register-sidebars.php:62
-msgid "Footer Third Section"
-msgstr "Tercera sección del pie de página"
-
-#: inc/widgets/widgets-register-sidebars.php:54
-msgid "Displays items on footer second column."
-msgstr "Muestra elementos en la segunda columna del pie de página."
-
-#: inc/widgets/widgets-register-sidebars.php:52
-msgid "Footer Second Section"
-msgstr "Segunda sección del pie de página"
-
-#: inc/widgets/widgets-register-sidebars.php:43
-msgid "Displays items on footer first column."
-msgstr "Muestra elementos en la primera columna del pie de página."
-
-#: inc/widgets/widgets-register-sidebars.php:41
-msgid "Footer First Section"
-msgstr "Primera sección del pie de página"
-
-#: inc/widgets/widgets-register-sidebars.php:32
-msgid "Add widgets to front-page sidebar section."
-msgstr "Añade widgets a la sección de la barra lateral de la portada."
-
-#: inc/widgets/widgets-register-sidebars.php:30
-msgid "Front-page Sidebar Section"
-msgstr "Sección de la barra lateral de la portada"
-
-#: inc/widgets/widgets-register-sidebars.php:22
-msgid "Add widgets to front-page contents section."
-msgstr "Añade widgets a la sección de contenido de la portada."
-
-#: inc/widgets/widgets-register-sidebars.php:20
-msgid "Front-page Content Section"
-msgstr "Sección de contenido de la portada"
-
-#: inc/widgets/widgets-register-sidebars.php:12
-msgid "Add widgets for main sidebar."
-msgstr "Añade widgets para la barra lateral principal."
-
-#: inc/widgets/widgets-register-sidebars.php:10
-msgid "Main Sidebar"
-msgstr "Barra lateral principal"
-
-#: inc/widgets/widgets-common-functions.php:58
-msgid "Select Category"
-msgstr "Selecciona una categoría"
-
-#: inc/widgets/widgets-base.php:194
-msgctxt "Remove"
-msgid "X"
-msgstr "X"
-
-#: inc/widgets/widgets-base.php:183
-msgid "Choose Image"
-msgstr "Elegir imagen"
-
-#: inc/widgets/widgets-base.php:182
-msgid "Select Image"
-msgstr "Seleccionar imagen"
-
-#: inc/widgets/widgets-base.php:181
-msgid "Upload"
-msgstr "Subir"
-
-#: inc/widgets/widget-social-contacts.php:70
-msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
-msgstr "El menú social no está configurado. Necesitas crear el menú y asignarlo al Menú Social en los ajustes de menús."
-
-#: inc/widgets/widget-social-contacts.php:41
-msgid "CoverNews Social"
-msgstr "CoverNews Social"
-
-#: inc/widgets/widget-social-contacts.php:24
-msgid "CoverNews Social Contacts"
-msgstr "CoverNews Contactos sociales"
-
-#: inc/widgets/widget-social-contacts.php:20
-msgid "Displays social contacts lists from selected settings."
-msgstr "Muestra listas de contactos sociales desde la configuración seleccionada."
-
-#: inc/widgets/widget-posts-tabbed.php:132
-msgid "Show excerpt"
-msgstr "Mostrar extracto"
-
-#: inc/widgets/widget-posts-tabbed.php:131
-msgid "Settings for all tabs"
-msgstr "Ajustes para todas las pestañas"
-
-#: inc/widgets/widget-posts-tabbed.php:127
-msgid "Enable Categorised Tab"
-msgstr "Habilitar pestaña categorizada"
-
-#: inc/widgets/widget-posts-tabbed.php:125
-msgid "Categorised Posts"
-msgstr "Publicaciones categorizadas"
-
-#: inc/widgets/widget-posts-tabbed.php:118
-msgid "Popular Posts"
-msgstr "Entradas Populares"
-
-#: inc/widgets/widget-posts-tabbed.php:55
-#: inc/widgets/widget-posts-tabbed.php:116
-msgid "Latest"
-msgstr "Últimas"
-
-#: inc/widgets/widget-posts-tabbed.php:115
-msgid "Latest Posts"
-msgstr "Últimas entradas"
-
-#: inc/customizer/theme-options.php:425 inc/widgets/widget-posts-tabbed.php:103
-#: inc/widgets/widget-posts-tabbed.php:108
-msgid "No"
-msgstr "No"
-
-#: inc/customizer/theme-options.php:424 inc/widgets/widget-posts-tabbed.php:102
-#: inc/widgets/widget-posts-tabbed.php:109
-msgid "Yes"
-msgstr "Sí"
-
-#: inc/widgets/widget-posts-tabbed.php:54
-#: inc/widgets/widget-posts-tabbed.php:119
-msgid "Popular"
-msgstr "Popular"
-
-#: inc/widgets/widget-posts-tabbed.php:58
-#: inc/widgets/widget-posts-tabbed.php:128
-msgid "Trending"
-msgstr "Tendencias"
-
-#: inc/widgets/widget-posts-tabbed.php:25
-msgid "CoverNews Tabbed Posts"
-msgstr "CoverNews entradas en pestañas"
-
-#: inc/widgets/widget-posts-tabbed.php:21
-msgid "Displays tabbed posts lists from selected settings."
-msgstr "Muestra listas de entradas en pestañas según los ajustes seleccionados."
-
-#: inc/widgets/widget-posts-slider.php:24
-msgid "CoverNews Posts Slider"
-msgstr "Carrusel de entradas de CoverNews"
-
-#: inc/widgets/widget-posts-slider.php:20
-msgid "Displays posts slider from selected category."
-msgstr "Muestra el carrusel de entradas de la categoría seleccionada."
-
-#: inc/widgets/widget-posts-grid.php:152
-msgid "Posts Grid"
-msgstr "Cuadrícula de entradas"
-
-#: inc/widgets/widget-posts-grid.php:24
-msgid "CoverNews Posts Grid"
-msgstr "Cuadrícula de entradas de CoverNews"
-
-#: inc/widgets/widget-posts-grid.php:20
-msgid "Displays posts from selected category in a grid."
-msgstr "Muestra publicaciones de la categoría seleccionada en una cuadrícula."
-
-#: inc/widgets/widget-posts-double-category.php:208
-msgid "Select category 2"
-msgstr "Seleccione la categoría 2"
-
-#: inc/widgets/widget-posts-double-category.php:207
-msgid "Title 2"
-msgstr "Título 2"
-
-#: inc/widgets/widget-posts-double-category.php:206
-msgid "Select category 1"
-msgstr "Seleccionar categoría 1"
-
-#: inc/widgets/widget-posts-double-category.php:205
-msgid "Title 1"
-msgstr "Título 1"
-
-#: inc/widgets/widget-posts-double-category.php:195
-msgid "All in list"
-msgstr "Todo en la lista"
-
-#: inc/widgets/widget-posts-double-category.php:194
-msgid "Big thumb in first and other in list"
-msgstr "Gran miniatura primero y otra en la lista"
-
-#: inc/widgets/widget-posts-double-category.php:24
-msgid "CoverNews Double Categories Posts"
-msgstr "Entradas de categorías dobles de CoverNews"
-
-#: inc/widgets/widget-posts-double-category.php:20
-msgid "Displays posts from 2 selected categories in double column."
-msgstr "Muestra entradas de 2 categorías seleccionadas en doble columna."
-
-#: inc/widgets/widget-posts-carousel.php:133
-#: inc/widgets/widget-posts-grid.php:153
-#: inc/widgets/widget-posts-slider.php:137
-#: inc/widgets/widget-posts-tabbed.php:129
-msgid "Select category"
-msgstr "Seleccionar categoría"
-
-#: inc/widgets/widget-posts-carousel.php:24
-msgid "CoverNews Posts Carousel"
-msgstr "Carrusel de publicaciones de CoverNews"
-
-#: inc/widgets/widget-posts-carousel.php:20
-msgid "Displays posts carousel from selected category."
-msgstr "Muestra el carrusel de publicaciones de la categoría seleccionada."
-
-#: inc/widgets/widget-author-info.php:147
-msgid "LinkedIn"
-msgstr "LinkedIn"
-
-#: inc/widgets/widget-author-info.php:146
-msgid "Twitter"
-msgstr "Twitter"
-
-#: inc/widgets/widget-author-info.php:145
-msgid "Facebook"
-msgstr "Facebook"
-
-#: inc/widgets/widget-author-info.php:144
-msgid "Descriptions"
-msgstr "Descripciones"
-
-#: inc/widgets/widget-author-info.php:143
-msgid "Name"
-msgstr "Nombre"
-
-#: inc/widgets/widget-author-info.php:142
-msgid "Profile image"
-msgstr "Imagen de perfil"
+#: inc/customizer/theme-options.php:643
+msgid "Show on single posts"
+msgstr "Mostrar en publicaciones individuales"
 
 #: inc/customizer/theme-options.php:662 inc/widgets/widget-author-info.php:141
 #: inc/widgets/widget-posts-grid.php:152
@@ -1365,18 +930,291 @@ msgstr "Imagen de perfil"
 msgid "Title"
 msgstr "Título"
 
-#: inc/widgets/widget-author-info.php:24
-msgid "CoverNews Author Info"
-msgstr "Información de autor de CoverNews"
+#: inc/customizer/theme-options.php:678
+msgid "Latest Posts Options"
+msgstr "Opciones de las últimas publicaciones"
 
-#: inc/widgets/widget-author-info.php:20
-msgid "Displays author info."
-msgstr "Muestra información del autor."
+#: inc/customizer/theme-options.php:695
+msgid "Show Latest Posts Section above Footer"
+msgstr ""
+"Mostrar la última sección de publicaciones por encima del pie de página"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:152 template-parts/content-page.php:41
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+#: inc/customizer/theme-options.php:714
+msgid "Latest Posts Section Title"
+msgstr "Último título de la sección de publicaciones"
+
+#: inc/customizer/theme-options.php:728
+msgid "Footer"
+msgstr "Pie de página"
+
+#: inc/customizer/theme-options.php:746
+msgid "Copyright Text"
+msgstr "Texto de copyright"
+
+#: inc/hooks/blocks/block-post-grid.php:74 template-parts/content-page.php:27
+#: template-parts/content.php:45
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: inc/hooks/blocks/block-post-header-layout-1.php:147
+msgid "Toggle Primary Menu"
+msgstr "Alternar menú principal"
+
+#: inc/hooks/hook-meta.php:23
+msgid "Layout Options"
+msgstr "Opciones del diseño"
+
+#: inc/hooks/hook-meta.php:71
+msgid "Set as global layout"
+msgstr "Seleccionar como diseño general"
+
+#: inc/hooks/hook-meta.php:74
+msgid "Content - Primary Sidebar"
+msgstr "Contenido - Barra lateral principal"
+
+#: inc/hooks/hook-meta.php:77
+msgid "Primary Sidebar - Content"
+msgstr "Barra lateral principal - Contenido"
+
+#: inc/hooks/hook-meta.php:150 inc/hooks/hook-meta.php:189
+msgid "Category Color 1"
+msgstr "Color de la categoría 1"
+
+#: inc/hooks/hook-meta.php:151 inc/hooks/hook-meta.php:190
+msgid "Category Color 2"
+msgstr "Color de la categoría 2"
+
+#: inc/hooks/hook-meta.php:152 inc/hooks/hook-meta.php:191
+msgid "Category Color 3"
+msgstr "Color de la categoría 3"
+
+#: inc/hooks/hook-meta.php:157 inc/hooks/hook-meta.php:185
+msgid "Color Class"
+msgstr "Clase de color"
+
+#: inc/hooks/hook-meta.php:163 inc/hooks/hook-meta.php:200
+msgid ""
+"Select category color class. You can set appropriate categories color on "
+"\"Categories\" section of the theme customizer."
+msgstr ""
+"Selecciona la clase del color de la categoría. Puedes establecer el color de"
+" las categorías en la sección «Categorías» del personalizador del tema."
+
+#: inc/hooks/hook-tgm.php:19
+msgid "AF Companion"
+msgstr "Por compañero"
+
+#: inc/hooks/hook-tgm.php:24
+msgid "Templatespare"
+msgstr "Templatespare"
+
+#: inc/hooks/hook-tgm.php:29
+msgid "Elespare"
+msgstr "Elespare"
+
+#: inc/hooks/hook-tgm.php:34
+msgid "Blockspare"
+msgstr "Blockspare"
+
+#: inc/hooks/hook-tgm.php:39
+msgid "Latest Posts Block"
+msgstr "Último bloque de publicaciones"
+
+#: inc/hooks/hook-tgm.php:44
+msgid "Magic Content Box"
+msgstr "Caja de contenido mágico"
+
+#: inc/hooks/hook-tgm.php:49
+msgid "WP Post Author"
+msgstr "WP Post Author"
+
+#: inc/hooks/hook-tgm.php:54
+msgid "Free Live Chat using 3CX"
+msgstr "Chat en vivo gratuito con 3CX"
+
+#: inc/hooks/patterns/block-1.php:9
+msgid "Ticker News"
+msgstr "Noticias de Ticker"
+
+#: inc/hooks/patterns/block-2.php:9
+msgid "Main Banner"
+msgstr "Banner principal"
+
+#: inc/hooks/patterns/block-3.php:9 inc/hooks/patterns/block-3.php:16
+#: inc/hooks/patterns/full.php:20
+msgid "Featured News"
+msgstr "Noticias destacadas"
+
+#: inc/hooks/patterns/block-4.php:9
+msgid "Three Columns Posts"
+msgstr "Publicaciones de tres columnas"
+
+#: inc/hooks/patterns/block-4.php:16 inc/hooks/patterns/full.php:56
+msgid "Three Columns"
+msgstr "Tres columnas"
+
+#: inc/hooks/patterns/block-5.php:9 inc/hooks/patterns/block-5.php:16
+#: inc/hooks/patterns/full.php:142
+msgid "Post Carousel"
+msgstr "Carrusel de entradas"
+
+#: inc/hooks/patterns/full.php:31 inc/hooks/patterns/section-2.php:19
+msgid "Express Grid"
+msgstr "Cuadrícula exprés"
+
+#: inc/hooks/patterns/full.php:41 inc/hooks/patterns/section-2.php:29
+msgid "About Author"
+msgstr "Sobre el autor"
+
+#: inc/hooks/patterns/full.php:47 inc/hooks/patterns/section-2.php:35
+msgid ""
+"We mainly focus on quality code and elegant design with incredible support. "
+"Our WordPress themes and plugins empower you to create an elegant, "
+"professional, and easy-to-maintain website in no time at all. Even on mobile"
+" and tablet screens, your website will look great"
+msgstr ""
+"Nos centramos principalmente en un código de calidad y un diseño elegante "
+"con un soporte increíble. Nuestros temas y plugins de WordPress te permiten "
+"crear un sitio elegante, profesional y fácil de mantener en muy poco tiempo."
+" Incluso en pantallas de móviles y tabletas, tu web se verá genial"
+
+#: inc/hooks/patterns/full.php:66 inc/hooks/patterns/section-3.php:19
+msgid "Post Slider"
+msgstr "Carrusel de entradas"
+
+#: inc/hooks/patterns/full.php:74 inc/hooks/patterns/full.php:180
+#: inc/hooks/patterns/section-3.php:27 inc/hooks/patterns/section-4.php:46
+msgid "Post Grid"
+msgstr "Cuadrícula de entradas"
+
+#: inc/hooks/patterns/full.php:84 inc/hooks/patterns/section-3.php:37
+msgid "Post List"
+msgstr "Lista de entradas"
+
+#: inc/hooks/patterns/full.php:92 inc/hooks/patterns/section-3.php:45
+msgid "Connect to Us"
+msgstr "Contacta con nosotros"
+
+#: inc/hooks/patterns/full.php:130 inc/hooks/patterns/full.php:170
+#: inc/hooks/patterns/section-3.php:83 inc/hooks/patterns/section-4.php:36
+msgid "Advertisement"
+msgstr "Publicidad"
+
+#: inc/hooks/patterns/full.php:152 inc/hooks/patterns/section-4.php:18
+msgid "Express Tile"
+msgstr "Azulejos exprés"
+
+#: inc/hooks/patterns/full.php:160 inc/hooks/patterns/section-4.php:26
+msgid "Single Column"
+msgstr "Columna única"
+
+#: inc/hooks/patterns/full.php:188 inc/hooks/patterns/section-4.php:54
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/hooks/patterns/section-1.php:9
+msgid "Section 1"
+msgstr "Sección 1"
+
+#: inc/hooks/patterns/section-2.php:9
+msgid "Section 2"
+msgstr "Sección 2"
+
+#: inc/hooks/patterns/section-3.php:9
+msgid "Section 3"
+msgstr "Sección 3"
+
+#: inc/hooks/patterns/section-4.php:9
+msgid "Section 4"
+msgstr "Sección 4"
+
+#. Translators: %1$s current user display name.
+#: inc/notice-review.php:79
+msgid ""
+"Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we"
+" hope you are loving it! We would appreciate it if you can %3$sgive us a 5 "
+"star rating on WordPress.org%4$s! We'll continue to develop exciting new "
+"features for free in the future by sharing the love!"
+msgstr ""
+"¡Hola, %1$s! Hemos notado que has estado usando %2$s desde hace algún "
+"tiempo, ¡esperamos que te guste! Apreciaríamos si pudieras %3$sdarnos una "
+"valoración de 5 estrellas en WordPress.org%4$s ¡Continuaremos desarrollando "
+"nuevas y excitantes características gratis por compartir el agradecimiento!"
+
+#: inc/notice-review.php:93
+msgid "Sure thing"
+msgstr "Por supuesto"
+
+#: inc/notice-review.php:98
+msgid "Remind me later"
+msgstr "Recuérdamelo más tarde"
+
+#: inc/notice-review.php:103
+msgid "I've already done."
+msgstr "Ya lo he hecho."
+
+#: inc/notice-review.php:108
+msgid "Got any support queries?"
+msgstr "¿Tienes alguna consulta de soporte?"
+
+#: inc/notice-upgrade.php:69 inc/notice-upgrade.php:89
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+"La acción ha fallado. Por favor, recarga la página e inténtalo de nuevo."
+
+#: inc/notice-upgrade.php:73 inc/notice-upgrade.php:93
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampas, ¿eh?"
+
+#. Translators: %1$s current user display name., %2$s this theme name., %3$s
+#. discount coupon code., %4$s discount percentage.
+#: inc/notice-upgrade.php:177
+msgid ""
+"%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit "
+"with an exclusive gift: %4$s premium features! Use code %3$s at checkout. "
+"Wishing you a season filled with joyous holidays and even happier savings! "
+"🎄✨"
+msgstr ""
+"%1$s 🎁 ¡Espero que te encante nuestro tema gratuito %2$s! ¿Listo para una "
+"actualización? Sumérgete en el espíritu festivo con un regalo exclusivo: "
+"¡%4$s funciones premium! Utiliza el código %3$s al pagar. ¡Te deseamos una "
+"temporada llena de felices fiestas y ahorros aún más felices! 🎄✨"
+
+#: inc/notice-upgrade.php:192
+msgid "Claim Your Discount"
+msgstr "Solicita tu descuento"
+
+#: inc/notice-upgrade.php:197
+msgid "Power Bundle"
+msgstr "Power Bundle"
+
+#: inc/notice-upgrade.php:202
+msgid "All Themes Plan"
+msgstr "Plan All Themes"
+
+#: inc/notice-upgrade.php:207
+msgid "Maybe Later"
+msgstr "Quizá más tarde"
+
+#: inc/notice-upgrade.php:212
+msgid "Have Queries?"
+msgstr "¿Tienes consultas que hacer?"
+
+#: inc/template-functions.php:406
+msgid "Previous"
+msgstr "Anterior"
+
+#: inc/template-functions.php:407
+msgid "Next"
+msgstr "Siguiente"
+
+#: inc/template-tags.php:33
+msgid "View all posts in %s"
+msgstr "Ver todas las publicaciones en %s"
+
+#: inc/template-tags.php:90
+msgid "ago"
+msgstr "atrás"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:139
@@ -1384,490 +1222,1327 @@ msgctxt "list item separator"
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:33
-msgid "View all posts in %s"
-msgstr "Ver todas las publicaciones en %s"
-
-#: inc/template-functions.php:407
-msgid "Next"
-msgstr "Siguiente"
-
-#: inc/template-functions.php:406
-msgid "Previous"
-msgstr "Anterior"
-
-#: inc/hooks/hook-tgm.php:35
-msgid "WP Post Author"
-msgstr "WP Post Author"
-
-#: inc/hooks/hook-meta.php:163 inc/hooks/hook-meta.php:200
-msgid "Select category color class. You can set appropriate categories color on \"Categories\" section of the theme customizer."
-msgstr "Selecciona la clase del color de categoría. Puedes establecer el color de las categorías en la sección \"Categorías\" del personalizador del tema."
-
-#: inc/hooks/hook-meta.php:157 inc/hooks/hook-meta.php:185
-msgid "Color Class"
-msgstr "Clase de color"
-
-#: inc/hooks/hook-meta.php:152 inc/hooks/hook-meta.php:191
-msgid "Category Color 3"
-msgstr "Color de categoría 3"
-
-#: inc/hooks/hook-meta.php:151 inc/hooks/hook-meta.php:190
-msgid "Category Color 2"
-msgstr "Color de categoría 2"
-
-#: inc/hooks/hook-meta.php:150 inc/hooks/hook-meta.php:189
-msgid "Category Color 1"
-msgstr "Color de categoría 1"
-
-#: inc/hooks/hook-meta.php:77
-msgid "Primary Sidebar - Content"
-msgstr "Barra Lateral Principal - Contenido"
-
-#: inc/hooks/hook-meta.php:74
-msgid "Content - Primary Sidebar"
-msgstr "Contenido - Barra Lateral Principal"
-
-#: inc/hooks/hook-meta.php:71
-msgid "Set as global layout"
-msgstr "Seleccionar como diseño general"
-
-#: inc/hooks/hook-meta.php:23
-msgid "Layout Options"
-msgstr "Opciones de diseño"
-
-#: inc/hooks/blocks/block-post-grid.php:74 template-parts/content-page.php:27
-#: template-parts/content.php:45
-msgid "Pages:"
-msgstr "Páginas:"
-
-#: inc/customizer/theme-options.php:746
-msgid "Copyright Text"
-msgstr "Texto de Copyright"
-
-#: inc/customizer/theme-options.php:728
-msgid "Footer"
-msgstr "Pie de página"
-
-#: inc/customizer/theme-options.php:714
-msgid "Latest Posts Section Title"
-msgstr "Título de la sección Últimas publicaciones"
-
-#: inc/customizer/theme-options.php:695
-msgid "Show Latest Posts Section above Footer"
-msgstr "Mostrar la sección de últimas publicaciones en el pie de página"
-
-#: inc/customizer/theme-options.php:678
-msgid "Latest Posts Options"
-msgstr "Últimas opciones de publicaciones"
-
-#: inc/customizer/theme-options.php:569
-msgid "None"
-msgstr "Ninguna"
-
-#: inc/customizer/theme-options.php:568
-msgid "Full Content"
-msgstr "Contenido completo"
-
-#: inc/customizer/theme-options.php:567
-msgid "Post excerpt"
-msgstr "Extracto de entrada"
-
-#: inc/customizer/theme-options.php:563
-msgid "Select content view for archive"
-msgstr "Seleccionar vista de contenido para archivo"
-
-#: inc/customizer/theme-options.php:562
-msgid "Content view"
-msgstr "Vista de contenido"
-
-#: inc/customizer/theme-options.php:545
-msgid "Right"
-msgstr "Derecha"
-
-#: inc/customizer/theme-options.php:544
-msgid "Left"
-msgstr "Izquierda"
-
-#: inc/customizer/theme-options.php:540
-msgid "Select image alignment for archive"
-msgstr "Seleccionar la alineación de la imagen para el archivo"
-
-#: inc/customizer/theme-options.php:539
-msgid "Image alignment"
-msgstr "Alineación de imagen"
-
-#: inc/customizer/theme-options.php:523
-msgid "Grid"
-msgstr "Cuadrícula"
-
-#: inc/customizer/theme-options.php:522 inc/hooks/patterns/full.php:9
-msgid "Full"
-msgstr "Completo"
-
-#: inc/customizer/theme-options.php:517
-msgid "Select layout for archive"
-msgstr "Seleccionar la estructura del archivo"
-
-#: inc/customizer/theme-options.php:516
-msgid "Archive layout"
-msgstr "Plantilla de pagina de archivo"
-
-#: inc/customizer/theme-options.php:498
-msgid "Archive Settings"
-msgstr "Configuración de archivo"
-
-#: inc/customizer/theme-options.php:295
-msgid "Hide All"
-msgstr "Ocultar todo"
-
-#: inc/customizer/theme-options.php:294
-msgid "Show Author Only"
-msgstr "Mostrar solo autor"
-
-#: inc/customizer/theme-options.php:293
-msgid "Show Date Only"
-msgstr "Mostrar solo fecha"
-
-#: inc/customizer/theme-options.php:292
-msgid "Show Date and Author"
-msgstr "Mostrar fecha y autor"
-
-#: inc/customizer/theme-options.php:288
-msgid "Select date and author display settings below post title"
-msgstr "Selecciona los ajustes de  visualización de la fecha el autor debajo del título de la entrada"
-
-#: inc/customizer/theme-options.php:248 inc/hooks/hook-meta.php:80
-msgid "Full width content"
-msgstr "Contenido de ancho completo"
-
-#: inc/customizer/theme-options.php:247
-msgid "Primary sidebar - Content"
-msgstr "Barra lateral principal - Contenido"
-
-#: inc/customizer/theme-options.php:246
-msgid "Content - Primary sidebar"
-msgstr "Contenido - Barra lateral principal"
-
-#: inc/customizer/theme-options.php:242
-msgid "Select global content alignment"
-msgstr "Seleccionar alineación global del contenido"
-
-#: inc/customizer/theme-options.php:154
-msgid "Show breadcrumbs"
-msgstr "Mostrar migas de pan"
-
-#: inc/customizer/theme-options.php:136
-msgid "Breadcrumb Options"
-msgstr "Opciones de migas de pan"
-
-#: inc/customizer/theme-options.php:105
-msgid "Show social menu on top header"
-msgstr "Mostrar el menú social en el encabezado superior"
-
-#: inc/customizer/theme-options.php:83
-msgid "Show date on top header"
-msgstr "Mostrar la fecha en el encabezado superior"
-
-#: inc/customizer/theme-options.php:66
-msgid "Header Options"
-msgstr "Opciones de encabezado"
-
-#: inc/customizer/theme-options.php:49
-msgid "Enable preloader"
-msgstr "Habilitar preloader"
-
-#: inc/customizer/theme-options.php:31
-msgid "Preloader Options"
-msgstr "Opciones de preloader"
-
-#: inc/customizer/theme-options.php:21
-msgid "Theme Options"
-msgstr "Opciones de tema"
-
-#: inc/customizer/frontpage-options.php:588
-msgid "Only Home Content"
-msgstr "Solo contenido de inicio"
-
-#: inc/customizer/frontpage-options.php:587
-msgid "Home Sidebar - Home Content"
-msgstr "Barra lateral de portada - Contenido de página Inicio"
-
-#: inc/customizer/frontpage-options.php:586
-msgid "Home Content - Home Sidebar"
-msgstr "Barra lateral de portada - Barra lateral de página Inicio"
-
-#: inc/customizer/frontpage-options.php:582
-msgid "Select frontpage content alignment"
-msgstr "Selecciona la alineación del contenido de la portada"
-
-#: inc/customizer/frontpage-options.php:581
-msgid "Frontpage Content alignment"
-msgstr "Alineación del contenido de la página de inicio"
-
-#: inc/customizer/frontpage-options.php:562
-msgid "Frontpage Layout Settings"
-msgstr "Ajustes de diseño de portada"
-
-#: inc/customizer/frontpage-options.php:547
-msgid "Select category to be shown on featured section "
-msgstr "Selecciona la categoría que se mostrará en la sección destacada "
-
-#: inc/customizer/frontpage-options.php:546
-msgid "Featured Posts Category"
-msgstr "Categoría de artículos destacados"
-
-#: inc/customizer/frontpage-options.php:526
-msgid "Featured Posts Section Title"
-msgstr "Título de la sección publicaciones destacadas"
-
-#: inc/customizer/frontpage-options.php:504
-msgid "Enable Featured New Section"
-msgstr "Habilitar sección noticias destacadas"
-
-#: inc/customizer/frontpage-options.php:486
-msgid "Featured Posts Section"
-msgstr "Sección de publicaciones destacadas"
-
-#: inc/customizer/frontpage-options.php:471
-msgid "The option will disable trending news, main slider, featured news, featured products from blog archive page."
-msgstr "La opción desactivará las noticias de tendencia, el carrusel principal, las noticias destacadas y los productos destacados de la página de archivo del blog."
-
-#: inc/customizer/frontpage-options.php:470
-msgid "Disable main banner section on blog archive"
-msgstr "Deshabilitar la sección de banner principal en el archivo de blog"
-
-#: inc/customizer/frontpage-options.php:449
-msgid "Select category to be shown on Trending section"
-msgstr "Selecciona la categoría que se mostrará en la sección Tendencias"
-
-#: inc/customizer/frontpage-options.php:448
-msgid "Trending News Category"
-msgstr "Categoría noticias en tendencia"
-
-#: inc/customizer/frontpage-options.php:427
-msgid "Trending Vertical Slider Title"
-msgstr "Título del carrusel vertical de tendencias"
-
-#: inc/customizer/frontpage-options.php:381
-msgid "Select category to be shown on Editor's Picks section"
-msgstr "Selecciona la categoría que se mostrará en la sección selección del editor"
-
-#: inc/customizer/frontpage-options.php:380
-msgid "Editor's Picks Category"
-msgstr "Categoría de selección del editor"
-
-#: inc/customizer/frontpage-options.php:359
-msgid "Editor's Picks Title"
-msgstr "Título de selección del editor"
-
-#: inc/customizer/frontpage-options.php:313
-msgid "Select category to be shown on Main Story slider section"
-msgstr "Selecciona la categoría que se mostrará en el carrusel de la historia principal"
-
-#: inc/customizer/frontpage-options.php:312
-msgid "Slider Posts Category"
-msgstr "Categoría de las entradas del carrusel"
-
-#: inc/customizer/frontpage-options.php:291
-msgid "Main Story Slider Title"
-msgstr "Título del slider de la historia principal"
-
-#: inc/customizer/frontpage-options.php:222
-msgid "Enable Main Banner Slider"
-msgstr "Habilitar el carrusel del banner"
-
-#: inc/customizer/frontpage-options.php:203
-msgid "Main Banner Section"
-msgstr "Sección principal de Banner"
-
-#: inc/customizer/frontpage-options.php:185
-msgid "Select category to be shown on trending posts "
-msgstr "Selecciona la categoría que se mostrará en las publicaciones de tendencia "
-
-#: inc/customizer/frontpage-options.php:184
-msgid "Flash Posts Category"
-msgstr "Categoría de artículos de última hora"
-
-#: inc/customizer/frontpage-options.php:163
-msgid "Flash Story Title"
-msgstr "Título de la historia de última hora"
-
-#: inc/customizer/frontpage-options.php:143
-msgid "Enable Flash Posts Section"
-msgstr "Habilitar la sección de artículos de última hora"
-
-#: inc/customizer/frontpage-options.php:126
-msgid "Flash Posts"
-msgstr "Artículos de última hora"
-
-#: inc/customizer/frontpage-options.php:116
-msgid "Show sitewide"
-msgstr "Mostrar en todo el sitio"
-
-#: inc/customizer/frontpage-options.php:115
-msgid "Show on Homepage only"
-msgstr "Mostrar solo en la página de inicio"
-
-#: inc/customizer/frontpage-options.php:111
-msgid "Select scope to display on banner advertisement section"
-msgstr "Selecciona el alcance a mostrar en la sección de banners de anuncios"
-
-#: inc/customizer/frontpage-options.php:110
-msgid "Show banner advertisement on"
-msgstr "Mostrar banner publicitario en"
-
-#: inc/customizer/frontpage-options.php:91
-msgid "Open in new tab"
-msgstr "Abrir en nueva pestaña"
-
-#: inc/customizer/frontpage-options.php:74
-msgid "URL Link"
-msgstr "URL del enlace"
-
-#: inc/customizer/frontpage-options.php:52
-msgid "Recommended Size %1$s px X %2$s px"
-msgstr "Tamaño Recomendado %1$s px X %2$s px"
-
-#: inc/customizer/frontpage-options.php:51
-msgid "Banner Section Advertisement"
-msgstr "Anuncio de la sección de banner"
-
-#: inc/customizer/frontpage-options.php:29
-msgid "Banner Advertisement"
-msgstr "Anuncio publicitario"
-
-#: inc/customizer/frontpage-options.php:21
-msgid "Frontpage Options"
-msgstr "Opciones de portada"
-
-#: inc/customizer/customizer.php:201
-msgid "Upgrade now"
-msgstr "Actualizar ahora"
-
-#: inc/customizer/customizer.php:200
-msgid "CoverNews Pro"
-msgstr "CoverNews Pro"
-
-#: inc/customizer/customizer.php:136
-msgid "Disable Image Tint/Overlay"
-msgstr "Deshabilitar titado/superposición de la imagen"
-
-#: inc/customizer/customizer.php:98
-msgid "Site Title/Tagline Color"
-msgstr "Color del título/descripción corta del sitio"
-
-#: inc/customizer/customizer.php:89
-msgid "Site Title Size"
-msgstr "Tamaño del título del sitio"
-
-#: inc/customizer/customizer-default.php:121
-msgid "Copyright &copy; All rights reserved."
-msgstr "Copyright &copy; Todos los derechos reservados."
-
-#: inc/customizer/customizer-default.php:98
-#: inc/customizer/theme-options.php:611
-msgid "Read More"
-msgstr "Leer más"
-
-#: inc/customizer/customizer-default.php:76
-msgid "Featured Story"
-msgstr "Historia destacada"
-
-#: inc/customizer/customizer-default.php:71
-msgid "Trending Story"
-msgstr "Historia de tendencia"
-
-#: inc/customizer/customizer-default.php:68
-msgid "Editor's Picks"
-msgstr "Selecciones del editor"
-
-#: inc/customizer/customizer-default.php:61
-msgid "Main Story"
-msgstr "Historia principal"
-
-#: inc/customizer/customizer-default.php:54
-msgid "Flash Story"
-msgstr "Historia Flash"
-
-#: inc/customizer/customizer-control.php:93
-msgid "All"
-msgstr "Todas"
-
-#: header.php:44
-msgid "Skip to content"
-msgstr "Saltar al contenido"
-
-#: functions.php:165
-msgctxt "Lato font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:161
-msgctxt "Source Sans Pro font: on or off"
-msgid "on"
-msgstr "activada"
-
-#: functions.php:83
-msgid "Footer Menu"
-msgstr "Menú de pie de página"
-
-#: functions.php:82
-msgid "Social Menu"
-msgstr "Menú social"
-
-#: functions.php:81
-msgid "Top Menu"
-msgstr "Menu principal"
-
-#: functions.php:80 inc/hooks/blocks/block-post-header-layout-1.php:149
-msgid "Primary Menu"
-msgstr "Menú primario"
-
-#. translators: 1: Theme name, 2: Theme author.
-#: footer.php:137
-msgid "%1$s by %2$s."
-msgstr "%1$s por %2$s."
-
-#: comments.php:63
-msgid "Comments are closed."
-msgstr "Los comentarios están cerrados."
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:40
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s pensamiento sobre &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s pensamientos sobre &ldquo;%2$s&rdquo;"
-
-#. translators: 1: title.
-#: comments.php:34
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Un pensamiento en &ldquo;%1$s&rdquo;"
-
-#: 404.php:23
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Parece que aquí no hay nada. ¿por qué no pruebas uno de estos enlaces o la búsqueda?"
-
-#: 404.php:19
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "¡Vaya! No se ha podido encontrar esa página."
-
-#. Author URI of the theme
-#: style.css
-#, gp-priority: low
-msgid "https://www.afthemes.com/"
-msgstr "https://www.afthemes.com/"
-
-#. Author of the theme
-#: style.css
-#, gp-priority: low
-msgid "AF themes"
-msgstr "AF themes"
-
-#. Theme URI of the theme
-#: style.css
-#, gp-priority: low
-msgid "https://afthemes.com/products/covernews/"
-msgstr "https://afthemes.com/products/covernews/"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:152 template-parts/content-page.php:41
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/widgets/widget-author-info.php:20
+msgid "Displays author info."
+msgstr "Muestra información del autor."
+
+#: inc/widgets/widget-author-info.php:24
+msgid "CoverNews Author Info"
+msgstr "Información del autor de CoverNews"
+
+#: inc/widgets/widget-author-info.php:142
+msgid "Profile image"
+msgstr "Imagen de perfil"
+
+#: inc/widgets/widget-author-info.php:143
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/widgets/widget-author-info.php:144
+msgid "Descriptions"
+msgstr "Descripciones"
+
+#: inc/widgets/widget-author-info.php:145
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widgets/widget-author-info.php:146
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widgets/widget-author-info.php:147
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/widgets/widget-posts-carousel.php:20
+msgid "Displays posts carousel from selected category."
+msgstr "Muestra publicaciones de carrusel desde la categoría seleccionada."
+
+#: inc/widgets/widget-posts-carousel.php:24
+msgid "CoverNews Posts Carousel"
+msgstr "Covernews publica carrusel"
+
+#: inc/widgets/widget-posts-carousel.php:133
+#: inc/widgets/widget-posts-grid.php:153
+#: inc/widgets/widget-posts-slider.php:137
+#: inc/widgets/widget-posts-tabbed.php:129
+msgid "Select category"
+msgstr "Selecciona la categoría"
+
+#: inc/widgets/widget-posts-double-category.php:20
+msgid "Displays posts from 2 selected categories in double column."
+msgstr ""
+"Muestra publicaciones de 2 categorías seleccionadas en la columna doble."
+
+#: inc/widgets/widget-posts-double-category.php:24
+msgid "CoverNews Double Categories Posts"
+msgstr "Publicaciones de doble categorías de CoverNews"
+
+#: inc/widgets/widget-posts-double-category.php:194
+msgid "Big thumb in first and other in list"
+msgstr "Gran pulgar en primera y otra en la lista"
+
+#: inc/widgets/widget-posts-double-category.php:195
+msgid "All in list"
+msgstr "Todo en la lista"
+
+#: inc/widgets/widget-posts-double-category.php:205
+msgid "Title 1"
+msgstr "Título 1"
+
+#: inc/widgets/widget-posts-double-category.php:206
+msgid "Select category 1"
+msgstr "Seleccione la categoría 1"
+
+#: inc/widgets/widget-posts-double-category.php:207
+msgid "Title 2"
+msgstr "Título 2"
+
+#: inc/widgets/widget-posts-double-category.php:208
+msgid "Select category 2"
+msgstr "Seleccione la categoría 2"
+
+#: inc/widgets/widget-posts-grid.php:20
+msgid "Displays posts from selected category in a grid."
+msgstr "Muestra publicaciones de la categoría seleccionada en una cuadrícula."
+
+#: inc/widgets/widget-posts-grid.php:24
+msgid "CoverNews Posts Grid"
+msgstr "Cuadrícula de publicaciones de CoverNews"
+
+#: inc/widgets/widget-posts-grid.php:152
+msgid "Posts Grid"
+msgstr "Publica la cuadrícula"
+
+#: inc/widgets/widget-posts-slider.php:20
+msgid "Displays posts slider from selected category."
+msgstr "Muestra el carrusel de entradas de la categoría seleccionada."
+
+#: inc/widgets/widget-posts-slider.php:24
+msgid "CoverNews Posts Slider"
+msgstr "Slider de publicaciones de CoverNews"
+
+#: inc/widgets/widget-posts-tabbed.php:21
+msgid "Displays tabbed posts lists from selected settings."
+msgstr ""
+"Muestra listas de publicaciones con pestañas desde la configuración "
+"seleccionada."
+
+#: inc/widgets/widget-posts-tabbed.php:25
+msgid "CoverNews Tabbed Posts"
+msgstr "Publicaciones con pestañas de CoverNews"
+
+#: inc/widgets/widget-posts-tabbed.php:54
+#: inc/widgets/widget-posts-tabbed.php:119
+msgid "Popular"
+msgstr "Populares"
+
+#: inc/widgets/widget-posts-tabbed.php:55
+#: inc/widgets/widget-posts-tabbed.php:116
+msgid "Latest"
+msgstr "Más recientes"
+
+#: inc/widgets/widget-posts-tabbed.php:58
+#: inc/widgets/widget-posts-tabbed.php:128
+msgid "Trending"
+msgstr "Tendencias"
+
+#: inc/widgets/widget-posts-tabbed.php:115
+msgid "Latest Posts"
+msgstr "Últimas entradas"
+
+#: inc/widgets/widget-posts-tabbed.php:118
+msgid "Popular Posts"
+msgstr "Publicaciones populares"
+
+#: inc/widgets/widget-posts-tabbed.php:125
+msgid "Categorised Posts"
+msgstr "Publicaciones categorizadas"
+
+#: inc/widgets/widget-posts-tabbed.php:127
+msgid "Enable Categorised Tab"
+msgstr "Habilitar pestaña categorizada"
+
+#: inc/widgets/widget-posts-tabbed.php:131
+msgid "Settings for all tabs"
+msgstr "Configuración para todas las pestañas"
+
+#: inc/widgets/widget-posts-tabbed.php:132
+msgid "Show excerpt"
+msgstr "Exhibir"
+
+#: inc/widgets/widget-social-contacts.php:20
+msgid "Displays social contacts lists from selected settings."
+msgstr "Muestra listas de contactos sociales de los ajustes seleccionados."
+
+#: inc/widgets/widget-social-contacts.php:24
+msgid "CoverNews Social Contacts"
+msgstr "Contactos sociales de CoverNews"
+
+#: inc/widgets/widget-social-contacts.php:41
+msgid "CoverNews Social"
+msgstr "CoverNews Social"
+
+#: inc/widgets/widget-social-contacts.php:70
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu"
+" on Menu Settings."
+msgstr ""
+"El menú social no está configurado. Necesitas crear el menú y asignarlo al "
+"«Menú social» en los ajustes de menús."
+
+#: inc/widgets/widgets-base.php:181
+msgid "Upload"
+msgstr "Subir"
+
+#: inc/widgets/widgets-base.php:182
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: inc/widgets/widgets-base.php:183
+msgid "Choose Image"
+msgstr "Seleccionar imagen"
+
+#: inc/widgets/widgets-base.php:194
+msgctxt "Remove"
+msgid "X"
+msgstr "×"
+
+#: inc/widgets/widgets-common-functions.php:58
+msgid "Select Category"
+msgstr "Selecciona una categoría"
+
+#: inc/widgets/widgets-common-functions.php:113
+msgid "Read more about %s"
+msgstr "Lee más sobre %s"
+
+#: inc/widgets/widgets-register-sidebars.php:10
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#: inc/widgets/widgets-register-sidebars.php:12
+msgid "Add widgets for main sidebar."
+msgstr "Añade widgets para la barra lateral principal."
+
+#: inc/widgets/widgets-register-sidebars.php:20
+msgid "Front-page Content Section"
+msgstr "Sección de contenido de la portada"
+
+#: inc/widgets/widgets-register-sidebars.php:22
+msgid "Add widgets to front-page contents section."
+msgstr "Añade widgets a la sección de contenido de la portada."
+
+#: inc/widgets/widgets-register-sidebars.php:30
+msgid "Front-page Sidebar Section"
+msgstr "Sección de la barra lateral de la portada"
+
+#: inc/widgets/widgets-register-sidebars.php:32
+msgid "Add widgets to front-page sidebar section."
+msgstr "Añade widgets a la sección de la barra lateral de la portada."
+
+#: inc/widgets/widgets-register-sidebars.php:41
+msgid "Footer First Section"
+msgstr "Primera sección del pie de página"
+
+#: inc/widgets/widgets-register-sidebars.php:43
+msgid "Displays items on footer first column."
+msgstr "Muestra elementos en la primera columna del pie de página."
+
+#: inc/widgets/widgets-register-sidebars.php:52
+msgid "Footer Second Section"
+msgstr "Segunda sección del pie de página"
+
+#: inc/widgets/widgets-register-sidebars.php:54
+msgid "Displays items on footer second column."
+msgstr "Muestra elementos en la segunda columna del pie de página."
+
+#: inc/widgets/widgets-register-sidebars.php:62
+msgid "Footer Third Section"
+msgstr "Tercera sección del pie de página"
+
+#: inc/widgets/widgets-register-sidebars.php:64
+msgid "Displays items on footer third column."
+msgstr "Muestra elementos en la tercera columna del pie de página."
+
+#: inc/woocommerce.php:254
+msgid "View your shopping cart"
+msgstr "Ver tu carrito"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:258
+msgid "%d item"
+msgstr ""
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:305
+msgid "Browse:"
+msgstr "Ver:"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:306
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:307
+msgid "Home"
+msgstr "Inicio"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:308
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:309
+msgid "Archives"
+msgstr "Archivos"
+
+#. Translators: %s is the search query.
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:311
+msgid "Search results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#. Translators: %s is the page number.
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:313
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Translators: %s is the page number.
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:315
+msgid "Comment Page %s"
+msgstr "Página %s de comentarios"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:317
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:319
+msgid "Week %s"
+msgstr "Semana %s"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:792
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:810
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:828
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:845
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:875
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:903
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:931
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1286
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:846
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:904
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1290
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "S"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:847
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1294
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:876
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalar los plugins necesarios"
+
+#: lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalar los plugins"
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalando el plugin: %s"
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Actualizando el plugin: %s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Algo ha ido mal con la API del plugin."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:346
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins necesarios"
+
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "El plugin se ha activado correctamente."
+
+#: lib/tgm/class-tgm-plugin-activation.php:388
+#: lib/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se han tomado acciones. El plugin %1$s ya estaba activado."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:392
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"El plugin no se ha activado. Este tema necesita una versión superior de %s. "
+"Por favor, actualiza el plugin."
+
+#. translators: 1: dashboard link.
+#: lib/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins han sido instalados y activados correctamente. %1$s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Hay uno o más plugins necesarios o recomendados para instalar, actualizar o "
+"activar."
+
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Por favor, contacta con el administrador de este sitio para obtener ayuda."
+
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Este plugin tiene que ser actualizado para ser compatible con tu tema."
+
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Actualización necesaria"
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"El paquete remoto del plugin no contiene una carpeta con el slug deseado y "
+"no ha funcionado el renombrado."
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Por favor, contacta con el proveedor del plugin y pídele que empaquete su "
+"plugin de acuerdo con las directrices de WordPress."
+
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"El paquete remoto del plugin está compuesto por más de un archivo, pero los "
+"archivos no están empaquetados dentro de una carpeta."
+
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#. translators: %s: version number
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Necesario"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Preempaquetado"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado, pero no activado"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Activa"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "No está disponible la actualización necesaria"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Necesita actualización"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#. translators: 1: install status, 2: update status
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocida"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versión mínima necesaria:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins para instalar, actualizar o activar."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Fuente"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versión"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Estado"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualizar"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"No se han seleccionado plugins para instalar. No se realizará ninguna "
+"acción."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"No se han seleccionado plugins para actualizar. No se ha realizado ninguna "
+"acción."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "En este momento no hay plugins disponibles para instalar."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "En este momento no hay plugins disponibles para actualizar."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"No se han seleccionado plugins para instalar. No se realizará ninguna "
+"acción."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "En este momento no hay plugins disponibles para activar."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Ha fallado la activación del plugin."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando el plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: lib/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ha ocurrido un error al instalar %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Ha fallado la instalación de %1$s."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr ""
+"El proceso de instalación y activación está comenzando. Este proceso puede "
+"tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s done."
+msgstr "%1$s hecho."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han terminado."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: lib/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El proceso de instalación ha comenzado. Este proceso puede tardar un poco "
+"según el alojamiento, por favor, se paciente."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando el plugin %1$s (%2$d/%3$d)"
+
+#. Template Name of the theme
+msgid "Blank Canvas"
+msgstr "Lienzo en blanco"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width"
+msgstr "Ancho completo del maquetador de páginas"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por "
+"favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no encontramos lo que estás buscando. Puede que una búsqueda te "
+"ayude."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:19
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo <span class=\"screen-reader-text\">«%s»</span>"
+
+#: template-parts/content.php:38
+msgid "<span class=\"em-post-navigation\">Previous</span> %title"
+msgstr "<span class = \"EM-Post-Navigation\"> Título anterior </span> %"
+
+#: template-parts/content.php:39
+msgid "<span class=\"em-post-navigation\">Next</span> %title"
+msgstr "<span class = \"EM-Post-Navigation\"> Siguiente </span> %Título"
+
+#: template-parts/content.php:41
+msgid "Post Navigation"
+msgstr "Post navegación"
+
+#. Template Name of the theme
+msgid "Front-page Template"
+msgstr "Plantilla de primera plantilla"
+
+#: admin-dashboard/src/components/blockspare.demo.js:18
+msgid "Update Blockspare Pro"
+msgstr "Actualizar blockspare pro"
+
+#: admin-dashboard/src/components/blockspare.demo.js:20
+msgid "Update Blockspare"
+msgstr "Actualizar blockspare"
+
+#: admin-dashboard/src/components/blockspare.demo.js:33
+msgid "Powerful Gutenberg Blocks & Patterns"
+msgstr "Poderosos bloques y patrones de gutenberg"
+
+#: admin-dashboard/src/components/blockspare.demo.js:36
+msgid ""
+"Easily build and customize your pages with a vast library of Gutenberg "
+"blocks and patterns, perfect for blogs, magazines, and business sites. Add "
+"post grids, sliders, and carousels without touching a single line of code. "
+"Import demo data and effortlessly create multilingual, visually appealing "
+"pages with complete flexibility."
+msgstr ""
+"Construya y personalice fácilmente sus páginas con una vasta biblioteca de "
+"bloques y patrones de Gutenberg, perfecto para blogs, revistas y sitios "
+"comerciales. Agregue las cuadrículas, los controles deslizantes y los "
+"carruseles sin tocar una sola línea de código. Importar datos de "
+"demostración y crear sin esfuerzo páginas multilingües y visualmente "
+"atractivas con total flexibilidad."
+
+#: admin-dashboard/src/components/dashboard-content.js:32
+msgid "Hello "
+msgstr "Hola"
+
+#: admin-dashboard/src/components/dashboard-content.js:34
+msgid "Welcome to "
+msgstr "Bienvenido"
+
+#: admin-dashboard/src/components/elespare-demo.js:18
+msgid "Update Elespare Pro"
+msgstr "Actualizar Elespare Pro"
+
+#: admin-dashboard/src/components/elespare-demo.js:20
+msgid "Update Elespare"
+msgstr "Actualizar la elespare"
+
+#: admin-dashboard/src/components/elespare-demo.js:34
+msgid "Professional Sites with Elementor"
+msgstr "Sitios profesionales con Elementor"
+
+#: admin-dashboard/src/components/elespare-demo.js:37
+msgid ""
+"Transform your blog, news, or magazine website with 35+ advanced Elementor "
+"widgets and 350+ customizable templates. Easily create headers, footers, "
+"post grids, sliders, and carousels with a fast-loading and SEO-optimized "
+"structure. Import demo content with a single click and enjoy codeless "
+"customization to craft your perfect site, no matter the language."
+msgstr ""
+"Transforme su blog, noticias o sitio web de revistas con más de 35 widgets "
+"de elementor avanzados y más de 350 plantillas personalizables. Cree "
+"fácilmente encabezados, pies de página, cuadrículas, controles deslizantes y"
+" carruseles con una estructura de carga rápida y optimizada SEO. Importe "
+"contenido de demostración con un solo clic y disfrute de la personalización "
+"sin código para elaborar su sitio perfecto, sin importar el idioma."
+
+#: admin-dashboard/src/components/json/dashboard-content.js:2
+msgid ""
+"We would like to thank you for installing and activating [theme] theme for "
+"your precious site. All of the features provided by the theme are now ready "
+"to use; Here, we have gathered all of the essential details and helpful "
+"links for you and your better experience with [theme]. Once again, Thanks "
+"for using our theme!"
+msgstr ""
+"Nos gustaría agradecerle por instalar y activar el tema [tema] para su "
+"precioso sitio。Todas las características proporcionadas por el tema ahora "
+"están listas para usar; Aquí, hemos reunido todos los detalles esenciales y "
+"enlaces útiles para usted y su mejor experiencia con [tema]。Una vez más, "
+"¡gracias por usar nuestro tema!"
+
+#: admin-dashboard/src/components/json/dashboard-content.js:6
+msgid "Theme Details"
+msgstr "Detalles del tema"
+
+#: admin-dashboard/src/components/json/dashboard-content.js:10
+msgid "View Demo"
+msgstr "Ver demostración"
+
+#: admin-dashboard/src/components/json/dashboard-content.js:14
+msgid "View Documentation"
+msgstr "Ver documentación"
+
+#: admin-dashboard/src/components/json/dashboard-content.js:23
+#: admin-dashboard/src/components/json/freepro-content.js:209
+msgid "Upgrade to Pro"
+msgstr "Mejorar a Pro"
+
+#: admin-dashboard/src/components/json/dashboard-content.js:25
+msgid "Contact Support"
+msgstr "Soporte de contacto"
+
+#: admin-dashboard/src/components/json/freepro-content.js:4
+msgid "Live editing in Customizer"
+msgstr "Edición en vivo en Customizer"
+
+#: admin-dashboard/src/components/json/freepro-content.js:9
+msgid "One Click Demo Import Support"
+msgstr "Soporte de importación de demostración de un clic"
+
+#: admin-dashboard/src/components/json/freepro-content.js:14
+msgid "Typography Style and Color"
+msgstr "Estilo y color de tipografía"
+
+#: admin-dashboard/src/components/json/freepro-content.js:19
+msgid "Light/Dark Mode"
+msgstr "Modo de luz/oscuro"
+
+#: admin-dashboard/src/components/json/freepro-content.js:24
+msgid "Preloader Option"
+msgstr "Opción de precarga"
+
+#: admin-dashboard/src/components/json/freepro-content.js:29
+msgid "Multiple Header Options"
+msgstr "Opciones de encabezado múltiples"
+
+#: admin-dashboard/src/components/json/freepro-content.js:34
+msgid "Logo and title customization"
+msgstr "Logotipo y personalización de títulos"
+
+#: admin-dashboard/src/components/json/freepro-content.js:39
+msgid "Header Image"
+msgstr "Imagen de la cabecera"
+
+#: admin-dashboard/src/components/json/freepro-content.js:44
+msgid "Multiple Frontpage Banner Options"
+msgstr "Opciones de banner de primera página múltiple"
+
+#: admin-dashboard/src/components/json/freepro-content.js:49
+msgid "Frontpage Banner Section Order"
+msgstr "Orden de la sección de banner de la página delantera"
+
+#: admin-dashboard/src/components/json/freepro-content.js:59
+msgid "Category Color Options"
+msgstr "Opciones de color de categoría"
+
+#: admin-dashboard/src/components/json/freepro-content.js:64
+msgid "Posts Section Advertisements"
+msgstr "Publicaciones de la sección Anuncios"
+
+#: admin-dashboard/src/components/json/freepro-content.js:69
+msgid "Custom Widgets"
+msgstr "Widgets personalizados"
+
+#: admin-dashboard/src/components/json/freepro-content.js:74
+msgid "Author Biography"
+msgstr "Biografía del autor"
+
+#: admin-dashboard/src/components/json/freepro-content.js:79
+msgid "Post Image Slider Widget"
+msgstr "Public Image Slider Widget"
+
+#: admin-dashboard/src/components/json/freepro-content.js:84
+msgid "Post Carousel Widget"
+msgstr "Widget de post carrusel"
+
+#: admin-dashboard/src/components/json/freepro-content.js:89
+msgid "Post Grid Widget"
+msgstr "Widget de la cuadrícula"
+
+#: admin-dashboard/src/components/json/freepro-content.js:94
+msgid "Post Double Column Double Categories Widget"
+msgstr "Publicar una columna doble Categorías Doble Widget"
+
+#: admin-dashboard/src/components/json/freepro-content.js:99
+msgid "Post Tabbed Widget"
+msgstr "Publicar widget con pestañas"
+
+#: admin-dashboard/src/components/json/freepro-content.js:104
+msgid "Social Contact Widget"
+msgstr "Widget de contacto social"
+
+#: admin-dashboard/src/components/json/freepro-content.js:109
+msgid "Post Single Column Widget"
+msgstr "Publicar un widget de columna única"
+
+#: admin-dashboard/src/components/json/freepro-content.js:114
+msgid "Trending Posts Vertical Carousel Widget"
+msgstr "Publicaciones de tendencia Widget de carrusel vertical"
+
+#: admin-dashboard/src/components/json/freepro-content.js:119
+msgid "Video Slider Widget"
+msgstr "Widget Slider de video"
+
+#: admin-dashboard/src/components/json/freepro-content.js:124
+msgid "Basic Custom Widgets Controls"
+msgstr "Controles básicos de widgets personalizados"
+
+#: admin-dashboard/src/components/json/freepro-content.js:129
+msgid "Advanced Custom Widgets Controls"
+msgstr "Controles avanzados de widgets personalizados"
+
+#: admin-dashboard/src/components/json/freepro-content.js:134
+msgid "Archive Grid Layout"
+msgstr "Diseño de la cuadrícula de archivo"
+
+#: admin-dashboard/src/components/json/freepro-content.js:139
+msgid "Archive Full Layout"
+msgstr "Archivo de diseño completo"
+
+#: admin-dashboard/src/components/json/freepro-content.js:144
+msgid "Archive List Layout"
+msgstr "Diseño de la lista de archivos"
+
+#: admin-dashboard/src/components/json/freepro-content.js:149
+msgid "Mailchimp Subscription Supports"
+msgstr "Soporte de suscripción de MailChimp"
+
+#: admin-dashboard/src/components/json/freepro-content.js:154
+msgid "Display Related Posts"
+msgstr "Mostrar publicaciones relacionadas"
+
+#: admin-dashboard/src/components/json/freepro-content.js:159
+msgid "Footer Widgets Section"
+msgstr "Sección de widgets de pie de página"
+
+#: admin-dashboard/src/components/json/freepro-content.js:164
+msgid "Gutenberg Compatibility"
+msgstr "Compatibilidad de Gutenberg"
+
+#: admin-dashboard/src/components/json/freepro-content.js:169
+msgid "RTL Compatibility"
+msgstr "Compatibilidad rtl"
+
+#: admin-dashboard/src/components/json/freepro-content.js:174
+msgid "WooCommerce Compatibility"
+msgstr "Compatibilidad de WooCommerce"
+
+#: admin-dashboard/src/components/json/freepro-content.js:179
+msgid "Hide Theme Credit Link"
+msgstr "Ocultar enlace de crédito del tema"
+
+#: admin-dashboard/src/components/json/freepro-content.js:184
+msgid "Responsive Layout"
+msgstr "Diseño receptivo"
+
+#: admin-dashboard/src/components/json/freepro-content.js:189
+msgid "Translations Ready"
+msgstr "Traducciones Listo"
+
+#: admin-dashboard/src/components/json/freepro-content.js:194
+msgid "SEO Optimized"
+msgstr "SEO optimizado"
+
+#: admin-dashboard/src/components/json/freepro-content.js:199
+msgid "Normal Support"
+msgstr "Soporte normal"
+
+#: admin-dashboard/src/components/json/freepro-content.js:204
+msgid "Advance Support"
+msgstr "Advancilamiento"
+
+#: admin-dashboard/src/components/json/home-content.js:7
+msgid ""
+"Set the theme header type, set the colors, spacing, alignment and more."
+msgstr ""
+"Establezca el tipo de encabezado del tema, establezca los colores, el "
+"espacio, la alineación y más."
+
+#: admin-dashboard/src/components/json/home-content.js:14
+msgid ""
+"You can easily place your promotional banners within your header section."
+msgstr ""
+"Puede colocar fácilmente sus pancartas promocionales dentro de su sección de"
+" encabezado."
+
+#: admin-dashboard/src/components/json/home-content.js:20
+msgid "Color Options"
+msgstr "Opciones de color"
+
+#: admin-dashboard/src/components/json/home-content.js:21
+msgid "Change the color setting provide with the Theme."
+msgstr "Cambie la configuración de color que proporcione con el tema."
+
+#: admin-dashboard/src/components/json/home-content.js:27
+msgid "Main Banner Options"
+msgstr "Opciones del banner principal"
+
+#: admin-dashboard/src/components/json/home-content.js:28
+msgid "Selecting different categories can be done for different section."
+msgstr ""
+"La selección de diferentes categorías se puede hacer para una sección "
+"diferente."
+
+#: admin-dashboard/src/components/json/home-content.js:34
+msgid "Frontpage Option"
+msgstr "Opción de página frontal"
+
+#: admin-dashboard/src/components/json/home-content.js:35
+msgid ""
+"Frontpage layout with Popular Tag, Breaking News, Main Banner, Feature News "
+"can be set."
+msgstr ""
+"Diseño de la página principal con etiqueta popular, noticias de última hora,"
+" pancarta principal, noticias de funciones se pueden establecer."
+
+#: admin-dashboard/src/components/json/home-content.js:41
+msgid "Static Front Page"
+msgstr "Portada estática"
+
+#: admin-dashboard/src/components/json/home-content.js:42
+msgid ""
+"Set the Homepage as a static page to create own homepage using widgets."
+msgstr ""
+"Establezca la página de inicio como una página estática para crear su propia"
+" página de inicio usando widgets."
+
+#: admin-dashboard/src/components/json/home-content.js:48
+msgid "Widgets Area"
+msgstr "Área de widgets"
+
+#: admin-dashboard/src/components/json/home-content.js:49
+msgid "Widgets can be added on all the section provide by the Theme."
+msgstr ""
+"Los widgets se pueden agregar en toda la sección proporcionada por el tema."
+
+#: admin-dashboard/src/components/json/home-content.js:55
+msgid "Archive Options"
+msgstr "Opciones de archivo"
+
+#: admin-dashboard/src/components/json/home-content.js:56
+msgid "Customize the blog layout desgin."
+msgstr "Personaliza el diseño del blog Desgin."
+
+#: admin-dashboard/src/components/json/home-content.js:62
+msgid "Theme Option"
+msgstr "Opción de tema"
+
+#: admin-dashboard/src/components/json/home-content.js:63
+msgid ""
+"Set the Global Layout, Breadcrumb, Sidebar, Single Post, You may have missed"
+" and more."
+msgstr ""
+"Establezca el diseño global, la crumba, la barra lateral, la publicación "
+"única, es posible que se haya perdido y más."
+
+#: admin-dashboard/src/components/json/home-content.js:69
+msgid "Footer Options"
+msgstr "Opciones de pie de página"
+
+#: admin-dashboard/src/components/json/home-content.js:70
+msgid "Set the footer type, number of columns, spacing and colors."
+msgstr ""
+"Establezca el tipo de pie de página, número de columnas, espaciado y "
+"colores."
+
+#: admin-dashboard/src/components/json/sidebar-content.js:5
+msgid "View"
+msgstr "Vista"
+
+#: admin-dashboard/src/components/json/sidebar-content.js:10
+#: admin-dashboard/src/components/json/sidebar-content.js:11
+msgid "Support"
+msgstr "Soporte técnico"
+
+#: admin-dashboard/src/components/json/sidebar-content.js:13
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to"
+" ask your query is the dedicated Support forum for the theme.."
+msgstr ""
+"¿Tienes una pregunta de soporte de tema o un error encontrado o recibió "
+"algunos comentarios? El mejor lugar para preguntarle a su consulta es el "
+"foro de soporte dedicado para el tema."
+
+#: admin-dashboard/src/components/json/sidebar-content.js:16
+msgid "Video  Tutorials"
+msgstr "Tutoriales de video"
+
+#: admin-dashboard/src/components/json/sidebar-content.js:17
+msgid "Video"
+msgstr "Vídeo"
+
+#: admin-dashboard/src/components/json/sidebar-content.js:19
+msgid "Watch out the videos for an easy learning on Customizing the Theme ."
+msgstr ""
+"Cuidado con los videos para obtener un aprendizaje fácil para personalizar "
+"el tema."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:5
+msgid ""
+"Use AF Companion to import live demo content, widgets, and settings swiftly."
+" This plugin gives fundamental layout to build your website and accelerate "
+"the development process."
+msgstr ""
+"Use AF Companion para importar contenido de demostración en vivo, widgets y "
+"configuraciones rápidamente. Este complemento ofrece un diseño fundamental "
+"para construir su sitio web y acelerar el proceso de desarrollo."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:12
+msgid ""
+"You may design complicated layouts for your website in just a few minutes "
+"with our adaptable and inventive blocks."
+msgstr ""
+"Puede diseñar diseños complicados para su sitio web en solo unos minutos con"
+" nuestros bloques adaptables e inventivos."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:19
+#: admin-dashboard/src/components/json/useful-plugins-content.js:78
+#: admin-dashboard/src/components/json/useful-plugins-content.js:82
+msgid ""
+"Get ready-to-use Starter Sites instantly and build modern websites in "
+"minutes."
+msgstr ""
+"Prepárese para usar sitios de inicio al instante y cree sitios web modernos "
+"en minutos."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:26
+msgid ""
+"DESIGN PERFECT BLOG, NEWS, OR MAGAZINE WEBSITES Elespare is a simple yet "
+"effective WordPress plugin that lets you use Elementor to create fantastic "
+"Header, Footer and Contents of websites with highly customization options "
+"for FREE. "
+msgstr ""
+"Design Perfect Blog, noticias o sitios web de revistas Elespare es un "
+"complemento de WordPress simple pero efectivo que le permite utilizar "
+"Elementor para crear encabezado, pie de página y contenido de sitios web con"
+" altas opciones de personalización de forma gratuita."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:34
+msgid ""
+"A beautiful collection of latest posts Gutenberg blocks for WordPress, which"
+" helps you to design posts grid, posts list, full posts layout, advanced "
+"express posts design and tile layouts of your posts."
+msgstr ""
+"Una hermosa colección de las últimas publicaciones Gutenberg Blocks para "
+"WordPress, que le ayuda a diseñar publicaciones de cuadrícula, lista de "
+"publicaciones, diseño completo de publicaciones, diseño de publicaciones "
+"expresas avanzadas y diseños de mosaicos de sus publicaciones."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:41
+msgid ""
+"We build a beautiful series of page section Gutenberg blocks for WordPress "
+"content to help you quickly create the website you've always desired."
+msgstr ""
+"Construimos una hermosa serie de bloques de la sección de páginas Gutenberg "
+"para contenido de WordPress para ayudarlo a crear rápidamente el sitio web "
+"que siempre ha deseado."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:48
+msgid ""
+"It has 3 different widgets for post's author, selective author by id and "
+"custom author. It also provides shortcodes for the author profile."
+msgstr ""
+"Tiene 3 widgets diferentes para el autor de Post, autor selectivo por ID y "
+"autor personalizado。También proporciona códigos cortos para el perfil del "
+"autor."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:55
+msgid ""
+"This free plugin offers a free live chat solution for your website visitors "
+"to contact you via live chat or a live call - all for free! Engage with your"
+" customers and increase sales."
+msgstr ""
+"Este complemento gratuito ofrece una solución gratuita de chat en vivo para "
+"que los visitantes de su sitio web se comuniquen con usted a través de un "
+"chat en vivo o una llamada en vivo, ¡todo gratis! Interactúe con sus "
+"clientes y aumente las ventas."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:62
+msgid ""
+"A free WordPress Plugin which facilitates with the functionality to submit "
+"Posts from frontend with or without logging in with various configurable "
+"options."
+msgstr ""
+"Un complemento gratuito de WordPress que facilita con la funcionalidad para "
+"enviar publicaciones de Frontend con o sin iniciar sesión con varias "
+"opciones configurables."
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:69
+msgid ""
+"This plugin helps you grow your Mailchimp lists and write better newsletters"
+" through various methods. You can create good looking opt-in forms or "
+"integrate with any existing form on your site, like your comment, contact or"
+" checkout form."
+msgstr ""
+"Este complemento lo ayuda a hacer crecer sus listas de MorraChimp y escribir"
+" mejores boletines a través de varios métodos。Puede crear formularios de "
+"opción de buen aspecto o integrarse con cualquier formulario existente en su"
+" sitio, como su comentario, contacto o formulario de pago."
+
+#: admin-dashboard/src/components/main.js:53
+msgid "Get started"
+msgstr "Empezar"
+
+#: admin-dashboard/src/components/main.js:61
+msgid "Useful Plugins"
+msgstr "Complementos útiles"
+
+#: admin-dashboard/src/components/main.js:68
+msgid "Free vs Pro"
+msgstr "Gratis frente a Pro"
+
+#: admin-dashboard/src/components/main.js:75
+msgid "Change Log"
+msgstr "Registro de cambio"
+
+#: admin-dashboard/src/components/nav-content/free-pro.js:9
+msgid "Features"
+msgstr "Características"
+
+#: admin-dashboard/src/components/nav-content/free-pro.js:10
+msgid "Free"
+msgstr "Gratis"
+
+#: admin-dashboard/src/components/nav-content/free-pro.js:11
+msgid "Pro"
+msgstr "Pro"
+
+#: admin-dashboard/src/components/nav-content/home.js:26
+msgid "Go to option"
+msgstr "Ir a la opción"
+
+#: admin-dashboard/src/components/templatespare-demo.js:17
+msgid "Update Templatespare"
+msgstr "Actualizar TemplatesSpare"
+
+#: admin-dashboard/src/components/templatespare-demo.js:29
+msgid "Easy Website Building with Zero Code"
+msgstr "Edificio fácil de sitios web con código cero"
