@@ -39,16 +39,17 @@
     <div class="aft-post-thumbnail-wrapper">    
     <?php covernews_post_thumbnail(); ?>
     <?php 
-    if(has_post_thumbnail()):
-        if($aft_image_caption = get_post( get_post_thumbnail_id() )->post_excerpt): ?>
+     if ( has_post_thumbnail() ) :
+        $thumbnail_id = get_post_thumbnail_id();
+        $thumbnail_post = get_post( $thumbnail_id );
+        if ( $thumbnail_post && trim( $thumbnail_post->post_excerpt ) !== '' ) :
+            ?>
             <span class="aft-image-caption">
-                <p>
-                    <?php echo $aft_image_caption; ?>
-                </p>
+                <p><?php echo esc_html( $thumbnail_post->post_excerpt ); ?></p>
             </span>
-    <?php 
-            endif; 
-        endif; 
+            <?php
+        endif;
+    endif;
     ?>
     </div>
     <?php endif; ?>

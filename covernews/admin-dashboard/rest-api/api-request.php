@@ -57,10 +57,10 @@ function covernews_get_all_useful_plugins(\WP_REST_Request $request)
     if (!is_wp_error($api)) { // confirm error free
 
       $main_plugin_file = covernews_get_plugin_file($plugin['slug']); // Get main plugin file
-      if ($plugin['slug'] == 'templatespare') {
+      if ($plugin['slug'] == 'templatespare' && !empty($plugin['title'])) {
         $title = $plugin['title'];
       } else {
-        $title = $api->name;
+        $title = $api->name ?? '';
       }
 
       if (covernews_check_file_extension($main_plugin_file)) { // check file extension
@@ -105,18 +105,12 @@ function covernews_render_plugin_lists_template($plugin, $api, $button_text, $bu
 
           <?php  } else if ($api->slug == 'templatespare' && $button_text == 'Install Now') { ?>
 
-            <a class="<?php echo $button_classes; ?>"
-              data-slug="<?php echo $api->slug; ?>"
-              data-name="<?php echo $api->name; ?>"
-              href="<?php echo get_admin_url(); ?>update.php?action=install-plugin&amp;plugin=<?php echo $api->slug; ?>&amp;_wpnonce=<?php echo wp_create_nonce('install-plugin_' . $api->slug) ?>">
+            <a class="<?php echo $button_classes; ?>" data-slug="<?php echo $api->slug; ?>" data-name="<?php echo $api->name; ?>" href="<?php echo get_admin_url(); ?>update.php?action=install-plugin&amp;plugin=<?php echo $api->slug; ?>&amp;_wpnonce=<?php echo wp_create_nonce('install-plugin_' . $api->slug) ?>">
               <?php echo $button_text; ?>
             </a>
           <?php } else { ?>
 
-            <a class="<?php echo $button_classes; ?>"
-              data-slug="<?php echo $api->slug; ?>"
-              data-name="<?php echo $api->name; ?>"
-              href="<?php echo get_admin_url(); ?>update.php?action=activate-plugin&amp;plugin=<?php echo $api->slug; ?>&amp;_wpnonce=<?php echo wp_create_nonce('install-plugin_' . $api->slug) ?>">
+            <a class="<?php echo $button_classes; ?>" data-slug="<?php echo $api->slug; ?>" data-name="<?php echo $api->name; ?>" href="<?php echo get_admin_url(); ?>update.php?action=activate-plugin&amp;plugin=<?php echo $api->slug; ?>&amp;_wpnonce=<?php echo wp_create_nonce('install-plugin_' . $api->slug) ?>">
               <?php echo $button_text; ?>
             </a>
           <?php } ?>
@@ -157,6 +151,10 @@ function covernews_get_plugin_file($plugin_slug)
 
 function covernews_check_file_extension($filename)
 {
+  if (empty($filename) || !is_string($filename)) {
+    return false;
+  }
+
   if (substr(strrchr($filename, '.'), 1) === 'php') {
     // has .php exension
     return true;

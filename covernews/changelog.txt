@@ -1,3 +1,12 @@
+### 5.5.3 - Aug 11 2025
+* Update - PHP 8+ compatibility improvement
+* Update - Google SEO compatibility improvement
+* Update - Breadcrumbs notice improvement
+* Update - Admin notice improvement
+* Update - Post excerpt improvement
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
 ### 5.5.1 - Jul 25 2025
 * New - German language file
 * New - Arabic language file
