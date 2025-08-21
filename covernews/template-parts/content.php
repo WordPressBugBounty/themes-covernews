@@ -34,12 +34,20 @@
         endif; ?>
        
         <?php
-    the_post_navigation(array(
-        'prev_text' => __('<span class="em-post-navigation">Previous</span> %title', 'covernews'),
-        'next_text' => __('<span class="em-post-navigation">Next</span> %title', 'covernews'),
-        // 'in_same_term' => true,
-        'screen_reader_text' => __('Post Navigation', 'covernews'),
-    ));
+     the_post_navigation( array(
+        'prev_text' => sprintf(
+            /* translators: %s: Title of the previous post. */
+            esc_html__( 'Previous: %s', 'covernews' ),
+            '<span class="em-post-navigation nav-title">%title</span>'
+        ),
+        'next_text' => sprintf(
+            /* translators: %s: Title of the next post. */
+            esc_html__( 'Next: %s', 'covernews' ),
+            '<span class="em-post-navigation nav-title">%title</span>'
+        ),
+        /* translators: Hidden heading for the post navigation section. */
+        'screen_reader_text' => esc_html__( 'Post navigation', 'covernews' ),
+    ) );
 ?>
         <?php wp_link_pages(array(
         'before' => '<div class="page-links">' . esc_html__('Pages:', 'covernews'),
