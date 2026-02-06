@@ -238,14 +238,9 @@ body.rtl .banner-trending-posts-wrapper figcaption{
 	padding-right: 15px;
 }
 
-body.rtl .sp-horizontal .sp-previous-arrow {
-    right: inherit;
-    left: 5px;
-}
-body.rtl .sp-horizontal .sp-next-arrow,
-body.rtl .sp-horizontal.sp-rtl .sp-previous-arrow {
-    left: 32px;
-    right: inherit;
+body.rtl .sp-previous-arrow:before, 
+body.rtl .sp-next-arrow:before{
+	color: transparent;
 }
 
 body.rtl #scroll-up {
@@ -263,6 +258,7 @@ body.rtl .exclusive-posts .marquee a{
 	direction: rtl;
 	display: inline-block;
 }
+body.rtl .alert-spinner,
 body.rtl .exclusive-posts .marquee a img{
 	margin-right: 0;
 	margin-left: 5px;

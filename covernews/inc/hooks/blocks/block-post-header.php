@@ -39,7 +39,7 @@
     <div class="aft-post-thumbnail-wrapper">    
     <?php covernews_post_thumbnail(); ?>
     <?php 
-     if ( has_post_thumbnail() ) :
+    if ( has_post_thumbnail() ) :
         $thumbnail_id = get_post_thumbnail_id();
         $thumbnail_post = get_post( $thumbnail_id );
         if ( $thumbnail_post && trim( $thumbnail_post->post_excerpt ) !== '' ) :

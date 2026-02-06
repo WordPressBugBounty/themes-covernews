@@ -73,8 +73,15 @@ if (!function_exists('covernews_header_style')) :
             .site-header .site-branding .site-title a:visited,
             .site-header .site-branding .site-title a:hover,
             .site-description {
-                color: #<?php echo esc_attr( $header_text_color ); ?>;
+                color: #<?php echo esc_attr( $header_text_color ); ?>
             }
+
+            body.aft-dark-mode .site-title a,
+      body.aft-dark-mode .site-header .site-branding .site-title a:visited,
+      body.aft-dark-mode .site-header .site-branding .site-title a:hover,
+      body.aft-dark-mode .site-description {
+        color: #ffffff;
+      }
 
             .site-branding .site-title {
                 font-size: <?php echo esc_attr( $site_title_font_size ); ?>px;

@@ -15,7 +15,8 @@ if (!function_exists('covernews_get_posts')) :
       'post_status' => 'publish',
       'orderby' => 'date',
       'order' => 'DESC',
-      'ignore_sticky_posts' => 1
+      'ignore_sticky_posts' => 1,
+      'no_found_rows'       => true,
     );
 
 

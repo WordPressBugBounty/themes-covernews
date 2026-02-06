@@ -56,15 +56,16 @@ if (!class_exists('AF_themes_info')) {
       $this->current_user_name = $current_user->user_login;
     }
 
-    function covernews_make_upgrade_link_external() {
-      ?>
+    function covernews_make_upgrade_link_external()
+    {
+?>
       <script type="text/javascript">
-        jQuery(document).ready( function($) {   
-            $('#aft-upgrade-menu-item').parent().attr('target','_blank');               
+        jQuery(document).ready(function($) {
+          $('#aft-upgrade-menu-item').parent().attr('target', '_blank');
         });
-    </script>
-      <?php
-  }
+      </script>
+    <?php
+    }
     function covernews_body_classes($classes)
     {
       $classes = explode(' ', $classes);
@@ -126,6 +127,26 @@ if (!class_exists('AF_themes_info')) {
 
       );
 
+      add_submenu_page(
+        'covernews', // Parent slug.
+        __('Header Builder', 'covernews'), // Page title.
+        __('Header Builder', 'covernews'), // Menu title.
+        'manage_options', // Capability.
+        'customize.php?autofocus[section]=header_builder'
+        //[$this,'morenews_customize_link'] // Callback function.
+
+      );
+
+      add_submenu_page(
+        'covernews', // Parent slug.
+        __('Footer Builder', 'covernews'), // Page title.
+        __('Footer Builder', 'covernews'), // Menu title.
+        'manage_options', // Capability.
+        'customize.php?autofocus[section]=footer_builder'
+        //[$this,'morenews_customize_link'] // Callback function.
+
+      );
+
 
       // Our getting started page.
       add_submenu_page(
@@ -157,7 +178,7 @@ if (!class_exists('AF_themes_info')) {
         array($this, 'covernews_render_starter_templates'), // Callback function.
         // $starter_sites_order
       );
-     
+
 
 
       // Our getting started page.

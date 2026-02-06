@@ -45,7 +45,11 @@ if (!function_exists('covernews_banner_exclusive_posts')):
                             while ($all_posts->have_posts()) : $all_posts->the_post();
                                 if (has_post_thumbnail()) {
                                     $thumb = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()));
-                                    $url = $thumb['0'];
+                                    if (isset($thumb['0'])) {
+                                        $url = $thumb['0'];
+                                      } else {
+                                        $url = '';
+                                      }
                                 } else {
                                     $url = '';
                                 }

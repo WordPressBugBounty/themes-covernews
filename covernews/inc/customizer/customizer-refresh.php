@@ -1,5 +1,5 @@
 <?php
-// Frontpage
+// Front-page
 
 $wp_customize->selective_refresh->add_partial('show_date_section', array(
     'selector' => 'span.topbar-date',     

@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - CoverNews package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-20 21:42:51+0000\n"
+"PO-Revision-Date: 2025-09-07 22:08:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: es_CL\n"
 "Project-Id-Version: Themes - CoverNews\n"
 
@@ -22,6 +22,327 @@ msgstr "CoverNews es un tema gratuito, limpio y elegante para WordPress que es p
 #, gp-priority: high
 msgid "CoverNews"
 msgstr "CoverNews"
+
+#: inc/template-functions.php:536
+msgid "Front-page Banner"
+msgstr ""
+
+#: inc/template-functions.php:521
+msgid "Ads Settings"
+msgstr ""
+
+#: inc/template-functions.php:503 inc/template-functions.php:511
+msgid "covernews Options"
+msgstr ""
+
+#: inc/customizer/builder/options.php:587
+msgid "No menu assigned"
+msgstr ""
+
+#: inc/customizer/builder/options.php:488
+#: inc/customizer/builder/options.php:503
+#: inc/customizer/builder/options.php:525
+#: inc/customizer/builder/options.php:546
+#: inc/customizer/builder/options.php:567
+msgid "Beta"
+msgstr ""
+
+#: inc/customizer/builder/options.php:425
+#: inc/customizer/builder/options.php:443
+#: inc/customizer/builder/options.php:464
+msgid "Add widget to display . %s"
+msgstr ""
+
+#: inc/customizer/builder/options.php:379
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/builder/options.php:372
+msgid "Pro"
+msgstr ""
+
+#: inc/customizer/builder/options.php:341
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/builder/options.php:317
+#: inc/customizer/builder/options.php:453
+msgid "Widget 3"
+msgstr ""
+
+#: inc/customizer/builder/options.php:301
+#: inc/customizer/builder/options.php:432
+msgid "Widget 2"
+msgstr ""
+
+#: inc/customizer/builder/options.php:290
+#: inc/customizer/builder/options.php:306
+#: inc/customizer/builder/options.php:322
+#: inc/customizer/builder/options.php:419
+#: inc/customizer/builder/options.php:437
+#: inc/customizer/builder/options.php:458
+msgid "Select Widget"
+msgstr ""
+
+#: inc/customizer/builder/options.php:285
+#: inc/customizer/builder/options.php:414
+msgid "Widget 1"
+msgstr ""
+
+#: inc/customizer/builder/options.php:260
+msgid "live"
+msgstr ""
+
+#: inc/customizer/builder/options.php:257
+msgid "Custom link"
+msgstr ""
+
+#: inc/customizer/builder/options.php:252
+msgid "Custom Link"
+msgstr ""
+
+#: inc/customizer/builder/options.php:243
+msgid "Searc Form"
+msgstr ""
+
+#: inc/customizer/builder/options.php:238
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/builder/options.php:227
+#: inc/customizer/builder/options.php:367
+msgid "HTML Content"
+msgstr ""
+
+#: inc/customizer/builder/options.php:222
+#: inc/customizer/builder/options.php:362
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/customizer/builder/options.php:202
+#: inc/customizer/builder/options.php:232
+#: inc/customizer/builder/options.php:296
+#: inc/customizer/builder/options.php:312
+#: inc/customizer/builder/options.php:328
+msgid "pro"
+msgstr ""
+
+#: inc/customizer/builder/options.php:186
+#: inc/customizer/builder/options.php:551
+msgid "Top Navigation"
+msgstr ""
+
+#: inc/customizer/builder/options.php:180
+msgid "Manage Date"
+msgstr ""
+
+#. translators: %s is a link to manage menus
+#: inc/customizer/builder/options.php:179
+msgid "You can change date from general settings (Settings > General > Date Format). %s"
+msgstr ""
+
+#: inc/customizer/builder/options.php:172
+msgid "Choose date format"
+msgstr ""
+
+#: inc/customizer/builder/options.php:167
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/builder/options.php:161
+#: inc/customizer/builder/options.php:199
+#: inc/customizer/builder/options.php:279
+#: inc/customizer/builder/options.php:354
+#: inc/customizer/builder/options.php:405
+#: inc/customizer/builder/options.php:543
+#: inc/customizer/builder/options.php:564
+msgid "Manage menu"
+msgstr ""
+
+#. translators: %s is a link to manage menus
+#. translators: %s is a link to manage menu
+#. translators: %s is a link to the menu panel
+#: inc/customizer/builder/options.php:160
+#: inc/customizer/builder/options.php:198
+#: inc/customizer/builder/options.php:278
+#: inc/customizer/builder/options.php:353
+#: inc/customizer/builder/options.php:404
+#: inc/customizer/builder/options.php:542
+#: inc/customizer/builder/options.php:563
+msgid "You can change Menu from menu panel. %s"
+msgstr ""
+
+#: inc/customizer/builder/options.php:153
+#: inc/customizer/builder/options.php:191
+#: inc/customizer/builder/options.php:346
+#: inc/customizer/builder/options.php:535
+#: inc/customizer/builder/options.php:556
+#: inc/customizer/builder/options.php:582
+msgid "Select Menu"
+msgstr ""
+
+#: inc/customizer/builder/options.php:148
+#: inc/customizer/builder/options.php:530
+msgid "Primary menu"
+msgstr ""
+
+#: inc/customizer/builder/options.php:140
+#: inc/customizer/builder/options.php:426
+#: inc/customizer/builder/options.php:444
+#: inc/customizer/builder/options.php:465
+#: inc/customizer/builder/options.php:522
+msgid "Manage widgets"
+msgstr ""
+
+#: inc/customizer/builder/options.php:139
+#: inc/customizer/builder/options.php:521
+msgid "This widget area is used in the mobile off-canvas panel. %s"
+msgstr ""
+
+#: inc/customizer/builder/options.php:134
+#: inc/customizer/builder/options.php:516
+msgid "Off Canvas Widget Area"
+msgstr ""
+
+#: inc/customizer/builder/options.php:129
+#: inc/customizer/builder/options.php:511
+msgid "Off Canvas"
+msgstr ""
+
+#: inc/customizer/builder/options.php:109
+#: inc/customizer/builder/options.php:114
+#: inc/customizer/builder/options.php:493
+#: inc/customizer/builder/options.php:498
+msgid "Promotion"
+msgstr ""
+
+#. translators: %s is a link to Site Identity panel
+#: inc/customizer/builder/options.php:100
+#: inc/customizer/builder/options.php:484
+msgid "You can change Site Identity from %s."
+msgstr ""
+
+#: inc/customizer/builder/options.php:95 inc/customizer/builder/options.php:101
+#: inc/customizer/builder/options.php:479
+#: inc/customizer/builder/options.php:485
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/builder/options.php:89 inc/customizer/builder/options.php:473
+msgid "Site & Logo"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:282
+msgid "Element Settings"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:281
+msgid "Desktop"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:280
+msgid "Configure Element"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:279
+msgid "Remove Element"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:278
+msgid "Add Element"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:115
+msgid "Enable %s Builder"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:98
+msgid "Create dynamic footer effortlessly with drag-and-drop builder."
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:96
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:95
+msgid "Create dynamic header effortlessly with drag-and-drop builder."
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder.php:82
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder-control.php:59
+msgid "Close choose element modal"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder-control.php:57
+msgid "Choose an Element"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder-control.php:37
+msgid "Device view controls"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder-control.php:33
+msgid "Hide Builder"
+msgstr ""
+
+#: inc/customizer/builder/class-header-footer-builder-control.php:31
+msgid "Hide builder panel"
+msgstr ""
+
+#: inc/customizer/builder/class-block-toggle.php:12
+msgid "Click the setting <span class=\"dashicons dashicons-admin-generic\"></span> on each element to customize its settings."
+msgstr ""
+
+#: inc/customizer/builder/builder-structure.php:519
+msgid "Light/Dark Button"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:142
+#: admin-dashboard/admin_dashboard.php:143
+#: inc/customizer/builder/class-header-footer-builder.php:45
+#: inc/template-functions.php:541
+msgid "Footer Builder"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:132
+#: admin-dashboard/admin_dashboard.php:133
+#: inc/customizer/builder/class-header-footer-builder.php:36
+#: inc/template-functions.php:531
+msgid "Header Builder"
+msgstr ""
+
+#. translators: %s: Title of the next post.
+#: template-parts/content.php:52
+msgid "Next: %s"
+msgstr ""
+
+#. translators: %s: Title of the previous post.
+#: template-parts/content.php:47
+msgid "Previous: %s"
+msgstr ""
+
+#: inc/customizer/theme-options.php:244
+msgid "System Fonts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:243
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:239
+msgid "Global Fonts Family"
+msgstr ""
+
+#: inc/customizer/theme-options.php:264
+msgid "GDPR friendly & better performance"
+msgstr ""
+
+#: inc/customizer/theme-options.php:263
+msgid "Disable Emoji Script"
+msgstr ""
 
 #: admin-dashboard/rest-api/class-admin-notice.php:230
 msgid "Whether you're just starting or customizing your site"
@@ -65,8 +386,8 @@ msgstr "Sección de selección del editor"
 msgid "Main Story Section"
 msgstr "Sección de historia principal"
 
-#: inc/widgets/widgets-common-functions.php:113
-#: inc/widgets/widgets-common-functions.php:115
+#: inc/widgets/widgets-common-functions.php:114
+#: inc/widgets/widgets-common-functions.php:116
 msgid "Read more about %s"
 msgstr "Leer más sobre %s"
 
@@ -78,77 +399,78 @@ msgstr "Ancho completo del maquetador de páginas"
 msgid "Blank Canvas"
 msgstr "Lienzo en blanco"
 
-#: template-parts/content.php:41
-msgid "Post Navigation"
+#. translators: Hidden heading for the post navigation section.
+#: template-parts/content.php:56
+msgid "Post navigation"
 msgstr "Navegación de entradas"
 
-#: admin-dashboard/admin_dashboard.php:545
+#: admin-dashboard/admin_dashboard.php:566
 #: admin-dashboard/rest-api/class-admin-notice.php:149
 msgid "The \"Get Started\" action will install/activate the Templatespare and Blockspare plugins for Starter Sites and Templates."
 msgstr "La acción “Primeros pasos” instalará/activará los plugins Templatespare y Blockspare para sitios de inicio y plantillas."
 
-#: admin-dashboard/admin_dashboard.php:544
+#: admin-dashboard/admin_dashboard.php:565
 #: admin-dashboard/rest-api/class-admin-notice.php:148
 msgid "Get Started"
 msgstr "Primeros pasos"
 
-#: admin-dashboard/admin_dashboard.php:366
+#: admin-dashboard/admin_dashboard.php:387
 msgid "One-click Import, Header/Footer Builder, Multilingual Support! Powered by Elespare."
 msgstr "¡Importación con un clic, maquetador de cabeceras/pies de página, soporte multilingüe! Funciona gracias a Elespare."
 
-#: admin-dashboard/admin_dashboard.php:365
+#: admin-dashboard/admin_dashboard.php:386
 msgid "Elespare plugin version should be more than %s."
 msgstr "La versión del plugin Elespare debe ser superior a %s."
 
-#: admin-dashboard/admin_dashboard.php:294
+#: admin-dashboard/admin_dashboard.php:315
 msgid "One-click Demo Import, Block Editor Ready, No Code Required! Built with Blockspare."
 msgstr "Importación de demos con un clic, listo para el editor de bloques, ¡no necesitas código! Construido con Blockspare."
 
-#: admin-dashboard/admin_dashboard.php:289
+#: admin-dashboard/admin_dashboard.php:310
 msgid "Blockspare plugin version should be more than %s."
 msgstr "La versión del plugin Blockspare debe ser superior a %s."
 
-#: admin-dashboard/admin_dashboard.php:220
+#: admin-dashboard/admin_dashboard.php:241
 msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
 msgstr "¡Importa un sitio inicial, personalízalo y publícalo en 3 sencillos pasos!"
 
-#: admin-dashboard/admin_dashboard.php:217
+#: admin-dashboard/admin_dashboard.php:238
 msgid "The Templatespare plugin should be updated to the latest version"
 msgstr "El plugin Templatespare debe actualizarse a la última versión"
 
-#: admin-dashboard/admin_dashboard.php:109
 #: admin-dashboard/admin_dashboard.php:110
+#: admin-dashboard/admin_dashboard.php:111
 msgid "Dashboard"
 msgstr ""
 
-#: admin-dashboard/admin_dashboard.php:143
-#: admin-dashboard/admin_dashboard.php:144
+#: admin-dashboard/admin_dashboard.php:164
+#: admin-dashboard/admin_dashboard.php:165
 msgid "Elementor Kits"
 msgstr "Elementor Kits"
 
-#: admin-dashboard/admin_dashboard.php:153
-#: admin-dashboard/admin_dashboard.php:154
+#: admin-dashboard/admin_dashboard.php:174
+#: admin-dashboard/admin_dashboard.php:175
 msgid "Block Patterns"
 msgstr "Patrones de bloques"
 
-#: admin-dashboard/admin_dashboard.php:133
-#: admin-dashboard/admin_dashboard.php:134
+#: admin-dashboard/admin_dashboard.php:154
+#: admin-dashboard/admin_dashboard.php:155 inc/template-functions.php:526
 msgid "Starter Sites"
 msgstr "Sitios de inicio"
 
-#: inc/customizer/theme-options.php:225
+#: inc/customizer/theme-options.php:291
 msgid "Full Width"
 msgstr "Ancho completo"
 
-#: inc/customizer/theme-options.php:224
+#: inc/customizer/theme-options.php:290
 msgid "Wide"
 msgstr "Ancho"
 
-#: inc/customizer/theme-options.php:219
+#: inc/customizer/theme-options.php:285
 msgid "Select Conatiner Width"
 msgstr "Selecciona el ancho del contenedor"
 
-#: inc/customizer/theme-options.php:218
+#: inc/customizer/theme-options.php:284
 msgid "Conatiner Width"
 msgstr "Ancho del contenedor"
 
@@ -262,15 +584,15 @@ msgstr "Banner principal"
 msgid "Ticker News"
 msgstr "Teletipo de noticias"
 
-#: inc/customizer/theme-options.php:420
+#: inc/customizer/theme-options.php:509
 msgid "Show Tags Below Content"
 msgstr "Mostrar etiquetas bajo el contenido"
 
-#: inc/customizer/theme-options.php:588
+#: inc/customizer/theme-options.php:696
 msgid "Select Excerpt display mode"
 msgstr "Selecciona cómo mostrar el extracto"
 
-#: inc/customizer/theme-options.php:587
+#: inc/customizer/theme-options.php:695
 msgid "Excerpt Mode"
 msgstr "Modo de extracto"
 
@@ -278,11 +600,11 @@ msgstr "Modo de extracto"
 msgid "Templatespare"
 msgstr "Templatespare"
 
-#: inc/customizer/theme-options.php:342
+#: inc/customizer/theme-options.php:422
 msgid "Enable"
 msgstr "Activar"
 
-#: inc/customizer/theme-options.php:338
+#: inc/customizer/theme-options.php:418
 msgid "Show Comment Count"
 msgstr "Mostrar el contador de comentarios"
 
@@ -329,7 +651,7 @@ msgstr "Escritorio del tema"
 msgid "More Details"
 msgstr "Más detalles"
 
-#: admin-dashboard/admin_dashboard.php:539
+#: admin-dashboard/admin_dashboard.php:560
 #: admin-dashboard/rest-api/api-request.php:104
 #: admin-dashboard/rest-api/class-admin-notice.php:144
 msgid "Get Starter Sites"
@@ -339,17 +661,17 @@ msgstr "Obtén sitios de inicio"
 msgid "By"
 msgstr "Por"
 
-#: admin-dashboard/admin_dashboard.php:443
+#: admin-dashboard/admin_dashboard.php:464
 #: admin-dashboard/rest-api/api-request.php:70
 msgid "Activated"
 msgstr "Activado"
 
-#: admin-dashboard/admin_dashboard.php:441
+#: admin-dashboard/admin_dashboard.php:462
 #: admin-dashboard/rest-api/api-request.php:29
 msgid "Install Now"
 msgstr "Instalar ahora"
 
-#: admin-dashboard/admin_dashboard.php:440
+#: admin-dashboard/admin_dashboard.php:461
 msgid "Are you sure you want to install this plugin?"
 msgstr "¿Estás seguro de querer instalar este plugin?"
 
@@ -365,91 +687,92 @@ msgstr "Haciendo trampas, ¿eh?"
 msgid "Action failed. Please refresh the page and retry."
 msgstr "Acción fallida. Por favor, refresca la página e inténtalo de nuevo."
 
-#: inc/customizer/theme-options.php:269 inc/customizer/theme-options.php:343
+#: inc/customizer/theme-options.php:341 inc/customizer/theme-options.php:423
 msgid "Disable"
 msgstr "Desactivar"
 
-#: inc/customizer/theme-options.php:268
+#: inc/customizer/theme-options.php:340
 msgid "Enable "
 msgstr "Activar "
 
-#: inc/customizer/theme-options.php:264
+#: inc/customizer/theme-options.php:336
 msgid "Image Lazy Loading"
 msgstr "Carga diferida de imágenes"
 
-#: inc/customizer/customizer.php:179
+#: inc/customizer/customizer.php:194
 msgid "Background Color will not be applicable for this mode."
 msgstr "El color de fondo no será aplicable para este modo."
 
-#: inc/customizer/customizer.php:160
+#: inc/customizer/customizer.php:173
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/customizer/customizer.php:155
+#: inc/customizer/customizer.php:168
 msgid "Select global site mode"
 msgstr "Selecciona el modo global del sitio"
 
-#: inc/customizer/customizer.php:154
+#: inc/customizer/builder/options.php:208
+#: inc/customizer/builder/options.php:213 inc/customizer/customizer.php:167
 msgid "Site Mode"
 msgstr "Modo del sitio"
 
-#: inc/customizer/theme-options.php:481
+#: inc/customizer/theme-options.php:576
 msgid "Bottom"
 msgstr "Inferior"
 
-#: inc/customizer/theme-options.php:480
+#: inc/customizer/theme-options.php:575
 msgid "Top"
 msgstr "Superior"
 
-#: inc/customizer/theme-options.php:476
+#: inc/customizer/theme-options.php:571
 msgid "Sidebar Sticky Position"
 msgstr "Posición de la barra lateral fija"
 
-#: inc/customizer/theme-options.php:439
+#: inc/customizer/theme-options.php:530
 msgid "Sidebar Settings"
 msgstr "Ajustes de la barra lateral"
 
-#: inc/customizer/theme-options.php:403
+#: inc/customizer/theme-options.php:489
 msgid "Spacious"
 msgstr "Amplio"
 
-#: inc/customizer/theme-options.php:398
+#: inc/customizer/theme-options.php:484
 msgid "Individual posts edit panel also have the option"
 msgstr "El panel de edición de las entradas individuales también tiene la opción"
 
-#: inc/customizer/theme-options.php:397
+#: inc/customizer/theme-options.php:483
 msgid "Global Content Mode"
 msgstr "Modo de contenido global"
 
-#: inc/customizer/theme-options.php:377
+#: inc/customizer/theme-options.php:461
 msgid "Show Featured Image"
 msgstr "Mostrar la imagen destacada"
 
-#: inc/customizer/theme-options.php:359
+#: inc/customizer/theme-options.php:441
 msgid "Single Posts Settings"
 msgstr "Ajustes de las entradas individuales"
 
-#: inc/customizer/theme-options.php:182
+#: inc/customizer/theme-options.php:198
 msgid "NavXT"
 msgstr "NavXT"
 
-#: inc/customizer/theme-options.php:181
+#: inc/customizer/theme-options.php:197
 msgid "Rank Math"
 msgstr "Rank Math"
 
-#: inc/customizer/theme-options.php:180
+#: inc/customizer/theme-options.php:196
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
-#: inc/customizer/theme-options.php:175
+#: inc/customizer/theme-options.php:191
 msgid "Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default"
 msgstr "Por favor, asegúrate de que has activado las migas de pan del plugin antes de elegir otras que no sean las migas de pan por defecto"
 
-#: inc/customizer/theme-options.php:174
+#: inc/customizer/theme-options.php:190
 msgid "Select Breadcrumbs"
 msgstr "Seleccionar las migas de pan"
 
-#: inc/customizer/theme-options.php:457
+#: inc/customizer/theme-options.php:550
 msgid "Make Sidebar Sticky"
 msgstr "Hacer fija la barra lateral"
 
@@ -457,9 +780,9 @@ msgstr "Hacer fija la barra lateral"
 msgid "Order 2"
 msgstr "Orden 2"
 
-#: inc/customizer/customizer.php:159 inc/customizer/frontpage-options.php:246
-#: inc/customizer/theme-options.php:179 inc/customizer/theme-options.php:223
-#: inc/customizer/theme-options.php:402
+#: inc/customizer/customizer.php:172 inc/customizer/frontpage-options.php:246
+#: inc/customizer/theme-options.php:195 inc/customizer/theme-options.php:289
+#: inc/customizer/theme-options.php:488
 msgid "Default"
 msgstr "Por defecto"
 
@@ -471,31 +794,31 @@ msgstr "Selecciona el orden de la sección del banner"
 msgid "Banner Section Order"
 msgstr "Orden de la sección del banner"
 
-#: inc/customizer/customizer.php:120
+#: inc/customizer/customizer.php:128
 msgid "Show Full Image"
 msgstr "Mostrar la imagen completa"
 
-#: inc/customizer/customizer.php:119
+#: inc/customizer/customizer.php:127
 msgid "Set as Background"
 msgstr "Establecer como fondo"
 
-#: inc/customizer/customizer.php:114
+#: inc/customizer/customizer.php:122
 msgid "Image visibility may vary as per the mode"
 msgstr "La visibilidad de la imagen puede variar según el modo"
 
-#: inc/customizer/customizer.php:113
+#: inc/customizer/customizer.php:121
 msgid "Header Image Mode"
 msgstr "Modo de imagen de la cabecera"
 
-#: inc/customizer/theme-options.php:310
+#: inc/customizer/theme-options.php:388
 msgid "Date Display Format"
 msgstr "Formato de visualización de la fecha"
 
-#: inc/customizer/theme-options.php:287
+#: inc/customizer/theme-options.php:362
 msgid "Date and Author Display"
 msgstr "Visualización de la fecha y el autor"
 
-#: inc/customizer/theme-options.php:241
+#: inc/customizer/theme-options.php:310
 msgid "Content Alignment"
 msgstr "Alineación del contenido"
 
@@ -520,31 +843,31 @@ msgstr "Por supuesto"
 msgid "Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we hope you are loving it! We would appreciate it if you can %3$sgive us a 5 star rating on WordPress.org%4$s! We'll continue to develop exciting new features for free in the future by sharing the love!"
 msgstr "¡Hola, %1$s! Hemos notado que has estado usando %2$s desde hace algún tiempo, ¡esperamos que te guste! Apreciaríamos si pudieras %3$sdarnos una valoración de 5 estrellas en WordPress.org%4$s¡Continuaremos desarrollando nuevas y excitantes características gratis por compartir el agradecimiento!"
 
-#: inc/customizer/theme-options.php:125
+#: inc/customizer/theme-options.php:136
 msgid "Disable Sticky Header"
 msgstr "Desactivar la cabecera fija"
 
-#: inc/customizer/theme-options.php:316
+#: inc/customizer/theme-options.php:394
 msgid "WordPress Default Date Format"
 msgstr "Formato de fecha predeterminado de WordPress"
 
-#: inc/customizer/theme-options.php:315
+#: inc/customizer/theme-options.php:393
 msgid "Date Format by Theme"
 msgstr "Formato de fecha del tema"
 
-#: inc/customizer/theme-options.php:311
+#: inc/customizer/theme-options.php:389
 msgid "Select date display display format"
 msgstr "Selecciona el formato de visualización de la fecha"
 
-#: inc/customizer/theme-options.php:593
+#: inc/customizer/theme-options.php:701
 msgid "Default Excerpt"
 msgstr "Extracto por defecto"
 
-#: inc/customizer/theme-options.php:592
+#: inc/customizer/theme-options.php:700
 msgid "Trimmed Content"
 msgstr "Contenido recortado"
 
-#: inc/customizer/theme-options.php:200
+#: inc/customizer/theme-options.php:218
 msgid "Global Settings"
 msgstr "Ajustes globales"
 
@@ -594,11 +917,11 @@ msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
 msgid "You may have missed"
 msgstr "Te pueden interesar"
 
-#: inc/customizer/theme-options.php:643
+#: inc/customizer/theme-options.php:757
 msgid "Show on single posts"
 msgstr "Mostrar en entradas individuales"
 
-#: inc/customizer/theme-options.php:625
+#: inc/customizer/theme-options.php:737
 msgid "Related Posts"
 msgstr "Entradas relacionadas"
 
@@ -613,14 +936,6 @@ msgstr "atrás"
 #. Template Name of the theme
 msgid "Front-page Template"
 msgstr "Plantilla de portada"
-
-#: template-parts/content.php:39
-msgid "<span class=\"em-post-navigation\">Next</span> %title"
-msgstr "<span class=\"em-post-navigation\">Siguiente</span> %title"
-
-#: template-parts/content.php:38
-msgid "<span class=\"em-post-navigation\">Previous</span> %title"
-msgstr "<span class=\"em-post-navigation\">Anterior</span> %title"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:19
@@ -724,7 +1039,7 @@ msgstr "No se ha seleccionado ningún plugin para actualizar."
 msgid "No plugins were selected to be installed. No action taken."
 msgstr "No se ha seleccionado ningún plugin para instalar."
 
-#: admin-dashboard/admin_dashboard.php:442
+#: admin-dashboard/admin_dashboard.php:463
 #: admin-dashboard/rest-api/api-request.php:74
 #: lib/tgm/class-tgm-plugin-activation.php:2726
 msgid "Activate"
@@ -995,12 +1310,12 @@ msgstr "Instalar Plugins"
 msgid "Install Required Plugins"
 msgstr "Instalar Plugins Requeridos"
 
-#: admin-dashboard/admin_dashboard.php:167
+#: admin-dashboard/admin_dashboard.php:188
 msgid "Upgrade Now"
 msgstr ""
 
-#: admin-dashboard/admin_dashboard.php:121
 #: admin-dashboard/admin_dashboard.php:122
+#: admin-dashboard/admin_dashboard.php:123
 msgid "Customize"
 msgstr "Personalizar"
 
@@ -1012,7 +1327,7 @@ msgstr "Califica este tema"
 msgid "View Demos"
 msgstr "Ver las demostraciones"
 
-#: admin-dashboard/admin_dashboard.php:166
+#: admin-dashboard/admin_dashboard.php:187
 msgid "Upgrade to Pro"
 msgstr ""
 
@@ -1171,7 +1486,7 @@ msgstr "Agrega widgets para la barra lateral principal."
 msgid "Main Sidebar"
 msgstr "Barra lateral principal"
 
-#: inc/widgets/widgets-common-functions.php:58
+#: inc/widgets/widgets-common-functions.php:59
 msgid "Select Category"
 msgstr "Selecciona una categoría"
 
@@ -1237,12 +1552,12 @@ msgstr "Últimas"
 msgid "Latest Posts"
 msgstr "Últimas entradas"
 
-#: inc/customizer/theme-options.php:425 inc/widgets/widget-posts-tabbed.php:103
+#: inc/customizer/theme-options.php:514 inc/widgets/widget-posts-tabbed.php:103
 #: inc/widgets/widget-posts-tabbed.php:108
 msgid "No"
 msgstr "No"
 
-#: inc/customizer/theme-options.php:424 inc/widgets/widget-posts-tabbed.php:102
+#: inc/customizer/theme-options.php:513 inc/widgets/widget-posts-tabbed.php:102
 #: inc/widgets/widget-posts-tabbed.php:109
 msgid "Yes"
 msgstr "Sí"
@@ -1356,7 +1671,7 @@ msgstr "Nombre"
 msgid "Profile image"
 msgstr "Imagen de perfil"
 
-#: inc/customizer/theme-options.php:662 inc/widgets/widget-author-info.php:141
+#: inc/customizer/theme-options.php:778 inc/widgets/widget-author-info.php:141
 #: inc/widgets/widget-posts-grid.php:152
 #: inc/widgets/widget-posts-slider.php:136
 #: inc/widgets/widget-posts-tabbed.php:116
@@ -1388,11 +1703,11 @@ msgstr ", "
 msgid "View all posts in %s"
 msgstr "Ver todas las publicaciones en %s"
 
-#: inc/template-functions.php:407
+#: inc/template-functions.php:416
 msgid "Next"
 msgstr "Siguiente"
 
-#: inc/template-functions.php:406
+#: inc/template-functions.php:415
 msgid "Previous"
 msgstr "Anterior"
 
@@ -1437,151 +1752,152 @@ msgid "Layout Options"
 msgstr "Opciones de diseño"
 
 #: inc/hooks/blocks/block-post-grid.php:74 template-parts/content-page.php:27
-#: template-parts/content.php:45
+#: template-parts/content.php:61
 msgid "Pages:"
 msgstr "Páginas:"
 
-#: inc/customizer/theme-options.php:746
+#: inc/customizer/theme-options.php:870
 msgid "Copyright Text"
 msgstr "Texto de Copyright"
 
-#: inc/customizer/theme-options.php:728
+#: inc/customizer/builder/class-header-footer-builder.php:99
+#: inc/customizer/theme-options.php:850
 msgid "Footer"
 msgstr "Pie de página"
 
-#: inc/customizer/theme-options.php:714
+#: inc/customizer/theme-options.php:835
 msgid "Latest Posts Section Title"
 msgstr "Título de la sección Últimas publicaciones"
 
-#: inc/customizer/theme-options.php:695
+#: inc/customizer/theme-options.php:814
 msgid "Show Latest Posts Section above Footer"
 msgstr "Mostrar la sección de últimas publicaciones en el pie de página"
 
-#: inc/customizer/theme-options.php:678
+#: inc/customizer/theme-options.php:795
 msgid "Latest Posts Options"
 msgstr "Últimas opciones de publicaciones"
 
-#: inc/customizer/theme-options.php:569
+#: inc/customizer/theme-options.php:674
 msgid "None"
 msgstr "Ninguna"
 
-#: inc/customizer/theme-options.php:568
+#: inc/customizer/theme-options.php:673
 msgid "Full Content"
 msgstr "Contenido completo"
 
-#: inc/customizer/theme-options.php:567
+#: inc/customizer/theme-options.php:672
 msgid "Post excerpt"
 msgstr "Extracto de entrada"
 
-#: inc/customizer/theme-options.php:563
+#: inc/customizer/theme-options.php:668
 msgid "Select content view for archive"
 msgstr "Seleccionar vista de contenido para archivo"
 
-#: inc/customizer/theme-options.php:562
+#: inc/customizer/theme-options.php:667
 msgid "Content view"
 msgstr "Vista de contenido"
 
-#: inc/customizer/theme-options.php:545
+#: inc/customizer/theme-options.php:647
 msgid "Right"
 msgstr "Derecha"
 
-#: inc/customizer/theme-options.php:544
+#: inc/customizer/theme-options.php:646
 msgid "Left"
 msgstr "Izquierda"
 
-#: inc/customizer/theme-options.php:540
+#: inc/customizer/theme-options.php:642
 msgid "Select image alignment for archive"
 msgstr "Seleccionar la alineación de la imagen para el archivo"
 
-#: inc/customizer/theme-options.php:539
+#: inc/customizer/theme-options.php:641
 msgid "Image alignment"
 msgstr "Alineación de imagen"
 
-#: inc/customizer/theme-options.php:523
+#: inc/customizer/theme-options.php:622
 msgid "Grid"
 msgstr "Cuadrícula"
 
-#: inc/customizer/theme-options.php:522 inc/hooks/patterns/full.php:9
+#: inc/customizer/theme-options.php:621 inc/hooks/patterns/full.php:9
 msgid "Full"
 msgstr "Completo"
 
-#: inc/customizer/theme-options.php:517
+#: inc/customizer/theme-options.php:616
 msgid "Select layout for archive"
 msgstr "Seleccionar la estructura del archivo"
 
-#: inc/customizer/theme-options.php:516
+#: inc/customizer/theme-options.php:615
 msgid "Archive layout"
 msgstr "Plantilla de pagina de archivo"
 
-#: inc/customizer/theme-options.php:498
+#: inc/customizer/theme-options.php:595
 msgid "Archive Settings"
 msgstr "Configuración de archivo"
 
-#: inc/customizer/theme-options.php:295
+#: inc/customizer/theme-options.php:370
 msgid "Hide All"
 msgstr "Ocultar todo"
 
-#: inc/customizer/theme-options.php:294
+#: inc/customizer/theme-options.php:369
 msgid "Show Author Only"
 msgstr "Mostrar solo autor"
 
-#: inc/customizer/theme-options.php:293
+#: inc/customizer/theme-options.php:368
 msgid "Show Date Only"
 msgstr "Mostrar solo fecha"
 
-#: inc/customizer/theme-options.php:292
+#: inc/customizer/theme-options.php:367
 msgid "Show Date and Author"
 msgstr "Mostrar fecha y autor"
 
-#: inc/customizer/theme-options.php:288
+#: inc/customizer/theme-options.php:363
 msgid "Select date and author display settings below post title"
 msgstr "Selecciona los ajustes de  visualización de la fecha el autor debajo del título de la entrada"
 
-#: inc/customizer/theme-options.php:248 inc/hooks/hook-meta.php:80
+#: inc/customizer/theme-options.php:317 inc/hooks/hook-meta.php:80
 msgid "Full width content"
 msgstr "Contenido de ancho completo"
 
-#: inc/customizer/theme-options.php:247
+#: inc/customizer/theme-options.php:316
 msgid "Primary sidebar - Content"
 msgstr "Barra lateral principal - Contenido"
 
-#: inc/customizer/theme-options.php:246
+#: inc/customizer/theme-options.php:315
 msgid "Content - Primary sidebar"
 msgstr "Contenido - Barra lateral principal"
 
-#: inc/customizer/theme-options.php:242
+#: inc/customizer/theme-options.php:311
 msgid "Select global content alignment"
 msgstr "Seleccionar alineación global del contenido"
 
-#: inc/customizer/theme-options.php:154
+#: inc/customizer/theme-options.php:168
 msgid "Show breadcrumbs"
 msgstr "Mostrar migas de pan"
 
-#: inc/customizer/theme-options.php:136
+#: inc/customizer/theme-options.php:148
 msgid "Breadcrumb Options"
 msgstr "Opciones de migas de pan"
 
-#: inc/customizer/theme-options.php:105
+#: inc/customizer/theme-options.php:114
 msgid "Show social menu on top header"
 msgstr "Mostrar el menú social en el encabezado superior"
 
-#: inc/customizer/theme-options.php:83
+#: inc/customizer/theme-options.php:90
 msgid "Show date on top header"
 msgstr "Mostrar la fecha en el encabezado superior"
 
-#: inc/customizer/theme-options.php:66
+#: inc/customizer/theme-options.php:71
 msgid "Header Options"
 msgstr "Opciones de encabezado"
 
-#: inc/customizer/theme-options.php:49
+#: inc/customizer/theme-options.php:53
 msgid "Enable preloader"
 msgstr "Habilitar preloader"
 
-#: inc/customizer/theme-options.php:31
+#: inc/customizer/theme-options.php:33
 msgid "Preloader Options"
 msgstr "Opciones de preloader"
 
-#: inc/customizer/theme-options.php:21
+#: inc/customizer/theme-options.php:22
 msgid "Theme Options"
 msgstr "Opciones de tema"
 
@@ -1602,12 +1918,12 @@ msgid "Select frontpage content alignment"
 msgstr "Selecciona la alineación del contenido de la portada"
 
 #: inc/customizer/frontpage-options.php:581
-msgid "Frontpage Content alignment"
-msgstr "Alineación del contenido de la página de inicio"
+msgid "Front-page Content alignment"
+msgstr ""
 
 #: inc/customizer/frontpage-options.php:562
-msgid "Frontpage Layout Settings"
-msgstr "Ajustes de diseño de portada"
+msgid "Front-page Layout Settings"
+msgstr ""
 
 #: inc/customizer/frontpage-options.php:547
 msgid "Select category to be shown on featured section "
@@ -1738,35 +2054,35 @@ msgid "Banner Advertisement"
 msgstr "Anuncio publicitario"
 
 #: inc/customizer/frontpage-options.php:21
-msgid "Frontpage Options"
-msgstr "Opciones de portada"
+msgid "Front-page Options"
+msgstr ""
 
-#: inc/customizer/customizer.php:201
+#: inc/customizer/customizer.php:216
 msgid "Upgrade now"
 msgstr "Actualizar ahora"
 
-#: inc/customizer/customizer.php:200
+#: inc/customizer/customizer.php:215
 msgid "CoverNews Pro"
 msgstr "CoverNews Pro"
 
-#: inc/customizer/customizer.php:136
+#: inc/customizer/customizer.php:147
 msgid "Disable Image Tint/Overlay"
 msgstr "Deshabilitar titado/superposición de la imagen"
 
-#: inc/customizer/customizer.php:98
+#: inc/customizer/customizer.php:103
 msgid "Site Title/Tagline Color"
 msgstr "Color del título/descripción corta del sitio"
 
-#: inc/customizer/customizer.php:89
+#: inc/customizer/customizer.php:94
 msgid "Site Title Size"
 msgstr "Tamaño del título del sitio"
 
-#: inc/customizer/customizer-default.php:121
+#: inc/customizer/customizer-default.php:122
 msgid "Copyright &copy; All rights reserved."
 msgstr "Copyright &copy; Todos los derechos reservados."
 
 #: inc/customizer/customizer-default.php:98
-#: inc/customizer/theme-options.php:611
+#: inc/customizer/theme-options.php:722
 msgid "Read More"
 msgstr "Leer más"
 
@@ -1798,34 +2114,38 @@ msgstr "Todas"
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: functions.php:165
+#: functions.php:166
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:161
+#: functions.php:162
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "activada"
 
-#: functions.php:83
+#: functions.php:80
 msgid "Footer Menu"
 msgstr "Menú de pie de página"
 
-#: functions.php:82
+#: functions.php:79 inc/customizer/builder/options.php:266
+#: inc/customizer/builder/options.php:271
+#: inc/customizer/builder/options.php:392
+#: inc/customizer/builder/options.php:397
 msgid "Social Menu"
 msgstr "Menú social"
 
-#: functions.php:81
+#: functions.php:78
 msgid "Top Menu"
 msgstr "Menu principal"
 
-#: functions.php:80 inc/hooks/blocks/block-post-header-layout-1.php:149
+#: functions.php:77 inc/customizer/builder/builder-structure.php:251
+#: inc/hooks/blocks/block-post-header-layout-1.php:149
 msgid "Primary Menu"
 msgstr "Menú primario"
 
 #. translators: 1: Theme name, 2: Theme author.
-#: footer.php:137
+#: footer.php:144 inc/customizer/builder/builder-structure.php:445
 msgid "%1$s by %2$s."
 msgstr "%1$s por %2$s."
 

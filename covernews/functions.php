@@ -59,14 +59,11 @@ if (!function_exists('covernews_setup')) :
 	 */
     add_theme_support('post-thumbnails');
 
-    // Add featured image sizes
-
-
-    add_image_size('covernews-slider-full', 1115, 715, true); // width, height, crop
-    add_image_size('covernews-slider-center', 800, 500, true); // width, height, crop
+    // Add featured image sizes   
+    
     add_image_size('covernews-featured', 1024, 0, false); // width, height, crop
     add_image_size('covernews-medium', 540, 340, true); // width, height, crop
-    add_image_size('covernews-medium-square', 400, 250, true); // width, height, crop
+    
 
     /*
      * Enable support for Post Formats on posts and pages.
@@ -136,7 +133,8 @@ add_action('after_setup_theme', 'covernews_setup');
  * @since 1.0.0
  * @return string Google Fonts URL or empty string if system fonts are selected.
  */
-function covernews_fonts_url() {
+function covernews_fonts_url()
+{
   // Check if the user has selected Google Fonts
   $global_font_family_type = covernews_get_option('global_font_family_type');
   if ($global_font_family_type !== 'google') {
@@ -187,7 +185,8 @@ function covernews_fonts_url() {
  * @param string $relation_type The relation type (e.g., 'preconnect').
  * @return array Filtered URLs.
  */
-function covernews_add_preconnect_links($urls, $relation_type) {
+function covernews_add_preconnect_links($urls, $relation_type)
+{
   if ('preconnect' === $relation_type && covernews_get_option('global_font_family_type') === 'google') {
     $urls[] = 'https://fonts.googleapis.com';
     $urls[] = 'https://fonts.gstatic.com';
@@ -200,7 +199,8 @@ add_filter('wp_resource_hints', 'covernews_add_preconnect_links', 10, 2);
 /**
  * Preload Google Fonts stylesheets in the <head> for performance.
  */
-function covernews_preload_google_fonts() {
+function covernews_preload_google_fonts()
+{
   $fonts_url = covernews_fonts_url();
 
   if ($fonts_url) {
@@ -217,7 +217,8 @@ add_action('wp_head', 'covernews_preload_google_fonts', 1);
 /**
  * Enqueue the theme's Google Fonts stylesheet.
  */
-function covernews_enqueue_google_fonts() {
+function covernews_enqueue_google_fonts()
+{
   $fonts_url = covernews_fonts_url();
 
   if ($fonts_url) {
@@ -271,9 +272,9 @@ function covernews_scripts()
 
   wp_enqueue_style('covernews-style', get_template_directory_uri() . '/style' . $min . '.css', array(), $covernews_version);
   $global_font_family_type = covernews_get_option('global_font_family_type');
-        if ($global_font_family_type == 'system') {
-  wp_add_inline_style('covernews-style', covernews_custom_style());
-        }
+  if ($global_font_family_type == 'system') {
+    wp_add_inline_style('covernews-style', covernews_custom_style());
+  }
 
   wp_enqueue_script('covernews-navigation', get_template_directory_uri() . '/js/navigation.js', array(),  $covernews_version, true);
   wp_enqueue_script('covernews-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(),  $covernews_version, true);
@@ -310,7 +311,8 @@ function covernews_scripts()
   }
 
   wp_enqueue_script('covernews-script', get_template_directory_uri() . '/admin-dashboard/dist/covernews_scripts.build.js', array('jquery'),  $covernews_version, 1);
-
+  wp_register_script('jquery-cookie', get_template_directory_uri() . '/assets/jquery.cookie.js');
+  wp_register_script('covernews-toggle-script', get_template_directory_uri() . '/assets/toggle-script.js',  array('jquery-cookie'), '', true);
   if (is_rtl() && is_child_theme()) {
     wp_enqueue_style(
       'covernews-rtl',
@@ -318,6 +320,30 @@ function covernews_scripts()
       array(), // Load after other styles
       $covernews_version
     );
+  }
+
+  $show_footer_checkbox = covernews_get_option('athfb_show_checkbox_footer');
+  $show_header_checkbox = covernews_get_option('athfb_show_checkbox_header');
+
+  if ($show_header_checkbox) {
+    wp_register_style(
+      'covernews_header_builder',
+      get_template_directory_uri() . '/assets/css/header-builder.css',
+      array(),
+      null,
+      'all'
+    );
+    wp_enqueue_style('covernews_header_builder');
+  }
+  if ($show_footer_checkbox) {
+    wp_register_style(
+      'covernews_footer_builder',
+      get_template_directory_uri() . '/assets/css/footer-builder.css',
+      array(),
+      null,
+      'all'
+    );
+    wp_enqueue_style('covernews_footer_builder');
   }
 }
 add_action('wp_enqueue_scripts', 'covernews_scripts');
@@ -423,3 +449,33 @@ function covernews_transltion_init()
 {
   load_theme_textdomain('covernews', get_template_directory()  . '/languages');
 }
+
+
+
+//Header Footer builder
+require_once get_template_directory() . '/inc/customizer/builder/options.php';
+function athfb_load_files()
+{
+  // Only load in admin or customizer context
+  if (!is_admin() && !is_customize_preview()) {
+    return;
+  }
+
+  // Include files in the correct order
+  require_once get_template_directory() . '/inc/customizer/builder/class-header-footer-builder.php';
+  require_once get_template_directory() . '/inc/customizer/builder/class-header-footer-builder-control.php';
+  require_once get_template_directory() . '/inc/customizer/builder/class-block-toggle.php';
+}
+
+// Load files when WordPress is ready and customizer classes are available
+add_action('customize_register', 'athfb_load_files', 1);
+function athfb_loadFiles()
+{
+
+  require_once get_template_directory() . '/inc/customizer/builder/builder-structure.php';
+  require_once get_template_directory() . '/inc/customizer/builder/header-builder-structure.php';
+  require_once get_template_directory() . '/inc/customizer/builder/footer-builder-structure.php';
+}
+
+
+add_action('init', 'athfb_loadFiles');

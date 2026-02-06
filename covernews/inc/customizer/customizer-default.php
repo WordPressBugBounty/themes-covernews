@@ -18,7 +18,7 @@ function covernews_get_default_theme_options() {
 
     $defaults = array();
     // Preloader options section
-    $defaults['enable_site_preloader'] = 1;
+    $defaults['enable_site_preloader'] = 0;
     $defaults['disable_wp_emoji'] = 0;
     // Header options section
     $defaults['header_layout'] = 'header-layout-1';
@@ -49,7 +49,7 @@ function covernews_get_default_theme_options() {
     $defaults['enable_breadcrumb'] = 1;
     $defaults['select_breadcrumb_mode'] = 'default';
 
-    // Frontpage Section
+    // Front-page Section
     $defaults['show_flash_news_section'] = 1;
     $defaults['flash_news_title'] = __('Flash Story', 'covernews');
     $defaults['select_flash_news_category'] = 0;

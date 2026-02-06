@@ -9,16 +9,16 @@
 $default = covernews_get_default_theme_options();
 
 /**
- * Frontpage options section
+ * Front-page options section
  *
  * @package CoverNews
  */
 
 
-// Add Frontpage Options Panel.
+// Add Front-page Options Panel.
 $wp_customize->add_panel('frontpage_option_panel',
     array(
-        'title'      => esc_html__('Frontpage Options', 'covernews'),
+        'title'      => esc_html__('Front-page Options', 'covernews'),
         'priority'   => 70,
         'capability' => 'edit_theme_options',
     )
@@ -49,7 +49,7 @@ $wp_customize->add_control(
     new WP_Customize_Cropped_Image_Control($wp_customize, 'banner_advertisement_section',
         array(
             'label'       => esc_html__('Banner Section Advertisement', 'covernews'),
-            'description' => sprintf(esc_html__('Recommended Size %1$s px X %2$s px', 'covernews'), 930, 100),
+            'description' => esc_html(sprintf(__('Recommended Size %1$s px X %2$s px', 'covernews'), 1170, 90)),
             'section'     => 'frontpage_advertisement_settings',
             'settings'     => 'banner_advertisement_section',
             'width' => 930,
@@ -556,10 +556,10 @@ $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customi
 
 
 
-// Frontpage Layout Section.
+// Front-page Layout Section.
 $wp_customize->add_section('frontpage_layout_settings',
     array(
-        'title'      => esc_html__('Frontpage Layout Settings', 'covernews'),
+        'title'      => esc_html__('Front-page Layout Settings', 'covernews'),
         'priority'   => 10,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -578,7 +578,7 @@ $wp_customize->add_setting('frontpage_content_alignment',
 
 $wp_customize->add_control( 'frontpage_content_alignment',
     array(
-        'label'       => esc_html__('Frontpage Content alignment', 'covernews'),
+        'label'       => esc_html__('Front-page Content alignment', 'covernews'),
         'description' => esc_html__('Select frontpage content alignment', 'covernews'),
         'section'     => 'frontpage_layout_settings',
         'type'        => 'select',
