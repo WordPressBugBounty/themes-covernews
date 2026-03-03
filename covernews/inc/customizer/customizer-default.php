@@ -19,7 +19,7 @@ function covernews_get_default_theme_options() {
     $defaults = array();
     // Preloader options section
     $defaults['enable_site_preloader'] = 0;
-    $defaults['disable_wp_emoji'] = 0;
+    $defaults['disable_wp_emoji'] = 1;
     // Header options section
     $defaults['header_layout'] = 'header-layout-1';
 
@@ -119,7 +119,7 @@ function covernews_get_default_theme_options() {
 
     $defaults['global_font_family_type']      = 'google';
     $defaults['site_title_font_size']    = 48;
-    $defaults['footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved.', 'covernews');
+    $defaults['footer_copyright_text'] = __('Copyright &copy; All rights reserved.', 'covernews');
     $defaults['hide_footer_menu_section']  = 0;
 
     // Pass through filter.

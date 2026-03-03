@@ -18,7 +18,7 @@ $default = covernews_get_default_theme_options();
 // Add Front-page Options Panel.
 $wp_customize->add_panel('frontpage_option_panel',
     array(
-        'title'      => esc_html__('Front-page Options', 'covernews'),
+        'title'      => __('Front-page Options', 'covernews'),
         'priority'   => 70,
         'capability' => 'edit_theme_options',
     )
@@ -26,7 +26,7 @@ $wp_customize->add_panel('frontpage_option_panel',
 // Advertisement Section.
 $wp_customize->add_section('frontpage_advertisement_settings',
     array(
-        'title'      => esc_html__('Banner Advertisement', 'covernews'),
+        'title'      => __('Banner Advertisement', 'covernews'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -48,7 +48,7 @@ $wp_customize->add_setting('banner_advertisement_section',
 $wp_customize->add_control(
     new WP_Customize_Cropped_Image_Control($wp_customize, 'banner_advertisement_section',
         array(
-            'label'       => esc_html__('Banner Section Advertisement', 'covernews'),
+            'label'       => __('Banner Section Advertisement', 'covernews'),
             'description' => esc_html(sprintf(__('Recommended Size %1$s px X %2$s px', 'covernews'), 1170, 90)),
             'section'     => 'frontpage_advertisement_settings',
             'settings'     => 'banner_advertisement_section',
@@ -71,7 +71,7 @@ $wp_customize->add_setting('banner_advertisement_section_url',
 );
 $wp_customize->add_control('banner_advertisement_section_url',
     array(
-        'label'    => esc_html__('URL Link', 'covernews'),
+        'label'    => __('URL Link', 'covernews'),
         'section'  => 'frontpage_advertisement_settings',
         'type'     => 'text',
         'priority' => 130,
@@ -88,7 +88,7 @@ $wp_customize->add_setting('banner_advertisement_open_on_new_tab',
 );
 $wp_customize->add_control('banner_advertisement_open_on_new_tab',
     array(
-        'label'    => esc_html__('Open in new tab', 'covernews'),
+        'label'    => __('Open in new tab', 'covernews'),
         'section'  => 'frontpage_advertisement_settings',
         'type'     => 'checkbox',
         'priority' => 130,
@@ -107,13 +107,13 @@ $wp_customize->add_setting('banner_advertisement_scope',
 
 $wp_customize->add_control( 'banner_advertisement_scope',
     array(
-        'label'       => esc_html__('Show banner advertisement on', 'covernews'),
-        'description' => esc_html__('Select scope to display on banner advertisement section', 'covernews'),
+        'label'       => __('Show banner advertisement on', 'covernews'),
+        'description' => __('Select scope to display on banner advertisement section', 'covernews'),
         'section'     => 'frontpage_advertisement_settings',
         'type'        => 'select',
         'choices'               => array(
-            'front-page-only' => esc_html__( 'Show on Homepage only', 'covernews' ),
-            'site-wide' => esc_html__( 'Show sitewide', 'covernews' ),
+            'front-page-only' => __( 'Show on Homepage only', 'covernews' ),
+            'site-wide' => __( 'Show sitewide', 'covernews' ),
         ),
         'priority'    => 130,
 
@@ -123,7 +123,7 @@ $wp_customize->add_control( 'banner_advertisement_scope',
 // Trending Posts Section.
 $wp_customize->add_section('covernews_flash_posts_section_settings',
     array(
-        'title'      => esc_html__('Flash Posts', 'covernews'),
+        'title'      => __('Flash Posts', 'covernews'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -140,7 +140,7 @@ $wp_customize->add_setting('show_flash_news_section',
 
 $wp_customize->add_control('show_flash_news_section',
     array(
-        'label'    => esc_html__('Enable Flash Posts Section', 'covernews'),
+        'label'    => __('Enable Flash Posts Section', 'covernews'),
         'section'  => 'covernews_flash_posts_section_settings',
         'settings'  => 'show_flash_news_section',
         'type'     => 'checkbox',
@@ -160,7 +160,7 @@ $wp_customize->add_setting('flash_news_title',
 
 $wp_customize->add_control('flash_news_title',
     array(
-        'label'    => esc_html__('Flash Story Title', 'covernews'),
+        'label'    => __('Flash Story Title', 'covernews'),
         'section'  => 'covernews_flash_posts_section_settings',
         'type'     => 'text',
         'priority' => 23,
@@ -181,8 +181,8 @@ $wp_customize->add_setting('select_flash_news_category',
 
 $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customize, 'select_flash_news_category',
     array(
-        'label'       => esc_html__('Flash Posts Category', 'covernews'),
-        'description' => esc_html__('Select category to be shown on trending posts ', 'covernews'),
+        'label'       => __('Flash Posts Category', 'covernews'),
+        'description' => __('Select category to be shown on trending posts ', 'covernews'),
         'section'     => 'covernews_flash_posts_section_settings',
         'type'        => 'dropdown-taxonomies',
         'taxonomy'    => 'category',
@@ -200,7 +200,7 @@ $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customi
 // Main banner Sider Section.
 $wp_customize->add_section('frontpage_main_banner_section_settings',
     array(
-        'title'      => esc_html__('Main Banner Section', 'covernews'),
+        'title'      => __('Main Banner Section', 'covernews'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -219,7 +219,7 @@ $wp_customize->add_setting('show_main_news_section',
 
 $wp_customize->add_control('show_main_news_section',
     array(
-        'label'    => esc_html__('Enable Main Banner Slider', 'covernews'),
+        'label'    => __('Enable Main Banner Slider', 'covernews'),
         'section'  => 'frontpage_main_banner_section_settings',
         'type'     => 'checkbox',
         'priority' => 22,
@@ -238,13 +238,13 @@ $wp_customize->add_setting('select_main_banner_section_order_1',
 
 $wp_customize->add_control( 'select_main_banner_section_order_1',
     array(
-        'label'       => esc_html__('Banner Section Order', 'covernews'),
-        'description' => esc_html__('Select Banner Section Order', 'covernews'),
+        'label'       => __('Banner Section Order', 'covernews'),
+        'description' => __('Select Banner Section Order', 'covernews'),
         'section'     => 'frontpage_main_banner_section_settings',
         'type'        => 'select',
         'choices'               => array(
-            'order-1' => esc_html__( "Default", 'covernews' ),
-            'order-2' => esc_html__( "Order 2", 'covernews' )
+            'order-1' => __( "Default", 'covernews' ),
+            'order-2' => __( "Order 2", 'covernews' )
             
         ),
         'priority'    => 23,
@@ -264,7 +264,7 @@ $wp_customize->add_control( 'select_main_banner_section_order_1',
             $wp_customize,
             'main_story_panel_section_title',
             array(
-                'label' => esc_html__("Main Story Section", 'covernews'),
+                'label' => __("Main Story Section", 'covernews'),
                 'section' => 'frontpage_main_banner_section_settings',
                 'priority' => 23,
                 'active_callback' => function ($control) {
@@ -288,7 +288,7 @@ $wp_customize->add_setting('main_news_slider_title',
 
 $wp_customize->add_control('main_news_slider_title',
     array(
-        'label'    => esc_html__('Main Story Slider Title', 'covernews'),
+        'label'    => __('Main Story Slider Title', 'covernews'),
         'section'  => 'frontpage_main_banner_section_settings',        
         'type'     => 'text',
         'priority' => 23,
@@ -309,8 +309,8 @@ $wp_customize->add_setting('select_slider_news_category',
 
 $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customize, 'select_slider_news_category',
     array(
-        'label'       => esc_html__('Slider Posts Category', 'covernews'),
-        'description' => esc_html__('Select category to be shown on Main Story slider section', 'covernews'),
+        'label'       => __('Slider Posts Category', 'covernews'),
+        'description' => __('Select category to be shown on Main Story slider section', 'covernews'),
         'section'     => 'frontpage_main_banner_section_settings',
         'settings'    => 'select_slider_news_category',
         'type'        => 'dropdown-taxonomies',
@@ -332,7 +332,7 @@ $wp_customize->add_control(
         $wp_customize,
         'editors_picks_panel_section_title',
         array(
-            'label' => esc_html__("Editor's Picks Section", 'covernews'),
+            'label' => __("Editor's Picks Section", 'covernews'),
             'section' => 'frontpage_main_banner_section_settings',
             'priority' => 23,
             'active_callback' => function ($control) {
@@ -356,7 +356,7 @@ $wp_customize->add_setting('editors_picks_title',
 
 $wp_customize->add_control('editors_picks_title',
     array(
-        'label'    => esc_html__("Editor's Picks Title", 'covernews'),
+        'label'    => __("Editor's Picks Title", 'covernews'),
         'section'  => 'frontpage_main_banner_section_settings',        
         'type'     => 'text',
         'priority' => 23,
@@ -377,8 +377,8 @@ $wp_customize->add_setting('select_editors_picks_category',
 
 $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customize, 'select_editors_picks_category',
     array(
-        'label'       => esc_html__("Editor's Picks Category", 'covernews'),
-        'description' => esc_html__("Select category to be shown on Editor's Picks section", 'covernews'),
+        'label'       => __("Editor's Picks Category", 'covernews'),
+        'description' => __("Select category to be shown on Editor's Picks section", 'covernews'),
         'section'     => 'frontpage_main_banner_section_settings',
         'settings'     => 'select_editors_picks_category',
         'type'        => 'dropdown-taxonomies',
@@ -400,7 +400,7 @@ $wp_customize->add_control(
         $wp_customize,
         'trending_story_panel_section_title',
         array(
-            'label' => esc_html__("Trending Story Section", 'covernews'),
+            'label' => __("Trending Story Section", 'covernews'),
             'section' => 'frontpage_main_banner_section_settings',
             'priority' => 23,
             'active_callback' => function ($control) {
@@ -424,7 +424,7 @@ $wp_customize->add_setting('trending_slider_title',
 
 $wp_customize->add_control('trending_slider_title',
     array(
-        'label'    => esc_html__("Trending Vertical Slider Title", 'covernews'),
+        'label'    => __("Trending Vertical Slider Title", 'covernews'),
         'section'  => 'frontpage_main_banner_section_settings',
         'type'     => 'text',
         'priority' => 23,
@@ -445,8 +445,8 @@ $wp_customize->add_setting('select_trending_news_category',
 
 $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customize, 'select_trending_news_category',
     array(
-        'label'       => esc_html__("Trending News Category", 'covernews'),
-        'description' => esc_html__("Select category to be shown on Trending section", 'covernews'),
+        'label'       => __("Trending News Category", 'covernews'),
+        'description' => __("Select category to be shown on Trending section", 'covernews'),
         'section'     => 'frontpage_main_banner_section_settings',
         'settings'     => 'select_trending_news_category',
         'type'        => 'dropdown-taxonomies',
@@ -467,8 +467,8 @@ $wp_customize->add_setting('disable_main_banner_on_blog_archive',
 
 $wp_customize->add_control('disable_main_banner_on_blog_archive',
     array(
-        'label'    => esc_html__('Disable main banner section on blog archive', 'covernews'),
-        'description' => esc_html__('The option will disable trending news, main slider, featured news, featured products from blog archive page.', 'covernews'),
+        'label'    => __('Disable main banner section on blog archive', 'covernews'),
+        'description' => __('The option will disable trending news, main slider, featured news, featured products from blog archive page.', 'covernews'),
         'section'  => 'frontpage_main_banner_section_settings',
         'type'     => 'checkbox',
         'priority' => 50,
@@ -483,7 +483,7 @@ $wp_customize->add_control('disable_main_banner_on_blog_archive',
 // Main banner Sider Section.
 $wp_customize->add_section('frontpage_featured_news_settings',
     array(
-        'title'      => esc_html__('Featured Posts Section', 'covernews'),
+        'title'      => __('Featured Posts Section', 'covernews'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -501,7 +501,7 @@ $wp_customize->add_setting('show_featured_news_section',
 
 $wp_customize->add_control('show_featured_news_section',
     array(
-        'label'    => esc_html__('Enable Featured New Section', 'covernews'),
+        'label'    => __('Enable Featured New Section', 'covernews'),
         'section'  => 'frontpage_featured_news_settings',
         'settings'  => 'show_featured_news_section',
         'type'     => 'checkbox',
@@ -523,7 +523,7 @@ $wp_customize->add_setting('featured_news_section_title',
 );
 $wp_customize->add_control('featured_news_section_title',
     array(
-        'label'    => esc_html__('Featured Posts Section Title', 'covernews'),
+        'label'    => __('Featured Posts Section Title', 'covernews'),
         'section'  => 'frontpage_featured_news_settings',
         'type'     => 'text',
         'priority' => 24,
@@ -543,8 +543,8 @@ $wp_customize->add_setting('select_featured_news_category',
 
 $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customize, 'select_featured_news_category',
     array(
-        'label'       => esc_html__('Featured Posts Category', 'covernews'),
-        'description' => esc_html__('Select category to be shown on featured section ', 'covernews'),
+        'label'       => __('Featured Posts Category', 'covernews'),
+        'description' => __('Select category to be shown on featured section ', 'covernews'),
         'section'     => 'frontpage_featured_news_settings',
         'type'        => 'dropdown-taxonomies',
         'taxonomy'    => 'category',
@@ -559,7 +559,7 @@ $wp_customize->add_control(new CoverNews_Dropdown_Taxonomies_Control($wp_customi
 // Front-page Layout Section.
 $wp_customize->add_section('frontpage_layout_settings',
     array(
-        'title'      => esc_html__('Front-page Layout Settings', 'covernews'),
+        'title'      => __('Front-page Layout Settings', 'covernews'),
         'priority'   => 10,
         'capability' => 'edit_theme_options',
         'panel'      => 'frontpage_option_panel',
@@ -578,14 +578,14 @@ $wp_customize->add_setting('frontpage_content_alignment',
 
 $wp_customize->add_control( 'frontpage_content_alignment',
     array(
-        'label'       => esc_html__('Front-page Content alignment', 'covernews'),
-        'description' => esc_html__('Select frontpage content alignment', 'covernews'),
+        'label'       => __('Front-page Content alignment', 'covernews'),
+        'description' => __('Select frontpage content alignment', 'covernews'),
         'section'     => 'frontpage_layout_settings',
         'type'        => 'select',
         'choices'               => array(
-            'align-content-left' => esc_html__( 'Home Content - Home Sidebar', 'covernews' ),
-            'align-content-right' => esc_html__( 'Home Sidebar - Home Content', 'covernews' ),
-            'full-width-content' => esc_html__( 'Only Home Content', 'covernews' )
+            'align-content-left' => __( 'Home Content - Home Sidebar', 'covernews' ),
+            'align-content-right' => __( 'Home Sidebar - Home Content', 'covernews' ),
+            'full-width-content' => __( 'Only Home Content', 'covernews' )
         ),
         'priority'    => 10,
     ));

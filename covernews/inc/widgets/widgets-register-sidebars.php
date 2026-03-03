@@ -7,9 +7,9 @@
 function covernews_widgets_init()
 {
     register_sidebar(array(
-        'name' => esc_html__('Main Sidebar', 'covernews'),
+        'name' => __('Main Sidebar', 'covernews'),
         'id' => 'sidebar-1',
-        'description' => esc_html__('Add widgets for main sidebar.', 'covernews'),
+        'description' => __('Add widgets for main sidebar.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title widget-title-1"><span>',
@@ -17,9 +17,9 @@ function covernews_widgets_init()
     ));
 
     register_sidebar(array(
-        'name' => esc_html__('Front-page Content Section', 'covernews'),
+        'name' => __('Front-page Content Section', 'covernews'),
         'id' => 'home-content-widgets',
-        'description' => esc_html__('Add widgets to front-page contents section.', 'covernews'),
+        'description' => __('Add widgets to front-page contents section.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title"><span>',
@@ -27,9 +27,9 @@ function covernews_widgets_init()
     ));
 
     register_sidebar(array(
-        'name' => esc_html__('Front-page Sidebar Section', 'covernews'),
+        'name' => __('Front-page Sidebar Section', 'covernews'),
         'id' => 'home-sidebar-widgets',
-        'description' => esc_html__('Add widgets to front-page sidebar section.', 'covernews'),
+        'description' => __('Add widgets to front-page sidebar section.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title widget-title-1"><span>',
@@ -38,9 +38,9 @@ function covernews_widgets_init()
 
 
     register_sidebar(array(
-        'name' => esc_html__('Footer First Section', 'covernews'),
+        'name' => __('Footer First Section', 'covernews'),
         'id' => 'footer-first-widgets-section',
-        'description' => esc_html__('Displays items on footer first column.', 'covernews'),
+        'description' => __('Displays items on footer first column.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title widget-title-1"><span class="header-after">',
@@ -49,9 +49,9 @@ function covernews_widgets_init()
 
 
     register_sidebar(array(
-        'name' => esc_html__('Footer Second Section', 'covernews'),
+        'name' => __('Footer Second Section', 'covernews'),
         'id' => 'footer-second-widgets-section',
-        'description' => esc_html__('Displays items on footer second column.', 'covernews'),
+        'description' => __('Displays items on footer second column.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title widget-title-1"><span class="header-after">',
@@ -59,9 +59,9 @@ function covernews_widgets_init()
     ));
 
     register_sidebar(array(
-        'name' => esc_html__('Footer Third Section', 'covernews'),
+        'name' => __('Footer Third Section', 'covernews'),
         'id' => 'footer-third-widgets-section',
-        'description' => esc_html__('Displays items on footer third column.', 'covernews'),
+        'description' => __('Displays items on footer third column.', 'covernews'),
         'before_widget' => '<div id="%1$s" class="widget covernews-widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget-title widget-title-1"><span class="header-after">',

@@ -19,7 +19,7 @@ require get_template_directory() . '/inc/customizer/customizer-refresh.php';
 $wp_customize->add_panel(
   'theme_option_panel',
   array(
-    'title' => esc_html__('Theme Options', 'covernews'),
+    'title' => __('Theme Options', 'covernews'),
     'priority' => 70,
     'capability' => 'edit_theme_options',
   )
@@ -30,7 +30,7 @@ $wp_customize->add_panel(
 $wp_customize->add_section(
   'site_preloader_settings',
   array(
-    'title' => esc_html__('Preloader Options', 'covernews'),
+    'title' => __('Preloader Options', 'covernews'),
     'priority' => 4,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -50,7 +50,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'enable_site_preloader',
   array(
-    'label' => esc_html__('Enable preloader', 'covernews'),
+    'label' => __('Enable preloader', 'covernews'),
     'section' => 'site_preloader_settings',
     'type' => 'checkbox',
     'priority' => 10,
@@ -68,7 +68,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'header_options_settings',
   array(
-    'title' => esc_html__('Header Options', 'covernews'),
+    'title' => __('Header Options', 'covernews'),
     'priority' => 49,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -87,7 +87,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_date_section',
   array(
-    'label' => esc_html__('Show date on top header', 'covernews'),
+    'label' => __('Show date on top header', 'covernews'),
     'section' => 'header_builder',
     'settings' => 'show_date_section',
     'type' => 'checkbox',
@@ -111,7 +111,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_social_menu_section',
   array(
-    'label' => esc_html__('Show social menu on top header', 'covernews'),
+    'label' => __('Show social menu on top header', 'covernews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 11,
@@ -133,7 +133,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'disable_sticky_header_option',
   array(
-    'label' => esc_html__('Disable Sticky Header', 'covernews'),
+    'label' => __('Disable Sticky Header', 'covernews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 11,
@@ -145,7 +145,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_breadcrumb_settings',
   array(
-    'title' => esc_html__('Breadcrumb Options', 'covernews'),
+    'title' => __('Breadcrumb Options', 'covernews'),
     'priority' => 49,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -165,7 +165,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'enable_breadcrumb',
   array(
-    'label' => esc_html__('Show breadcrumbs', 'covernews'),
+    'label' => __('Show breadcrumbs', 'covernews'),
     'section' => 'site_breadcrumb_settings',
     'settings' => 'enable_breadcrumb',
     'type' => 'checkbox',
@@ -187,15 +187,15 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'select_breadcrumb_mode',
   array(
-    'label' => esc_html__('Select Breadcrumbs', 'covernews'),
-    'description' => esc_html__("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'covernews'),
+    'label' => __('Select Breadcrumbs', 'covernews'),
+    'description' => __("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'covernews'),
     'section' => 'site_breadcrumb_settings',
     'type' => 'select',
     'choices' => array(
-      'default' => esc_html__('Default', 'covernews'),
-      'yoast' => esc_html__('Yoast SEO', 'covernews'),
-      'rankmath' => esc_html__('Rank Math', 'covernews'),
-      'bcn' => esc_html__('NavXT', 'covernews'),
+      'default' => __('Default', 'covernews'),
+      'yoast' => __('Yoast SEO', 'covernews'),
+      'rankmath' => __('Rank Math', 'covernews'),
+      'bcn' => __('NavXT', 'covernews'),
     ),
     'priority' => 100,
   )
@@ -215,7 +215,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_layout_settings',
   array(
-    'title' => esc_html__('Global Settings', 'covernews'),
+    'title' => __('Global Settings', 'covernews'),
     'priority' => 9,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -236,12 +236,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_font_family_type',
   array(
-    'label' => esc_html__('Global Fonts Family', 'covernews'),
+    'label' => __('Global Fonts Family', 'covernews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'google' => esc_html__('Google Fonts', 'covernews'),
-      'system' => esc_html__('System Fonts', 'covernews')
+      'google' => __('Google Fonts', 'covernews'),
+      'system' => __('System Fonts', 'covernews')
     ),
     'priority' => 100,
   )
@@ -260,8 +260,8 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'disable_wp_emoji',
   array(
-    'label'    => esc_html__('Disable Emoji Script', 'covernews'),
-    'description'       => esc_html__('GDPR friendly & better performance', 'covernews'),
+    'label'    => __('Disable Emoji Script', 'covernews'),
+    'description'       => __('GDPR friendly & better performance', 'covernews'),
     'section'  => 'site_layout_settings', // Use your preferred section.
     'type'     => 'checkbox',
     'priority' => 10,
@@ -281,14 +281,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'select_container_mode',
   array(
-    'label'       => esc_html__('Conatiner Width', 'covernews'),
-    'description' => esc_html__('Select Conatiner Width', 'covernews'),
+    'label'       => __('Conatiner Width', 'covernews'),
+    'description' => __('Select Conatiner Width', 'covernews'),
     'section'     => 'site_layout_settings',
     'type'        => 'select',
     'choices'               => array(
-      'default' => esc_html__('Default', 'covernews'),
-      'wide' => esc_html__('Wide', 'covernews'),
-      'full-width' => esc_html__('Full Width', 'covernews')
+      'default' => __('Default', 'covernews'),
+      'wide' => __('Wide', 'covernews'),
+      'full-width' => __('Full Width', 'covernews')
     ),
     'priority'    => 130,
   )
@@ -307,14 +307,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_content_alignment',
   array(
-    'label' => esc_html__('Content Alignment', 'covernews'),
-    'description' => esc_html__('Select global content alignment', 'covernews'),
+    'label' => __('Content Alignment', 'covernews'),
+    'description' => __('Select global content alignment', 'covernews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'align-content-left' => esc_html__('Content - Primary sidebar', 'covernews'),
-      'align-content-right' => esc_html__('Primary sidebar - Content', 'covernews'),
-      'full-width-content' => esc_html__('Full width content', 'covernews')
+      'align-content-left' => __('Content - Primary sidebar', 'covernews'),
+      'align-content-right' => __('Primary sidebar - Content', 'covernews'),
+      'full-width-content' => __('Full width content', 'covernews')
     ),
     'priority' => 130,
   )
@@ -333,12 +333,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_toggle_image_lazy_load_setting',
   array(
-    'label' => esc_html__('Image Lazy Loading', 'covernews'),
+    'label' => __('Image Lazy Loading', 'covernews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'enable' => esc_html__('Enable ', 'covernews'),
-      'disable' => esc_html__('Disable', 'covernews'),
+      'enable' => __('Enable ', 'covernews'),
+      'disable' => __('Disable', 'covernews'),
 
     ),
     'priority' => 130,
@@ -359,15 +359,15 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_post_date_author_setting',
   array(
-    'label' => esc_html__('Date and Author Display', 'covernews'),
-    'description' => esc_html__('Select date and author display settings below post title', 'covernews'),
+    'label' => __('Date and Author Display', 'covernews'),
+    'description' => __('Select date and author display settings below post title', 'covernews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'show-date-author' => esc_html__('Show Date and Author', 'covernews'),
-      'show-date-only' => esc_html__('Show Date Only', 'covernews'),
-      'show-author-only' => esc_html__('Show Author Only', 'covernews'),
-      'hide-date-author' => esc_html__('Hide All', 'covernews'),
+      'show-date-author' => __('Show Date and Author', 'covernews'),
+      'show-date-only' => __('Show Date Only', 'covernews'),
+      'show-author-only' => __('Show Author Only', 'covernews'),
+      'hide-date-author' => __('Hide All', 'covernews'),
     ),
     'priority' => 130,
   )
@@ -385,13 +385,13 @@ $wp_customize->add_setting(
 );
 
 $wp_customize->add_control('global_date_display_setting',    array(
-  'label' => esc_html__('Date Display Format', 'covernews'),
-  'description' => esc_html__('Select date display display format', 'covernews'),
+  'label' => __('Date Display Format', 'covernews'),
+  'description' => __('Select date display display format', 'covernews'),
   'section' => 'site_layout_settings',
   'type' => 'select',
   'choices' => array(
-    'theme-date' => esc_html__('Date Format by Theme', 'covernews'),
-    'default-date' => esc_html__('WordPress Default Date Format', 'covernews'),
+    'theme-date' => __('Date Format by Theme', 'covernews'),
+    'default-date' => __('WordPress Default Date Format', 'covernews'),
 
   ),
   'priority' => 130,
@@ -415,12 +415,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_show_comment_count',
   array(
-    'label' => esc_html__('Show Comment Count', 'covernews'),
+    'label' => __('Show Comment Count', 'covernews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'yes' => esc_html__('Enable', 'covernews'),
-      'no' => esc_html__('Disable', 'covernews'),
+      'yes' => __('Enable', 'covernews'),
+      'no' => __('Disable', 'covernews'),
     ),
     'priority' => 130,
   )
@@ -438,7 +438,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_single_posts_settings',
   array(
-    'title' => esc_html__('Single Posts Settings', 'covernews'),
+    'title' => __('Single Posts Settings', 'covernews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -480,13 +480,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_single_content_mode',
   array(
-    'label' => esc_html__('Global Content Mode', 'covernews'),
-    'description' => esc_html__('Individual posts edit panel also have the option', 'covernews'),
+    'label' => __('Global Content Mode', 'covernews'),
+    'description' => __('Individual posts edit panel also have the option', 'covernews'),
     'section' => 'site_single_posts_settings',
     'type' => 'select',
     'choices' => array(
-      'single-content-mode-default' => esc_html__('Default', 'covernews'),
-      'single-content-mode-boxed' => esc_html__('Spacious', 'covernews'),
+      'single-content-mode-default' => __('Default', 'covernews'),
+      'single-content-mode-boxed' => __('Spacious', 'covernews'),
     ),
     'priority' => 130,
   )
@@ -506,12 +506,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_single_post_tag_display',
   array(
-    'label' => esc_html__('Show Tags Below Content', 'covernews'),
+    'label' => __('Show Tags Below Content', 'covernews'),
     'section' => 'site_single_posts_settings',
     'type' => 'select',
     'choices' => array(
-      'yes' => esc_html__('Yes', 'covernews'),
-      'no' => esc_html__('No', 'covernews'),
+      'yes' => __('Yes', 'covernews'),
+      'no' => __('No', 'covernews'),
     ),
     'priority' => 130,
   )
@@ -527,7 +527,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_sidebar_settings',
   array(
-    'title' => esc_html__('Sidebar Settings', 'covernews'),
+    'title' => __('Sidebar Settings', 'covernews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -547,7 +547,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_sticky_sidebar',
   array(
-    'label' => esc_html__('Make Sidebar Sticky', 'covernews'),
+    'label' => __('Make Sidebar Sticky', 'covernews'),
     'section' => 'site_sidebar_settings',
     'type' => 'checkbox',
     'priority' => 130,
@@ -568,12 +568,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_sticky_sidebar_position',
   array(
-    'label' => esc_html__('Sidebar Sticky Position', 'covernews'),
+    'label' => __('Sidebar Sticky Position', 'covernews'),
     'section' => 'site_sidebar_settings',
     'type' => 'select',
     'choices' => array(
-      'sidebar-sticky-top' => esc_html__('Top', 'covernews'),
-      'sidebar-sticky-bottom' => esc_html__('Bottom', 'covernews'),
+      'sidebar-sticky-top' => __('Top', 'covernews'),
+      'sidebar-sticky-bottom' => __('Bottom', 'covernews'),
     ),
     'priority' => 130,
     'active_callback' => 'frontpage_sticky_sidebar_status'
@@ -592,7 +592,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_archive_settings',
   array(
-    'title' => esc_html__('Archive Settings', 'covernews'),
+    'title' => __('Archive Settings', 'covernews'),
     'priority' => 49,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -612,14 +612,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'archive_layout',
   array(
-    'label' => esc_html__('Archive layout', 'covernews'),
-    'description' => esc_html__('Select layout for archive', 'covernews'),
+    'label' => __('Archive layout', 'covernews'),
+    'description' => __('Select layout for archive', 'covernews'),
     'section' => 'site_archive_settings',
     'settings' => 'archive_layout',
     'type' => 'select',
     'choices' => array(
-      'archive-layout-full' => esc_html__('Full', 'covernews'),
-      'archive-layout-grid' => esc_html__('Grid', 'covernews'),
+      'archive-layout-full' => __('Full', 'covernews'),
+      'archive-layout-grid' => __('Grid', 'covernews'),
     ),
     'priority' => 130,
   )
@@ -638,13 +638,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'archive_image_alignment',
   array(
-    'label' => esc_html__('Image alignment', 'covernews'),
-    'description' => esc_html__('Select image alignment for archive', 'covernews'),
+    'label' => __('Image alignment', 'covernews'),
+    'description' => __('Select image alignment for archive', 'covernews'),
     'section' => 'site_archive_settings',
     'type' => 'select',
     'choices' => array(
-      'archive-image-left' => esc_html__('Left', 'covernews'),
-      'archive-image-right' => esc_html__('Right', 'covernews')
+      'archive-image-left' => __('Left', 'covernews'),
+      'archive-image-right' => __('Right', 'covernews')
     ),
     'priority' => 130,
     'active_callback' => 'covernews_archive_image_status'
@@ -664,14 +664,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'archive_content_view',
   array(
-    'label' => esc_html__('Content view', 'covernews'),
-    'description' => esc_html__('Select content view for archive', 'covernews'),
+    'label' => __('Content view', 'covernews'),
+    'description' => __('Select content view for archive', 'covernews'),
     'section' => 'site_archive_settings',
     'type' => 'select',
     'choices' => array(
-      'archive-content-excerpt' => esc_html__('Post excerpt', 'covernews'),
-      'archive-content-full' => esc_html__('Full Content', 'covernews'),
-      'archive-content-none' => esc_html__('None', 'covernews'),
+      'archive-content-excerpt' => __('Post excerpt', 'covernews'),
+      'archive-content-full' => __('Full Content', 'covernews'),
+      'archive-content-none' => __('None', 'covernews'),
 
     ),
     'priority' => 130,
@@ -692,13 +692,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_widget_excerpt_setting',
   array(
-    'label' => esc_html__('Excerpt Mode', 'covernews'),
-    'description' => esc_html__('Select Excerpt display mode', 'covernews'),
+    'label' => __('Excerpt Mode', 'covernews'),
+    'description' => __('Select Excerpt display mode', 'covernews'),
     'section' => 'site_archive_settings',
     'type' => 'select',
     'choices' => array(
-      'trimmed-content' => esc_html__('Trimmed Content', 'covernews'),
-      'default-excerpt' => esc_html__('Default Excerpt', 'covernews'),
+      'trimmed-content' => __('Trimmed Content', 'covernews'),
+      'default-excerpt' => __('Default Excerpt', 'covernews'),
 
     ),
     'priority' => 130,
@@ -734,7 +734,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_single_related_posts_settings',
   array(
-    'title' => esc_html__('Related Posts', 'covernews'),
+    'title' => __('Related Posts', 'covernews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -792,7 +792,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'frontpage_latest_posts_settings',
   array(
-    'title' => esc_html__('Latest Posts Options', 'covernews'),
+    'title' => __('Latest Posts Options', 'covernews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -832,7 +832,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_latest_posts_section_title',
   array(
-    'label' => esc_html__('Latest Posts Section Title', 'covernews'),
+    'label' => __('Latest Posts Section Title', 'covernews'),
     'section' => 'frontpage_latest_posts_settings',
     'type' => 'text',
     'priority' => 100,
@@ -847,7 +847,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_footer_settings',
   array(
-    'title' => esc_html__('Footer', 'covernews'),
+    'title' => __('Footer', 'covernews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',

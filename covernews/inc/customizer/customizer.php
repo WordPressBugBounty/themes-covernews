@@ -91,7 +91,7 @@ function covernews_customize_register($wp_customize)
   $wp_customize->add_control(
     'site_title_font_size',
     array(
-      'label'    => esc_html__('Site Title Size', 'covernews'),
+      'label'    => __('Site Title Size', 'covernews'),
       'section'  => 'title_tagline',
       'type'     => 'number',
       'priority' => 50,
@@ -118,14 +118,14 @@ function covernews_customize_register($wp_customize)
   $wp_customize->add_control(
     'select_header_image_mode',
     array(
-      'label'       => esc_html__('Header Image Mode', 'covernews'),
-      'description'       => esc_html__('Image visibility may vary as per the mode', 'covernews'),
+      'label'       => __('Header Image Mode', 'covernews'),
+      'description'       => __('Image visibility may vary as per the mode', 'covernews'),
       'section'     => 'header_builder',
       'settings'     => 'select_header_image_mode',
       'type'        => 'select',
       'choices'               => array(
-        'default' => esc_html__("Set as Background", 'covernews'),
-        'full' => esc_html__("Show Full Image", 'covernews'),
+        'default' => __("Set as Background", 'covernews'),
+        'full' => __("Show Full Image", 'covernews'),
       ),
       'priority'    => 50
     )
@@ -144,7 +144,7 @@ function covernews_customize_register($wp_customize)
   $wp_customize->add_control(
     'disable_header_image_tint_overlay',
     array(
-      'label'    => esc_html__('Disable Image Tint/Overlay', 'covernews'),
+      'label'    => __('Disable Image Tint/Overlay', 'covernews'),
       'section'  => 'header_builder',
       'type'     => 'checkbox',
       'priority' => 50,
@@ -164,13 +164,13 @@ function covernews_customize_register($wp_customize)
   $wp_customize->add_control(
     'global_site_mode',
     array(
-      'label'       => esc_html__('Site Mode', 'covernews'),
-      'description' => esc_html__('Select global site mode', 'covernews'),
+      'label'       => __('Site Mode', 'covernews'),
+      'description' => __('Select global site mode', 'covernews'),
       'section'     => 'colors',
       'type'        => 'select',
       'choices'               => array(
-        'default' => esc_html__('Default', 'covernews'),
-        'dark' => esc_html__('Dark', 'covernews'),
+        'default' => __('Default', 'covernews'),
+        'dark' => __('Dark', 'covernews'),
 
       ),
       'priority'    => 5,
@@ -191,7 +191,7 @@ function covernews_customize_register($wp_customize)
       $wp_customize,
       'global_color_section_notice',
       array(
-        'description' => esc_html__('Background Color will not be applicable for this mode.', 'covernews'),
+        'description' => __('Background Color will not be applicable for this mode.', 'covernews'),
         'section' => 'colors',
         'priority' => 10,
         'active_callback' => 'covernews_global_site_mode_dark_light_status'
@@ -212,8 +212,8 @@ function covernews_customize_register($wp_customize)
       $wp_customize,
       'theme_upsell',
       array(
-        'title'    => esc_html__('CoverNews Pro', 'covernews'),
-        'pro_text' => esc_html__('Upgrade now', 'covernews'),
+        'title'    => __('CoverNews Pro', 'covernews'),
+        'pro_text' => __('Upgrade now', 'covernews'),
         'pro_url'  => 'https://www.afthemes.com/products/covernews-pro/',
         'priority'  => 1,
       )
