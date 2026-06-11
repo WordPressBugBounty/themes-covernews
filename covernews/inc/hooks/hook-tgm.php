@@ -32,11 +32,6 @@ if ( ! function_exists( 'covernews_recommended_plugins' ) ) :
                 'required' => false,
             ),
             array(
-                'name'     => esc_html__( 'AF Companion', 'covernews' ),
-                'slug'     => 'af-companion',
-                'required' => false,
-            ),
-            array(
                 'name'     => esc_html__( 'WP Post Author', 'covernews' ),
                 'slug'     => 'wp-post-author',
                 'required' => false,

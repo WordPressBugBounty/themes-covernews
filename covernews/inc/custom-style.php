@@ -25,15 +25,8 @@ if (!function_exists('covernews_custom_style')) {
 ?>
 
 
-        <?php if (!empty($covernews_primary_font)) : ?>
-            body,
-            body button,
-            body input,
-            body select,
-            body optgroup,
-            body textarea {
-            font-family: <?php echo $covernews_primary_font; ?>;
-            }
+<?php if (!empty($covernews_primary_font)) : ?>
+            body,body :is(button,input,select,optgroup,textarea) {font-family: <?php echo $covernews_primary_font; ?>;}
         <?php endif; ?>
 
         <?php if (!empty($covernews_secondary_font)) : ?>
@@ -63,10 +56,7 @@ if (!function_exists('covernews_custom_style')) {
         <?php endif; ?>
 
         .align-content-left .elementor-section-stretched,
-        .align-content-right .elementor-section-stretched {
-        max-width: 100%;
-        left: 0 !important;
-        }
+        .align-content-right .elementor-section-stretched { max-width: 100%;left: 0 !important;}
 
 
 <?php

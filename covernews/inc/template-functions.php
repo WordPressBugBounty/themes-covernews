@@ -516,11 +516,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
     // Define submenu items
     $submenu_items = array(
 
-      array(
-        'id'    => 'ads-submenu',
-        'title' => __('Ads Settings', 'covernews'),
-        'href'  => admin_url('admin.php?page=ads-settings'),
-      ),
+      
       array(
         'id'    => 'starter-sites-submenu',
         'title' => __('Starter Sites', 'covernews'),
@@ -540,6 +536,21 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
         'id'    => 'footer-submenu',
         'title' => __('Footer Builder', 'covernews'),
         'href'  => admin_url('customize.php?autofocus[section]=footer_builder'),
+      ),
+      array(
+        'id'    => 'af-speed-submenu',
+        'title' => __('Speed Booster', 'covernews'),
+        'href'  => admin_url('admin.php?page=af-speed'),
+      ),
+      array(
+        'id'    => 'af-growth-submenu',
+        'title' => __('Growth Tools', 'covernews'),
+        'href'  => admin_url('admin.php?page=af-growth'),
+      ),
+      array(
+        'id'    => 'upgrade-submenu',
+        'title' => __('Upgrade to Pro', 'covernews'),
+        'href'  => "https://afthemes.com/products/covernews-pro",
       )
     );
 

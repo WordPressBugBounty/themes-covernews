@@ -1,8 +1,8 @@
 === CoverNews===
 
 Contributors: AF themes
-Tested up to: 6.9
-Stable tag: 6.0.9
+Tested up to: 7.0
+Stable tag: 7.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -37,6 +37,36 @@ CoverNews includes support for Infinite Scroll in Jetpack.
 
 
 == Change-log ==
+= 7.0.0 - Jun 10, 2026 =
+* Added Companion Dashboard menu integration for easier theme management.
+* Added webpack build workflow for improved development and asset handling.
+* Added accessibility enhancements for the Header Builder.
+* Added Theme JSON improvements for better editor and global style support.
+* Added responsive banner layout improvements across devices.
+
+* Improved wide and full-width banner designs.
+* Improved tabbed block layouts in wide and full-width modes.
+* Improved aspect ratio handling for tabbed content layouts.
+* Improved slide navigation icon styling.
+* Improved tag cloud custom color and hover effects.
+* Improved submenu icon behavior on desktop devices.
+* Improved responsive styling across theme components.
+* Improved custom CSS styling and overall design consistency.
+* Improved footer tag cloud color customization support.
+* Improved code quality through CSS optimization and cleanup.
+
+* Fixed tabbed block display when posts do not contain featured images.
+* Fixed responsive layout issues identified during design review.
+* Fixed banner styling inconsistencies across layouts and screen sizes.
+* Fixed reaction button background styling issues.
+* Fixed various UI and styling issues reported during review and testing.
+* Fixed Trello-reported issues and general design refinements.
+
+* Updated and optimized CSS for better performance and maintainability.
+* Updated minified assets and build files.
+* Removed unused code and development artifacts.
+* Stopped tracking package-lock.json in version control.
+
 = 6.0.7 - Mar 03 2026 =
 * Update - Customizer optimization
 * Update - German language file

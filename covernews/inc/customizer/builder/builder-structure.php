@@ -247,10 +247,15 @@ if (!function_exists('athfb_render_navigation_element')) {
     <div class="navigation-container">
       <div class="main-navigation">
         <span class="toggle-menu" aria-controls="primary-menu" aria-expanded="false">
-          <a href="javascript:void(0)" class="aft-void-menu">
-            <span class="screen-reader-text"><?php esc_html_e('Primary Menu', 'covernews'); ?></span>
-            <i class="ham"></i>
-          </a>
+          <a
+            href="#"
+            class="aft-void-menu"
+            role="button"
+            aria-label="<?php esc_attr_e('Toggle Primary Menu', 'covernews'); ?>"
+            aria-controls="primary-menu" aria-expanded="false" ">
+            <span class=" screen-reader-text"><?php esc_html_e('Primary Menu', 'covernews'); ?></span>
+        <i class="ham" aria-hidden="true"></i>
+        </a>
         </span>
         <span class="af-mobile-site-title-wrap">
           <?php the_custom_logo(); ?>
@@ -305,8 +310,14 @@ if (!function_exists('athfb_render_search_element')) {
       <div class="cart-search">
         <div class="af-search-wrap">
           <div class="search-overlay">
-            <a href="#" title="Search" class="search-icon">
-              <i class="covernews-icon-search"></i>
+            <a
+              title="Search"
+              class="search-icon"
+              role="button"
+              aria-label="Open search"
+              aria-haspopup="true"
+              aria-expanded="false">
+              <i class="covernews-icon-search" aria-hidden="true"></i>
             </a>
             <div class="af-search-form">
               <?php get_search_form(); ?>
