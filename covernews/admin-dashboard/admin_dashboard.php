@@ -559,7 +559,7 @@ if (!class_exists('AF_themes_info')) {
 
       if (empty($activate_plugins) && empty($install_plugin)) {
         $btn_class = '';
-        $covernews_templatespare_url = site_url() . '/wp-admin/admin.php?page=covernews';
+        $covernews_templatespare_url = site_url() . '/wp-admin/admin.php?page=starter-sites';
         //$covernews_templatespare_subtitle = __( 'The "Get Started" action will install/activate the AF Companion and Blockspare plugins for Starter Sites and Templates.', 'covernews' );
         $covernews_templatespare_title = __('Get Starter Sites', 'covernews');
       } else {

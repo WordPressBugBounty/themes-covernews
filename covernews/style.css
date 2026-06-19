@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.0.0
+Version: 7.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -3132,6 +3132,7 @@ embed,iframe,object {max-width: 100%;}
     border-radius: 0;
     color: #fff;
 }
+:is(.social-navigation,.social-widget-menu,.em-author-details ) ul li a:hover {color: #fff;}
 .em-author-details ul a i {display: none;}
 body.dark .site-footer .widget .social-widget-menu ul li :is(a,a:hover),
 body.dark .site-footer .social-widget-menu ul li :is(a,a:visited),
@@ -3664,14 +3665,8 @@ body.default .mc4wp-form-fields input[type="text"],
 body.default .mc4wp-form-fields input[type="email"] {
     background: transparent;
 }
-.mc4wp-form-fields input[type="text"]::-webkit-input-placeholder,
-.mc4wp-form-fields input[type="email"]::-webkit-input-placeholder,
-.mc4wp-form-fields input[type="text"]::-moz-placeholder,
-.mc4wp-form-fields input[type="email"]::-moz-placeholder,
-.mc4wp-form-fields input[type="text"]:-ms-input-placeholder,
-.mc4wp-form-fields input[type="email"]:-ms-input-placeholder,
-.mc4wp-form-fields input[type="text"]:-moz-placeholder,
-.mc4wp-form-fields input[type="email"]:-moz-placeholder {
+.mc4wp-form-fields input[type="text"]::placeholder,
+.mc4wp-form-fields input[type="email"]::placeholder {
     color: #fff;
 }
 .mc4wp-form-fields input[type="submit"] {
@@ -4902,6 +4897,8 @@ body.default .entry-content>[class*="wp-block-"] .covernews-post-tile .covernews
 }
 .aft-grid-double-column.no-post-image .data-bg-categorised,
 .aft-container-default .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
+.aft-container-wide .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
+.aft-container-full-width .col-md-4.latest-posts-grid .no-post-image .data-bg-categorised,
 .archive-layout-list .align-items-center.no-post-image .data-bg-categorised {
     height: unset;
     aspect-ratio: unset !important;
@@ -5551,6 +5548,9 @@ body:is(.aft-container-default,.aft-container-full-width,.aft-container-wide).fu
     }
 }
 @media only screen and (max-width: 480px) {
+    .latest-posts-grid.col-sm-4 {
+        width: 100%;
+    }
     body #primary .covernews_posts_slider_widget .slider-figcaption .slide-title,
     body .af-main-banner .slider-figcaption .slide-title{
     font-size: 18px;
@@ -6343,15 +6343,8 @@ li.af-live-search-item a span {width: calc(100% - 85px);}
     }
     a[href]:after {content: none !important;}
 }
-.aft-social-share div.sharedaddy h3.sd-title,
-.aft-comment-view-share div.sharedaddy h3.sd-title{display: none;}
 .aft-copy-to-clipboard:focus {outline: 2px dashed #555;outline-offset: 4px;}
-div.sharedaddy{display: inline-block;}
-div.sharedaddy .sd-content ul{margin-bottom: 0 !important;}
-div.sharedaddy .sd-content ul li{margin-bottom: 0;padding: 0;}
-div.sharedaddy .sd-content ul li:last-child{display: none;}
-.aft-social-share a i,
-div.sharedaddy .sd-content ul li a.sd-button{
+.aft-social-share a i{
     display: block;
     width: 34px;
     height: 34px;
@@ -6374,116 +6367,16 @@ span.aft-jpshare {margin-top: 10px;margin-bottom: 5px;}
     border-radius: 50%;
 }
 /*official colors*/
-.aft-social-share a i.aft-icon-facebook,
-div.sharedaddy .sd-content ul li.share-facebook a.sd-button{background: #3b5998;}
-div.sharedaddy .sd-content ul li.share-x a.sd-button{background: #000;}
-div.sharedaddy .sd-content ul li.share-twitter a.sd-button{background: #000;}
-div.sharedaddy .sd-content ul li.share-threads a.sd-button{background: #000;}
-.aft-social-share a i.aft-icon-linkedin,
-div.sharedaddy .sd-content ul li.share-linkedin a.sd-button{background: #0077b5;}
-div.sharedaddy .sd-content ul li.share-skype a.sd-button{background: #00AFF0;}
-.aft-social-share a i.aft-icon-pinterest,
-div.sharedaddy .sd-content ul li.share-pinterest a.sd-button{background: #ca1f27;}
-.aft-social-share a i.aft-icon-envelope,
-div.sharedaddy .sd-content ul li.share-print a.sd-button{background: #324390;}
-div.sharedaddy .sd-content ul li.share-tumblr a.sd-button{background: #2c4762;}
-.aft-social-share a i.aft-icon-telegram,
-div.sharedaddy .sd-content ul li.share-telegram a.sd-button{background: #0088cc;}
+.aft-social-share a i.aft-icon-facebook{background: #3b5998;}
+.aft-social-share a i.aft-icon-linkedin{background: #0077b5;}
+.aft-social-share a i.aft-icon-pinterest{background: #ca1f27;}
+.aft-social-share a i.aft-icon-envelope{background: #324390;}
+.aft-social-share a i.aft-icon-telegram{background: #0088cc;}
 .aft-social-share a i.aft-icon-line,
-.aft-social-share a i.aft-icon-whatsapp,
-div.sharedaddy .sd-content ul li.share-jetpack-whatsapp a.sd-button{background: #43c452;}
-.aft-social-share a i.aft-icon-reddit,
-div.sharedaddy .sd-content ul li.share-reddit a.sd-button{background: #FF5700;}
-div.sharedaddy .sd-content ul li.share-pocket a.sd-button{background: #ee4056;}
+.aft-social-share a i.aft-icon-whatsapp{background: #43c452;}
+.aft-social-share a i.aft-icon-reddit{background: #FF5700;}
 /*official colors*/
-.sd-content ul li a.sd-button:before{vertical-align: middle !important; top: 0 ;}
-.aft-jpshare div.sharedaddy .sd-content ul li a.sd-button:before{color: #ffffff;}
-div.sharedaddy .sd-content ul li a.sd-button > span{display: none;}
-div.sharedaddy .sd-content ul li a.sd-button.no-icon:before{display: inline;}
 span.aft-jpshare {display: inline-block;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li a.sd-button{transform:scale(1);opacity:0.9;}
-span.aft-jpshare div.sharedaddy .sd-content ul li a.sd-button:hover{opacity:1;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(1) a.sd-button{transition-delay: 0ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(2) a.sd-button{transition-delay: 50ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(3) a.sd-button{transition-delay: 100ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(4) a.sd-button{transition-delay: 150ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(5) a.sd-button{transition-delay: 200ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(6) a.sd-button{transition-delay: 250ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(7) a.sd-button{transition-delay: 300ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(8) a.sd-button{transition-delay: 350ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(9) a.sd-button{transition-delay: 400ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(10) a.sd-button{transition-delay: 450ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(11) a.sd-button{transition-delay: 500ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(12) a.sd-button{transition-delay: 550ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(13) a.sd-button{transition-delay: 600ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(14) a.sd-button{transition-delay: 650ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(15) a.sd-button{transition-delay: 700ms;}
-/*for officaial*/
-div.sharedaddy .sd-social-official ul li{
-    width: 30px !important;
-    height: 30px !important;
-    overflow: hidden !important;
-    margin-right: 5px !important;
-    position: relative;
-    border-radius: 100%;
-    text-align: center;
-}
-div.sharedaddy .sd-social-official ul li:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    font-size: 14px;
-    font-family: FontAwesome;
-    line-height: 30px;
-    vertical-align: middle;
-}
-div.sharedaddy .sd-content ul li a.sd-button:hover {border: none;}
-div.sharedaddy .sd-social-official ul li > div,
-div.sharedaddy .sd-social-official ul li > iframe,
-div.sharedaddy .sd-social-official ul li > a.sd-button,
-span.aft-jpshare:hover div.sharedaddy .sd-social-official ul li a.sd-button,
-div.sharedaddy .sd-social-official ul li > a{
-    opacity: 0.01;
-}
-div.sharedaddy .sd-social-official ul li:before{content: "\f096";}
-div.sharedaddy .sd-social-official ul li.share-facebook:before{content: "\f09a";}
-div.sharedaddy .sd-social-official ul li.share-x:before{content: "\e61b";}
-div.sharedaddy .sd-social-official ul li.share-twitter:before{content: "\e61b";}
-div.sharedaddy .sd-social-official ul li.share-threads:before{content: "\e618";}
-div.sharedaddy .sd-social-official ul li.share-jetpack-whatsapp:before{content: "\f232";}
-div.sharedaddy .sd-social-official ul li.share-pinterest:before{content: "\f231";}
-div.sharedaddy .sd-social-official ul li.share-linkedin:before{content: "\f0e1";}
-div.sharedaddy .sd-social-official ul li.share-reddit:before{content: "\f281";}
-div.sharedaddy .sd-social-official ul li.share-pocket:before{content: "\f265";}
-div.sharedaddy .sd-social-official ul li.share-print:before{content: "\f02f";}
-div.sharedaddy .sd-social-official ul li.share-skype:before{content: "\f17e";}
-div.sharedaddy .sd-social-official ul li.share-telegram:before{content: "\f2c6";}
-div.sharedaddy .sd-social-official ul li.share-tumblr:before{content: "\f173";}
-div.sharedaddy .sd-social-official ul li{
-    opacity: 0;
-    transform: scale(0);
-    transition: all 0.075s linear;
-}
-span.aft-jpshare:hover div.sharedaddy .sd-social-official .sd-content ul li{transform:scale(1);opacity:0.7;}
-span.aft-jpshare div.sharedaddy .sd-social-official .sd-content ul li:hover{opacity:1;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(1){transition-delay: 0ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(2){transition-delay: 50ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(3){transition-delay: 100ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(4){transition-delay: 150ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(5){transition-delay: 200ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(6){transition-delay: 250ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(7){transition-delay: 300ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(8){transition-delay: 350ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(9){transition-delay: 400ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(10){transition-delay: 450ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(11){transition-delay: 500ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(12){transition-delay: 550ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(13){transition-delay: 600ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(14){transition-delay: 650ms;}
-span.aft-jpshare:hover div.sharedaddy .sd-content ul li:nth-child(15){transition-delay: 700ms;}
 /*for officaial*/
 .aft-social-share .aft-jpshare i {
     height: 34px;

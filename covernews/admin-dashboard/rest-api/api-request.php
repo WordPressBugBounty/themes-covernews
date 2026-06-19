@@ -101,7 +101,7 @@ function covernews_render_plugin_lists_template($plugin, $api, $button_text, $bu
       <ul class="activation-row">
         <li>
           <?php if ($api->slug == 'templatespare' && $button_text == 'Activated') { ?>
-            <a class="button-primary" href="<?php echo site_url() . '/wp-admin/admin.php?page=covernews' ?>"><?php echo _e('Get Starter Sites', 'covernews') ?></a>
+            <a class="button-primary" href="<?php echo site_url() . '/wp-admin/admin.php?page=starter-sites' ?>"><?php echo _e('Get Starter Sites', 'covernews') ?></a>
 
           <?php  } else if ($api->slug == 'templatespare' && $button_text == 'Install Now') { ?>
 
