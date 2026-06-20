@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.1.1
+Version: 7.1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -1355,6 +1355,7 @@ body.full-width-content #primary .covernews_tabbed_posts_widget .tab-content .ar
     list-style: none;
     padding-left: 0;
 }
+.wp-block-rss li a,
 .wp-block-page-list li a,
 .wp-block-latest-posts li a,
 .wp-block-archives li a,
@@ -1371,6 +1372,7 @@ body.full-width-content #primary .covernews_tabbed_posts_widget .tab-content .ar
     width: 100%;
     font-weight: 700;
 }
+.wp-block-archives li a{display: inline;}
 .wp-block-categories li a,
 .widget_categories li a {
     display: inline-block;
@@ -1409,6 +1411,9 @@ body.full-width-content #primary .covernews_tabbed_posts_widget .tab-content .ar
 .widget_meta li:last-child>a,
 .widget_recent_entries li:last-child>a {
     padding-bottom: 0;
+}
+body.default .entry-content>[class*="wp-block-rss"] a:not([class]) {
+    color: #404040 !important;
 }
 .site-content .widget_recent_comments li a,
 .site-content .widget_pages li a,
@@ -2738,6 +2743,7 @@ body.dark .aft-full-title-first {background-color: #333;}
 .entry-header-details .entry-title {
     margin: 5px 0;
     letter-spacing: 0;
+    word-wrap: break-word;
 }
 .aft-grid-double-column .spotlight-post .article-title,
 .single .entry-content-wrap,
@@ -3007,6 +3013,7 @@ embed,iframe,object {max-width: 100%;}
 .wp-caption { margin-bottom: 1.5em;max-width: 100%;}
 .wp-caption img[class*="wp-image-"] {display: block;margin-left: auto;margin-right: auto;}
 .wp-caption .wp-caption-text {margin: 0.8075em 0;}
+.wp-caption .wp-caption-text a {text-decoration: underline;}
 .wp-caption-text {text-align: center;}
 /*--------------------------------------------------------------
 ## Galleries
@@ -3113,6 +3120,7 @@ embed,iframe,object {max-width: 100%;}
     align-items: center;
     justify-content: center;
 }
+.social-widget-menu ul li a{ font-size: 22px;}
 .top-masthead .social-navigation ul {display: flex;}
 .top-masthead .social-navigation ul li:not(:last-child) {margin-right: 4px;}
 .top-masthead .social-navigation ul li a {
@@ -3319,6 +3327,15 @@ nav.main-navigation {background: #bb1919;}
 body.dark .read-bg-img {
     background-color: rgba(255, 255, 255, 0.05);
 }
+.wp-element-button,
+.wp-block-button.is-style-fill a {
+    background: #bb1919;
+    border-color: #bb1919;
+}
+.wp-block-button.is-style-outline a{
+    border-color: #bb1919;
+    color: #bb1919;
+}
 .secondary-color,button,input[type="button"],input[type="reset"],input[type="submit"],
 .site-content .search-form .search-submit,
 .site-footer .search-form .search-submit,
@@ -3327,10 +3344,15 @@ body.dark .read-bg-img {
     background: #bb1919;
     color: #fff;
 }
+.wp-block-file__button.wp-element-button:hover,
+.wp-block-button.is-style-fill a:hover,
 .wp-block-tag-cloud.is-style-outline a:visited:hover,
 .tagcloud :is(a,a:visited):hover {
     color: #fff;
 }
+body .wp-block-file__button.wp-element-button:hover,
+.wp-block-button.is-style-outline a:hover,
+.wp-block-button.is-style-fill a:hover{text-decoration: none;}
 .slider-figcaption .grid-item-metadata .item-metadata,
 .af-navcontrols .slide-count,
 .figure-categories .cat-links {
