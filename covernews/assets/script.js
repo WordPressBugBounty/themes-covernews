@@ -80,7 +80,13 @@
             .parent('li')
             .find('> a')
             .append(
-              '<button class="fa fa-angle-down" aria-label="Expand menu" title="Expand menu" aria-expanded="false" >'
+              '<button class="covernews-icon-angle-down" aria-label="down">'
+            );
+          e('#masthead .main-navigation div.menu > ul .children')
+            .parent('li')
+            .find('> a')
+            .append(
+              '<button class="covernews-icon-angle-down" aria-label="down">'
             );
         }
       },

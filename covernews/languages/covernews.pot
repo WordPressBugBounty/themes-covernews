@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: CoverNews 7.0.0\n"
+"Project-Id-Version: CoverNews 7.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/covernews\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-10T11:09:20+00:00\n"
+"POT-Creation-Date: 2026-06-22T07:20:20+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: covernews\n"
@@ -56,20 +56,20 @@ msgstr ""
 #: admin-dashboard/admin_dashboard.php:132
 #: admin-dashboard/admin_dashboard.php:133
 #: inc/customizer/builder/class-header-footer-builder.php:36
-#: inc/template-functions.php:531
+#: inc/template-functions.php:527
 msgid "Header Builder"
 msgstr ""
 
 #: admin-dashboard/admin_dashboard.php:142
 #: admin-dashboard/admin_dashboard.php:143
 #: inc/customizer/builder/class-header-footer-builder.php:45
-#: inc/template-functions.php:541
+#: inc/template-functions.php:537
 msgid "Footer Builder"
 msgstr ""
 
 #: admin-dashboard/admin_dashboard.php:154
 #: admin-dashboard/admin_dashboard.php:155
-#: inc/template-functions.php:526
+#: inc/template-functions.php:522
 msgid "Starter Sites"
 msgstr ""
 
@@ -84,6 +84,7 @@ msgid "Block Patterns"
 msgstr ""
 
 #: admin-dashboard/admin_dashboard.php:187
+#: inc/template-functions.php:552
 #: admin-dashboard/src/components/json/dashboard-content.js:23
 #: admin-dashboard/src/components/json/freepro-content.js:209
 msgid "Upgrade to Pro"
@@ -159,11 +160,13 @@ msgstr ""
 
 #: admin-dashboard/class-af-companion.php:41
 #: admin-dashboard/class-af-companion.php:42
+#: inc/template-functions.php:542
 msgid "Speed Booster"
 msgstr ""
 
 #: admin-dashboard/class-af-companion.php:50
 #: admin-dashboard/class-af-companion.php:51
+#: inc/template-functions.php:547
 msgid "Growth Tools"
 msgstr ""
 
@@ -302,12 +305,12 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:162
+#: functions.php:147
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:166
+#: functions.php:158
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr ""
@@ -1223,7 +1226,7 @@ msgstr ""
 
 #: inc/hooks/blocks/block-post-grid.php:74
 #: template-parts/content-page.php:27
-#: template-parts/content.php:61
+#: template-parts/content.php:56
 msgid "Pages:"
 msgstr ""
 
@@ -1461,11 +1464,7 @@ msgstr ""
 msgid "covernews Options"
 msgstr ""
 
-#: inc/template-functions.php:521
-msgid "Ads Settings"
-msgstr ""
-
-#: inc/template-functions.php:536
+#: inc/template-functions.php:532
 msgid "Front-page Banner"
 msgstr ""
 
@@ -2246,17 +2245,17 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #. translators: %s: Title of the previous post.
-#: template-parts/content.php:47
+#: template-parts/content.php:42
 msgid "Previous: %s"
 msgstr ""
 
 #. translators: %s: Title of the next post.
-#: template-parts/content.php:52
+#: template-parts/content.php:47
 msgid "Next: %s"
 msgstr ""
 
 #. translators: Hidden heading for the post navigation section.
-#: template-parts/content.php:56
+#: template-parts/content.php:51
 msgid "Post navigation"
 msgstr ""
 

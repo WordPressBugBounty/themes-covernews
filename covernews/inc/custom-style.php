@@ -63,12 +63,13 @@ if (!function_exists('covernews_custom_style')) {
         $css = ob_get_clean();
 
         // Minify CSS: remove comments, newlines, extra spaces
-        $css = preg_replace('!/\*.*?\*/!s', '', $css);        // Remove comments
-        $css = preg_replace('/\s+/', ' ', $css);             // Collapse whitespace
-        $css = str_replace([' {', '{ ', '; ', ': ', ', '], ['{', '{', ';', ':', ','], $css);
-        $css = trim($css);
+        $css = preg_replace(
+            array('!/\*.*?\*/!s', '/\s+/', '/\s*([\{\};:,])\s*/'),
+            array('', ' ', '$1'),
+            $css
+        );
 
-        return $css;
+        return trim($css);
 
         // return ob_get_clean();
     }

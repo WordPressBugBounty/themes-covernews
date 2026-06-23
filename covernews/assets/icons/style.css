@@ -55,12 +55,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.covernews-icon-angle-down,
-.covernews-icon-angle-up,
-.covernews-icon-angle-right,
-.covernews-icon-angle-left{
-  font-size: 12px !important;
-  font-weight: 400 !important;
+.covernews-icon-angle-down,.covernews-icon-angle-up,
+.covernews-icon-angle-right,.covernews-icon-angle-left{
+  /* font-size: 12px !important;
+  font-weight: 400 !important; */
 }
 .min-read:before,
 .aft-icon-timelapse:before {

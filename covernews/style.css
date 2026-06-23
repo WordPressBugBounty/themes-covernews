@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.1.2
+Version: 7.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -352,7 +352,7 @@ ol {list-style: decimal;}
 li>ul,
 li>ol {
     margin-bottom: 0;
-    margin-left: 1.5em;
+    margin-left: 0em;
 }
 dl {
     border: 2px solid #e8e8e8;
@@ -884,6 +884,7 @@ body .top-masthead .ham.exit,
 .main-navigation .menu li a button {
     padding: 0 6px;
     display: inline-block;
+    vertical-align: middle;
     border: none;
     background-color: transparent;
     font-size: 17px;
@@ -1079,6 +1080,7 @@ body .top-masthead .ham.exit,
     margin: 0;
     font-weight: 700;
     letter-spacing: 0;
+    clear: both;
 }
 .site-main .post-navigation .em-post-navigation {
     display: block;
@@ -2790,7 +2792,7 @@ body.aft-main-banner-slider-list-tabbed .af-main-banner .banner-trending-posts-w
 .entry-content .post-item-metadata .tags-links,
 .entry-content .post-item-metadata .author-links {padding-right: 15px;}
 .entry-content-wrap .promotionspace {margin-top: 15px;}
-.entry-content :is(ul,ol) {padding-left: 30px;}
+.entry-content :is(ul,ol) {padding-left: 20px;}
 .entry-content :is(ul,ol).wp-block-post-template {padding: 0;}
 .full-plus-list .spotlight-post:first-of-type figcaption .article-title {font-size: 18px;}
 @media only screen and (min-width: 1600px) {
@@ -3233,9 +3235,11 @@ body.dark .site-footer .social-navigation ul li :is(a,a:visited),
 .site-footer .wp-block-calendar table caption,
 .site-footer .wp-block-calendar table tbody,
 .site-footer,
+.site-footer .widget_text a:not([class]),
 .site-footer a {
     color: #fff;
 }
+.site-footer .wp-block-button.is-style-outline a{color: #fff;border-color:#fff}
 .site-footer .widget .col-details,
 .site-footer .widget figcaption {
     color: #959595;

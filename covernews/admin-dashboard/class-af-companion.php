@@ -43,7 +43,7 @@ if (!class_exists('AFcompanion')) {
         'manage_options', // Capability.
         'af-speed', // Menu slug.
         array($this, 'covernews_companion_dashboard_function'), // Callback function.
-        
+        7
       );
       add_submenu_page(
         $this->theme_slug, // Parent slug.
@@ -52,7 +52,7 @@ if (!class_exists('AFcompanion')) {
         'manage_options', // Capability.
         'af-growth', // Menu slug.
         array($this, 'covernews_companion_dashboard_function'), // Callback function.
-        
+        8
       );
       add_submenu_page(
         $this->theme_slug, // Parent slug.
@@ -61,7 +61,7 @@ if (!class_exists('AFcompanion')) {
         'manage_options', // Capability.
         'af-status', // Menu slug.
         array($this, 'covernews_companion_dashboard_function'), // Callback function.
-        
+        11
       );
     }
 

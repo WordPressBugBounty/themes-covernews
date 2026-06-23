@@ -500,7 +500,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
     </g>
     </svg>';
 
-    $parent_title  = $afthemes_icon . esc_html__('covernews Options', 'covernews');
+    $parent_title  = $afthemes_icon . esc_html__('CoverNews Options', 'covernews');
 
     // Add parent menu
     $wp_admin_bar->add_menu(array(
@@ -508,7 +508,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
       'title' => $parent_title,
       'href'  => admin_url('admin.php?page=covernews-pro'),
       'meta'  => array(
-        'title'  => esc_attr__('covernews Options', 'covernews'), // Tooltip
+        'title'  => esc_attr__('CoverNews Options', 'covernews'), // Tooltip
         // 'target' => '_blank', // Open in new tab
       ),
     ));
