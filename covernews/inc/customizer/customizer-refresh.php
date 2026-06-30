@@ -17,7 +17,7 @@ $wp_customize->selective_refresh->add_partial('select_slider_news_category', arr
     'selector' => 'div.main-story-wrapper',     
 ));
 
-$wp_customize->selective_refresh->add_partial('select_editors_picks_category', array(
+$wp_customize->selective_refresh->add_partial('main_news_slider_title', array(
     'selector' => 'div.af-main-banner-editors-picks',     
 ));
 

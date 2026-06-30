@@ -83,9 +83,9 @@ if (!class_exists('CoverNews_Posts_Slider')) :
 
                     <?php covernews_post_categories(); ?>
                   </div>
-                  <h2 class="slide-title">
+                  <h3 class="slide-title">
                     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                  </h2>
+                  </h3>
 
                   <div class="grid-item-metadata grid-item-metadata-1">
                     <?php covernews_post_item_meta(); ?>

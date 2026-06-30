@@ -191,8 +191,9 @@ endif;
  * @param array $args  Post Arguments.
  */
 if (!function_exists('covernews_render_posts')) :
-  function covernews_render_posts($type, $show_excerpt, $excerpt_length, $number_of_posts, $category = '0')
+  function covernews_render_posts($type, $show_excerpt, $excerpt_length, $number_of_posts, $category)
   {
+    
 
     $args = array();
 
@@ -205,6 +206,10 @@ if (!function_exists('covernews_render_posts')) :
           'orderby' => 'comment_count',
           'ignore_sticky_posts' => true
         );
+        $category = isset($category) ? $category : '0';        
+        if (absint($category) > 0) {          
+          $args['cat'] = absint($category);
+        }
         break;
 
       case 'recent':
@@ -215,6 +220,10 @@ if (!function_exists('covernews_render_posts')) :
           'orderby' => 'date',
           'ignore_sticky_posts' => true
         );
+        $category = isset($category) ? $category : '0';        
+        if (absint($category) > 0) {          
+          $args['cat'] = absint($category);
+        }
         break;
 
       case 'categorised':
@@ -225,8 +234,9 @@ if (!function_exists('covernews_render_posts')) :
           'orderby' => 'date',
           'ignore_sticky_posts' => true
         );
-        $category = isset($category) ? $category : '0';
-        if (absint($category) > 0) {
+        
+        $category = isset($category) ? $category : '0';        
+        if (absint($category) > 0) {          
           $args['cat'] = absint($category);
         }
         break;
@@ -235,6 +245,8 @@ if (!function_exists('covernews_render_posts')) :
       default:
         break;
     }
+
+    // var_dump(($args));
 
     if (!empty($args) && is_array($args)) {
       $all_posts = new WP_Query($args);
@@ -339,6 +351,8 @@ if (!function_exists('covernews_render_section_title')) :
 endif;
 
 function covernews_render_tabbed_container($tabs, $tab_id = 'default-tab', $show_excerpt = false, $excerpt_length = 0, $number_of_posts = 5, $is_recent_active = true) {
+  // var_dump($tabs);
+  
   ?>
   <div class="tabbed-container">
       <div class="tabbed-head">
@@ -364,6 +378,8 @@ function covernews_render_tabbed_container($tabs, $tab_id = 'default-tab', $show
       <div class="tab-content">
           <?php foreach ($tabs as $tab_key => $tab_data): 
               $is_active = $is_recent_active && $tab_key === 'recent';
+
+              // var_dump($tab_data);
           ?>
               <div id="<?php echo esc_attr($tab_id . '-' . $tab_key); ?>"
                   role="tabpanel"

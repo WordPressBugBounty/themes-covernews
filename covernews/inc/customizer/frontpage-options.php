@@ -244,7 +244,8 @@ $wp_customize->add_control( 'select_main_banner_section_order_1',
         'type'        => 'select',
         'choices'               => array(
             'order-1' => __( "Default", 'covernews' ),
-            'order-2' => __( "Order 2", 'covernews' )
+            'order-2' => __( "Order 2", 'covernews' ),
+            'order-3' => __( "Order 3", 'covernews' )
             
         ),
         'priority'    => 23,

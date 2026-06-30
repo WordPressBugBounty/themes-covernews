@@ -481,9 +481,9 @@ function covernews_disable_emojis_remove_dns_prefetch($urls, $relation_type)
   return $urls;
 }
 
-if (!function_exists('covernews_athfb_add_custom_admin_menu')) {
+if (!function_exists('athfb_add_custom_admin_menu')) {
 
-  function covernews_athfb_add_custom_admin_menu($wp_admin_bar)
+  function athfb_add_custom_admin_menu($wp_admin_bar)
   {
     // Show only for admins (change capability if needed)
     if (!current_user_can('manage_options')) {
@@ -500,7 +500,7 @@ if (!function_exists('covernews_athfb_add_custom_admin_menu')) {
     </g>
     </svg>';
 
-    $parent_title  = $afthemes_icon . esc_html__('CoverNews Options', 'covernews');
+    $parent_title  = $afthemes_icon . esc_html__('covernews Options', 'covernews');
 
     // Add parent menu
     $wp_admin_bar->add_menu(array(
@@ -508,7 +508,7 @@ if (!function_exists('covernews_athfb_add_custom_admin_menu')) {
       'title' => $parent_title,
       'href'  => admin_url('admin.php?page=covernews-pro'),
       'meta'  => array(
-        'title'  => esc_attr__('CoverNews Options', 'covernews'), // Tooltip
+        'title'  => esc_attr__('covernews Options', 'covernews'), // Tooltip
         // 'target' => '_blank', // Open in new tab
       ),
     ));
@@ -563,14 +563,14 @@ if (!function_exists('covernews_athfb_add_custom_admin_menu')) {
         'parent' => 'covernews-menu',
         'meta'   => array(
           'title'  => $item['title'],
-          'target' => '_blank', // Open in new tab
+          // 'target' => '_blank', // Open in new tab
         ),
       ));
     }
   }
 
   // Hook into admin bar menu
-  add_action('admin_bar_menu', 'covernews_athfb_add_custom_admin_menu', 100);
+  add_action('admin_bar_menu', 'athfb_add_custom_admin_menu', 100);
   add_action('admin_enqueue_scripts', 'covernews_admin_bar_styling');
   add_action('wp_enqueue_scripts', 'covernews_admin_bar_styling'); // Also in frontend if admin bar visible
 
@@ -620,17 +620,6 @@ if (!function_exists('covernews_athfb_add_custom_admin_menu')) {
       #wpadminbar #wp-admin-bar-covernews-menu:hover svg {
           fill: #ffcc00;
       }
-
-      #wpadminbar ul li#wp-admin-bar-upgrade-submenu{
-        background-color: #039562;
-        margin-bottom: 0;
-    }
-
-    #wpadminbar ul li#wp-admin-bar-upgrade-submenu a{
-        color:#ffffff;
-        text-transform: uppercase;
-        padding: 3px 10px;
-    }
       
         '
       );
