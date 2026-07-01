@@ -500,7 +500,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
     </g>
     </svg>';
 
-    $parent_title  = $afthemes_icon . esc_html__('covernews Options', 'covernews');
+    $parent_title  = $afthemes_icon . esc_html__('CoverNews Options', 'covernews');
 
     // Add parent menu
     $wp_admin_bar->add_menu(array(
@@ -508,7 +508,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
       'title' => $parent_title,
       'href'  => admin_url('admin.php?page=covernews-pro'),
       'meta'  => array(
-        'title'  => esc_attr__('covernews Options', 'covernews'), // Tooltip
+        'title'  => esc_attr__('CoverNews Options', 'covernews'), // Tooltip
         // 'target' => '_blank', // Open in new tab
       ),
     ));
@@ -516,7 +516,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
     // Define submenu items
     $submenu_items = array(
 
-      
+
       array(
         'id'    => 'starter-sites-submenu',
         'title' => __('Starter Sites', 'covernews'),
@@ -620,9 +620,36 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
       #wpadminbar #wp-admin-bar-covernews-menu:hover svg {
           fill: #ffcc00;
       }
-      
+      #wpadminbar ul li#wp-admin-bar-upgrade-submenu{
+            background-color: #039562;
+            margin-bottom: 0;
+        }
+
+        #wpadminbar ul li#wp-admin-bar-upgrade-submenu a{
+            color:#ffffff;
+            text-transform: uppercase;
+            padding: 3px 10px;
+        }
         '
       );
     }
   }
+}
+
+function covernews_wp_page_menu_custom_fallback($args)
+{
+  // 1. Fetch the default pages list
+  $pages = wp_list_pages(array(
+    'title_li' => '',
+    'echo'     => 0,
+  ));
+
+  // 2. Build the exact same structure as your assigned menu
+  $output =  '<' . $args['container'] . ' class="' . $args['container_class'] . '">';
+  $output .= '<ul id="' . $args['menu_id'] . '" class="menu" >';
+  $output .= $pages;
+  $output .= '</ul>';
+  $output .= '</' . $args['container'] . '>';
+
+  echo $output;
 }

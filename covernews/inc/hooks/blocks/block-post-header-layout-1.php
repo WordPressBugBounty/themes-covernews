@@ -161,7 +161,8 @@
                   'theme_location' => 'aft-primary-nav',
                   'menu_id' => 'primary-menu',
                   'container' => 'div',
-                  'container_class' => 'menu main-menu'
+                  'container_class' => 'menu main-menu menu-desktop',
+                  'fallback_cb'    => 'covernews_wp_page_menu_custom_fallback',
                 ));
                 ?>
               </div>
@@ -195,3 +196,6 @@
 </div>
 
 <?php do_action('covernews_action_front_page_main_section');
+
+
+

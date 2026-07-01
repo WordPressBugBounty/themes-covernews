@@ -261,7 +261,7 @@
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
               },
             },
           ],
@@ -307,7 +307,7 @@
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
               },
             },
           ],

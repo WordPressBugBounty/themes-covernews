@@ -2,7 +2,7 @@
 
 Contributors: AF themes
 Tested up to: 7.0
-Stable tag: 7.0.0
+Stable tag: 7.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -37,6 +37,52 @@ CoverNews includes support for Infinite Scroll in Jetpack.
 
 
 == Change-log ==
+
+= 7.3.2 - Jun 30, 2026 =
+* Added local font loading for improved performance and privacy.
+* Added Theme JSON enhancements for improved Block Editor compatibility.
+* Added Useful Plugins recommendations in the theme dashboard.
+* Added improved search and print stylesheet support.
+
+* Enhanced responsive banner layouts and main banner post ordering.
+* Enhanced wide and full-width layout compatibility.
+* Enhanced 404 page design and user experience.
+* Enhanced social icon styling and Jetpack sharing compatibility.
+* Enhanced RSS feed, download button, and general button styling.
+* Enhanced footer colors, link colors, button colors, and AF Tabs styling.
+* Enhanced gallery image presentation and post navigation layout.
+* Enhanced mobile menu behavior, nested navigation, and submenu interactions.
+* Enhanced typography, spacing, and word wrapping throughout the theme.
+* Enhanced tag cloud styling and custom color support across footer and widget areas.
+* Enhanced dark mode appearance with improved background and component styling.
+* Enhanced slide navigation icons and pagination controls.
+* Enhanced Slick Slider vertical navigation styling in dark mode.
+* Enhanced entry content spacing and archive layout consistency.
+* Enhanced Mailchimp form styling and placeholder colors.
+* Enhanced custom CSS and overall stylesheet optimization.
+
+* Improved accessibility for keyboard navigation and focus indicators.
+* Improved mobile responsiveness across banners, post grids, archives, and navigation.
+* Improved local font loading and default typography.
+* Improved custom style compatibility and overall design consistency.
+* Improved menu behavior when no custom menu is assigned.
+* Improved translation files and language support.
+
+* Fixed banner layout issues across responsive breakpoints.
+* Fixed post navigation alignment on mobile devices.
+* Fixed category color inconsistencies.
+* Fixed archive layouts for posts without featured images.
+* Fixed gallery image sizing issues.
+* Fixed nested list spacing in comments and content.
+* Fixed widget and footer custom color inconsistencies.
+* Fixed submenu icon behavior on desktop.
+* Fixed tabbed layout aspect ratio and no-image display issues.
+* Fixed reaction button styling.
+* Fixed various responsive, styling, spacing, and dark mode issues reported during design review.
+
+* Optimized CSS, custom styles, and minified assets for better performance and maintainability.
+
+
 = 7.0.0 - Jun 10, 2026 =
 * Added Companion Dashboard menu integration for easier theme management.
 * Added webpack build workflow for improved development and asset handling.

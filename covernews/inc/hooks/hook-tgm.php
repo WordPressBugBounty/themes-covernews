@@ -40,6 +40,15 @@ if ( ! function_exists( 'covernews_recommended_plugins' ) ) :
                 'name'     => esc_html__( 'Free Live Chat using 3CX', 'covernews' ),
                 'slug'     => 'wp-live-chat-support',
                 'required' => false,
+            ),array(
+                'name'     => esc_html__( 'AF Translate', 'covernews' ),
+                'slug'     => 'af-translate',
+                'required' => false,
+            ),
+            array(
+                'name'     => esc_html__( 'AF Companion', 'covernews' ),
+                'slug'     => 'af-companion',
+                'required' => false,
             )
         );
 

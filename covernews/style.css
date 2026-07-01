@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.3.1
+Version: 7.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -482,7 +482,7 @@ a:hover,a:focus,a:active {
     outline: 0;
     text-decoration: none;
 }
-a:focus {outline: 1px dotted;}
+a:focus-visible {outline: 1px dotted;}
 /*--------------------------------------------------------------
 ## bootstrap reset
 --------------------------------------------------------------*/
@@ -888,6 +888,7 @@ body .top-masthead .ham.exit,
     background-color: transparent;
     font-size: 17px;
     font-weight: 700;
+    line-height: 0;
 }
 @media only screen and (min-width: 992px) {
     .main-navigation .menu ul li .sub-menu li a button.covernews-icon-angle-down {
@@ -1063,6 +1064,7 @@ body .top-masthead .ham.exit,
     }
     .main-navigation .menu .menu-mobile li .sub-menu li a {margin-left: 15px;}
     .main-navigation .menu .menu-mobile li .sub-menu>li:first-child {border-top: 0;}
+    .main-navigation .menu .menu-mobile li .children {display: none;}
 }
 /*------------------------------------------------------------
  * ## Post-navigation
