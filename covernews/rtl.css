@@ -266,7 +266,7 @@ body.rtl h3.covernews-subtitle{
 		float: none;
 	}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 	body.rtl .masthead-banner .site-branding {padding-left: 0;}
 }
 @media only screen and (max-width: 640px) {

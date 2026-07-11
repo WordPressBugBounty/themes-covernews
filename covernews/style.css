@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.3.5
+Version: 7.4.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -230,7 +230,7 @@ span.trending-no,
 header.entry-header h1.entry-title {
     font-size: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .archive .latest-posts-full .entry-title,
     .archive .content-area .page-title,
     .search-results .content-area .page-title,
@@ -455,7 +455,7 @@ input[type=file] {
 }
 select {border: 1px solid #ccc;}
 textarea {width: 100%;}
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .pad-0l {padding-left: 0 !important;}
     .pad-0r {padding-right: 0 !important;}
     .pad-0lr {padding-left: 0 !important;padding-right: 0 !important;}
@@ -542,10 +542,10 @@ a:focus-visible {outline: 1px dotted;}
     position: relative;
     min-height: 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .col-sm-15 {width: 20%;float: left;}
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .col-sm-15 {width: 50%;float: left;}
     .promotion-section {margin-top: 20px;}
 }
@@ -581,19 +581,22 @@ body.scrollup-sticky-header .aft-sticky-navigation,
 body.scrolldown-sticky-header .aft-sticky-navigation,
 body.scrollboth-sticky-header .aft-sticky-navigation {
     top: -100px;
+    top: 0;
+    position: fixed;
+    transform: translateY(0%);
 }
 @media only screen and (min-width: 769px) {
     body.scrollboth-sticky-header.admin-bar .aft-sticky-navigation,
     body.scrolldown-sticky-header.admin-bar .aft-sticky-navigation,
     body.scrollup-sticky-header.admin-bar .aft-sticky-navigation {
-        top: calc(-100px + 32px);
+        top: calc(0px + 32px);
     }
 }
-@media only screen and (max-width: 768px)and (min-width: 602px) {
+@media only screen and (max-width: 768px) and (min-width: 602px) {
     body.scrollboth-sticky-header.admin-bar .aft-sticky-navigation,
     body.scrolldown-sticky-header.admin-bar .aft-sticky-navigation,
     body.scrollup-sticky-header.admin-bar .aft-sticky-navigation {
-        top: calc(-100px + 46px);
+        top: calc(0px + 46px);
     }
 }
 body.scrollup-sticky-header.admin-bar .aft-sticky-navigation.nav-up,
@@ -602,7 +605,7 @@ body.scrollup-sticky-header .aft-sticky-navigation.nav-up {
 }
 body.scrolldown-sticky-header.admin-bar .aft-sticky-navigation.nav-down,
 body.scrolldown-sticky-header .aft-sticky-navigation.nav-down {
-    transform: translateY(-100%);
+    transform: translateY(100%);
 }
 .navigation-container .site-title,
 .navigation-container ul li a,
@@ -1892,7 +1895,7 @@ body.dark #loader {border: 10px solid #404040;}
     flex-wrap: wrap;
     align-items: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .header-layout-1 .masthead-banner .row {justify-content: center;}
 }
 .site-branding .site-title a {transition: all 0.5s ease-out;}
@@ -1911,6 +1914,9 @@ body.dark #loader {border: 10px solid #404040;}
 .single.full-width-content .site-content .entry-content-wrap {
     margin-left: auto;
     margin-right: auto;
+}
+@media (min-width: 769px) and (max-width: 990px) {
+    /* .container{width: calc(100% - 40px);} */
 }
 @media (min-width: 768px) {
     .site-content {width: 750px;}
@@ -2618,7 +2624,7 @@ body.default.aft-main-banner-slider-full .main-slider.aft-banner-slider .slider-
 body.dark.aft-main-banner-slider-full .main-slider.aft-banner-slider .slider-figcaption .slide-title a:hover {
     color: #bb1919;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .aft-main-banner-slider-full .main-slider.aft-banner-slider .slick-item .read-bg-img {height: 260px;}
     .aft-main-banner-slider-full .main-slider.aft-banner-slider .slider-figcaption .slide-title {font-size: 24px;}
 }
@@ -3733,7 +3739,7 @@ body.default .mc4wp-form-fields input[type="email"] {
     padding-right: 0;
 }
 .entry-content>[class*="wp-block-"] .blockspare-posts-block-post-category a:not([class]):hover {text-decoration: none;}
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 991px) {
     .mc4wp-form-fields>p,
     .mc4wp-form-fields input[type="email"],
     .mc4wp-form-fields input[type="submit"] {
@@ -5135,7 +5141,7 @@ body:is(.aft-container-default,.aft-container-full-width,.aft-container-wide).fu
     height: unset;    
     aspect-ratio: 3 / 2;
 }
-@media (min-width: 769px) {
+@media (min-width: 992px) {
     .i-row.row {margin: 0;}
     .full-width-content.archive-layout-grid .covernews-ad-archive-between.float-l.col-1.pad,
     .full-width-content .col-sm-4.latest-posts-grid:not(.covernews-same-grid) {width: 25%;}
@@ -5437,15 +5443,15 @@ body:is(.aft-container-default,.aft-container-full-width,.aft-container-wide).fu
 @media (max-width: 800px) {
     #infinite-handle span {display: inline-block;}
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
     .col-sm-4:nth-child(3n+1) {clear: left;}
     .full-width-content .col-sm-4.latest-posts-grid:nth-child(3n+1) {clear: none;}
     .full-width-content .col-sm-4.latest-posts-grid:not(.covernews-same-grid):nth-child(4n+1) {clear: left;}
 }
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
     .banner-trending-posts-wrapper h3 {font-size: 14px;}
 }
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 991px) and (min-width: 481px) {
     .covernews_single_col_categorised_posts .widget-block {
         margin: 0 -10px;
         display: grid;
@@ -5501,7 +5507,7 @@ body:is(.aft-container-default,.aft-container-full-width,.aft-container-wide).fu
         width: calc(100% - 95px);
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .trending-story.categorized-story .data-bg-featured,
     .af-main-banner-editors-picks .data-bg-featured{
         height: unset;
@@ -5819,7 +5825,7 @@ body:is(.aft-container-default,.aft-container-full-width,.aft-container-wide).fu
 .default-section-slider.aft-banner-9.order-2 .for-main-row .main-story-wrapper {order: 2;}
 /*Slider and a Grid*/
 .default-section-slider.aft-banner-4 .for-main-row .af-main-banner-editors-picks {margin-bottom: 10px;}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .default-section-slider ul.article-tabbed-list,
     .default-section-slider .for-main-row .trending-story {
         margin-bottom: 15px;
