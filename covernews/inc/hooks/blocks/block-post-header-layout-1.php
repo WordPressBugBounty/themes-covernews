@@ -56,7 +56,8 @@
                 'link_after' => '</span>',
                 'menu_id' => 'social-menu',
                 'container' => 'div',
-                'container_class' => 'social-navigation'
+                'container_class' => 'social-navigation',
+                'fallback_cb'    => false,
               ));
               ?>
             </div>
