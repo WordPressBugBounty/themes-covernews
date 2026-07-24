@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
 Description: CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine. With the help of block patterns, live customizer options and custom widgets, you can design your website as you like and preview the changes live. This theme is fully responsive that looks beautiful on all the screen sizes from small to large devices. As it includes many useful features that require to build an awesome looking website, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, vibrant news sites and more. It is also compatible with Elementor, Gutenberg along with WooCommerce plugin that helps you to integrate an online business with your blog easily. The RTL language supported theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are a number demos available for this theme so import the one you like and start to build a website. See our demos: https://afthemes.com/products/covernews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/covernews/
-Version: 7.4.1
+Version: 7.4.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: covernews
@@ -605,7 +605,7 @@ body.scrollup-sticky-header .aft-sticky-navigation.nav-up {
 }
 body.scrolldown-sticky-header.admin-bar .aft-sticky-navigation.nav-down,
 body.scrolldown-sticky-header .aft-sticky-navigation.nav-down {
-    transform: translateY(100%);
+    transform: translateY(-100%);
 }
 .navigation-container .site-title,
 .navigation-container ul li a,
@@ -892,6 +892,7 @@ body .top-masthead .ham.exit,
     line-height: 0;
 }
 @media only screen and (min-width: 992px) {
+    .main-navigation .menu ul li .children li a button.covernews-icon-angle-down,
     .main-navigation .menu ul li .sub-menu li a button.covernews-icon-angle-down {
         transform: rotate(-90deg);
     }
@@ -1367,14 +1368,12 @@ body.full-width-content #primary .covernews_tabbed_posts_widget .tab-content .ar
 .widget_meta li a,
 .widget_nav_menu li a,
 .widget_recent_entries li a {
-    display: table;
+    display: inline-block;
     padding-bottom: 15px;
     font-size: 15px;
     position: relative;
-    width: 100%;
     font-weight: 700;
 }
-.wp-block-archives li a{display: inline;}
 .wp-block-categories li a,
 .widget_categories li a {
     display: inline-block;
@@ -1382,6 +1381,10 @@ body.full-width-content #primary .covernews_tabbed_posts_widget .tab-content .ar
     font-size: 15px;
     position: relative;
     font-weight: 700;
+}
+.entry-content .wp-block-page-list :is(ul,ol), 
+.wp-block-page-list {
+    list-style: none;
 }
 .wp-block-navigation ul li a {padding-bottom: 0;}
 .widget_recent_entries li span,
@@ -3343,6 +3346,14 @@ body.dark .read-bg-img {
 .wp-block-button.is-style-fill a {
     background: #bb1919;
     border-color: #bb1919;
+    color: #fff;
+}
+.wp-element-button:hover,
+.wp-block-button.is-style-fill a:hover {
+    color: #fff;
+}
+.entry-content>[class*="wp-block-"] a.wp-element-button:hover{
+    text-decoration: none;
 }
 .wp-block-button.is-style-outline a{
     border-color: #bb1919;
@@ -3370,6 +3381,14 @@ body .wp-block-file__button.wp-element-button:hover,
 .figure-categories .cat-links {
     font-size: 12px;
     font-weight: 400;
+}
+.entry-content .wp-block-rss li a, 
+.entry-content .wp-block-categories a, 
+.entry-content .wp-block-archives a,
+.entry-content .wp-block-latest-comments li a, 
+.entry-content .wp-block-latest-posts li a, 
+.entry-content .wp-block-tag-cloud a {
+    color: inherit !important;
 }
 .af-navcontrols .slide-count {color: rgba(255, 255, 255, 0.65);}
 .em-post-format {
@@ -4496,13 +4515,28 @@ body.dark .entry-content>[class*="wp-block-"] .wp-block-categories-list.wp-block
 .entry-content> :is(ul, ol, p) a:not([class]):is(:link, :hover) {
     text-decoration: underline;
 }
+.post-description a:not(.aft-readmore):hover, 
+.entry-content .wp-block-latest-comments a:not(.has-text-color), 
+.entry-content .wp-block-archives-list.wp-block-archives a:not(.has-text-color), 
+.entry-content .wp-block-latest-posts a:not(.has-text-color), 
+.entry-content .wp-block-categories-list.wp-block-categories a:not(.has-text-color), 
+:is(.wp-block-table,.comment-meta,p.logged-in-as,.post-excerpt,.comment-content) a:hover, 
+.covernews-widget.widget_text a:hover, 
+.entry-content > [class*="wp-block-"] div.is-style-fill a:not(.has-text-color):hover, 
+.entry-content > [class*="wp-block-"].is-style-fill a:not(.has-text-color):hover, 
+.entry-content > :is(ul, ol, p) a:hover {
+    text-decoration: none;
+}
 .widget_block .social-widget-menu ul li a,
 .widget_block .wp-block-categories a:not([class]),
 .widget_block .wp-block-archives a:not([class]),
+.entry-content> ul.wp-block-categories a:not([class]):is(:link, :hover),
+.entry-content> ul.wp-block-archives a:not([class]):is(:link, :hover),
 .entry-content>[class*="wp-block-"] .taxonomy-category a:not([class]):hover,
 .entry-content>[class*="wp-block-"] .wp-block-post-title a:not([class]):hover {
     text-decoration: none;
 }
+.wp-block-latest-posts.wp-block-latest-posts__list{padding: 0;}
 .wp-block-post-template .taxonomy-category a {margin-right: 5px;}
 img.alignright {clear: right;}
 img.alignleft {clear: left;}
@@ -4626,7 +4660,7 @@ p.has-drop-cap:not(:focus):first-letter {font-weight: bold;}
 }
 .wp-block-code code,
 .wp-block-code .editor-plain-text {
-    background-color: #f9f9f9;
+    background-color: #c3c3c347;
     padding: 10px;
     color: inherit;
     font-family: inherit;
@@ -4764,6 +4798,8 @@ ul.wp-block-categories,
 ul.wp-block-categories__list {
     margin-bottom: 20px;
     position: relative;
+    padding: 0;
+    list-style: none;
 }
 div.wp-block ul.wp-block-archives ul,
 div.wp-block ul.wp-block-categories ul,

@@ -2,7 +2,7 @@
 
 Contributors: AF themes
 Tested up to: 7.0
-Stable tag: 7.3.2
+Stable tag: 7.4.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 CoverNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-CoverNews WordPress Theme, Copyright 2024 AF themes
+CoverNews WordPress Theme, Copyright 2026 AF themes
 CoverNews is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
