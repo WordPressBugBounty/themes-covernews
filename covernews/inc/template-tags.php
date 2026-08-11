@@ -105,12 +105,12 @@ if (!function_exists('covernews_post_item_meta')):
 
       ?>
           <span class="aft-comment-count">
-            <a href="<?php the_permalink(); ?>">
-              <i class="far fa-comment"></i>
-              <span class="aft-show-hover">
-                <?php echo esc_html($comment_count); ?>
-              </span>
-            </a>
+            <a href="<?php echo esc_url(get_comments_link($post_id)); ?>" aria-label="<?php echo esc_attr( sprintf( _n( '%s comment', '%s comments', $comment_count, 'covernews-pro' ), number_format_i18n( $comment_count ) ) ); ?>">
+                    <i class="far fa-comment"></i>
+                    <span class="aft-show-hover">
+                        <?php echo esc_html(get_comments_number($post_id)); ?>
+                    </span>
+                </a>
           </span>
       <?php
 
