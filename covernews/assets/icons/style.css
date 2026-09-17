@@ -60,6 +60,21 @@
   /* font-size: 12px !important;
   font-weight: 400 !important; */
 }
+.aft-icon-github-brands-solid:before {
+  content: "\e932";
+}
+.aft-icon-quora-brands-solid:before {
+  content: "\e933";
+}
+.aft-icon-medium-brands-solid:before {
+  content: "\e934";
+}
+.aft-icon-bluesky-brands-solid:before {
+  content: "\e930";
+}
+.aft-icon-linktree-brands-solid:before {
+  content: "\e931";
+}
 .min-read:before,
 .aft-icon-timelapse:before {
   content: "\e92e";

@@ -38,7 +38,8 @@
                   'menu_id' => 'top-menu',
                   'depth' => 1,
                   'container' => 'div',
-                  'container_class' => 'top-navigation'
+                  'container_class' => 'top-navigation',
+                  'fallback_cb'    => false
                 ));
               }
 
@@ -57,7 +58,7 @@
                 'menu_id' => 'social-menu',
                 'container' => 'div',
                 'container_class' => 'social-navigation',
-                'fallback_cb'    => false,
+                'fallback_cb'    => false
               ));
               ?>
             </div>

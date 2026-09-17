@@ -516,7 +516,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
     // Define submenu items
     $submenu_items = array(
 
-
+      
       array(
         'id'    => 'starter-sites-submenu',
         'title' => __('Starter Sites', 'covernews'),
@@ -620,7 +620,7 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
       #wpadminbar #wp-admin-bar-covernews-menu:hover svg {
           fill: #ffcc00;
       }
-      #wpadminbar ul li#wp-admin-bar-upgrade-submenu{
+          #wpadminbar ul li#wp-admin-bar-upgrade-submenu{
             background-color: #039562;
             margin-bottom: 0;
         }
@@ -630,18 +630,18 @@ if (!function_exists('athfb_add_custom_admin_menu')) {
             text-transform: uppercase;
             padding: 3px 10px;
         }
+      
         '
       );
     }
   }
 }
 
-function covernews_wp_page_menu_custom_fallback($args)
-{
+function covernews_wp_page_menu_custom_fallback($args) {
   // 1. Fetch the default pages list
   $pages = wp_list_pages(array(
-    'title_li' => '',
-    'echo'     => 0,
+      'title_li' => '',
+      'echo'     => 0,
   ));
 
   // 2. Build the exact same structure as your assigned menu

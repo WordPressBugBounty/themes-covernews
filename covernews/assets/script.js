@@ -27,8 +27,12 @@
           function (event) {
             event.preventDefault();
             var ethis = e(this),
-              eparent = ethis.closest('li'),
-              esub_menu = eparent.find('> .sub-menu');
+              eparent = ethis.closest('li');
+            if (eparent.find('> .children').length) {
+              var esub_menu = eparent.find('> .children');
+            } else {
+              var esub_menu = eparent.find('> .sub-menu');
+            }
             if (esub_menu.css('display') == 'none') {
               esub_menu.slideDown('300');
               ethis.addClass('active');
@@ -93,8 +97,8 @@
     }),
     (n.trapFocus = function (element) {
       var focusableEls = element.querySelectorAll(
-          'a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled])'
-        ),
+        'a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled])'
+      ),
         firstFocusableEl = focusableEls[0],
         lastFocusableEl = focusableEls[focusableEls.length - 1],
         KEYCODE_TAB = 9;
@@ -267,7 +271,7 @@
           ],
         });
 
-        
+
 
       e('.trending-posts-carousel')
         .not('.slick-initialized')

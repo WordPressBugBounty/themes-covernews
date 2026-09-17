@@ -51,6 +51,7 @@ body.rtl #secondary .covernews_social_contacts_widget ul li{
     margin-left: calc(1.66% - 2px);
 }
 body.rtl #secondary .covernews_social_contacts_widget ul li:nth-child(6n){margin-left: 0;}
+body.rtl span.author-links img,
 body.rtl .aft-full-title-first .em-post-format ,
 body.rtl.single-post .entry-content-wrap .em-post-format {
 	margin-right: 0;

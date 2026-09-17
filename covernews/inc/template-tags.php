@@ -66,6 +66,9 @@ if (!function_exists('covernews_post_item_meta')):
     $post_id = $post->ID;
     $display_setting = covernews_get_option('global_post_date_author_setting');
     $date_display_setting = covernews_get_option('global_date_display_setting');
+    
+    // Fetch the author icon/image setting
+    $author_icon_setting = covernews_get_option('global_post_author_icon_setting');
 ?>
 
     <span class="author-links">
@@ -73,7 +76,18 @@ if (!function_exists('covernews_post_item_meta')):
       <?php if ($display_setting == 'show-date-author' || $display_setting == 'show-author-only'): ?>
 
         <span class="item-metadata posts-author">
-          <i class="far fa-user-circle"></i>
+          <?php 
+          // Handle author icon/avatar options
+          if ($author_icon_setting === 'show-author-image') : 
+              echo get_avatar($author_id, 30, '', '', array('class' => 'author-avatar-img'));
+          elseif ($author_icon_setting === 'show-author-icon' || empty($author_icon_setting)) : 
+          ?>
+              <i class="far fa-user-circle"></i>
+          <?php 
+          endif; 
+          // If 'show-author-only', no icon/avatar renders
+          ?>
+          
           <?php covernews_by_author(); ?>
         </span>
       <?php
@@ -89,8 +103,6 @@ if (!function_exists('covernews_post_item_meta')):
             } else {
               echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . __('ago', 'covernews');
             }
-
-
             ?>
           </a>
         </span>
@@ -101,8 +113,6 @@ if (!function_exists('covernews_post_item_meta')):
         $show_comment_count = covernews_get_option('global_show_comment_count');
         if ($show_comment_count == 'yes'):
           $comment_count = get_comments_number($post_id);
-
-
       ?>
           <span class="aft-comment-count">
             <a href="<?php echo esc_url(get_comments_link($post_id)); ?>" aria-label="<?php echo esc_attr( sprintf( _n( '%s comment', '%s comments', $comment_count, 'covernews' ), number_format_i18n( $comment_count ) ) ); ?>">
@@ -113,15 +123,11 @@ if (!function_exists('covernews_post_item_meta')):
                 </a>
           </span>
       <?php
-
         endif;
       endif;
-
       ?>
     </span>
 <?php
-
-
   }
 endif;
 

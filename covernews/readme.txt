@@ -1,8 +1,8 @@
 === CoverNews===
 
 Contributors: AF themes
-Tested up to: 7.0
-Stable tag: 7.4.8
+Tested up to: 7.1
+Stable tag: 7.5.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 CoverNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-CoverNews WordPress Theme, Copyright 2026 AF themes
+CoverNews WordPress Theme, Copyright 2024 AF themes
 CoverNews is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
@@ -37,6 +37,21 @@ CoverNews includes support for Infinite Scroll in Jetpack.
 
 
 == Change-log ==
+
+= 7.5.0 - Sep 17, 2026 =
+* Added support for displaying author images in featured news and header post blocks.
+* Added Author Icon Options support for featured banner news blocks.
+* Added and improved local font support.
+* Improved mobile trending news display.
+* Improved featured banner tabs and category handling.
+* Improved theme menus and admin bar functionality.
+* Improved starter site links and useful plugin recommendations.
+* Improved translation and language file support.
+* Fixed issues with header menu settings.
+* Fixed banner tabs and category display issues.
+* Optimized theme styles and CSS.
+* Updated theme documentation and readme.
+
 
 = 7.3.2 - Jun 30, 2026 =
 * Added local font loading for improved performance and privacy.

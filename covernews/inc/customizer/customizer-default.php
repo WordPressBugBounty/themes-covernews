@@ -90,6 +90,7 @@ function covernews_get_default_theme_options() {
     $defaults['global_single_post_tag_display'] = 'no';
     $defaults['global_fetch_content_image_setting'] = 'enable';
     $defaults['global_image_alignment'] = 'full-width-image';
+    $defaults['global_post_author_icon_setting'] = 'show-author-icon';
     $defaults['global_post_date_author_setting'] = 'show-date-author';
     $defaults['global_show_comment_count']        = 'yes';
     $defaults['global_toggle_image_lazy_load_setting'] = 'enable';

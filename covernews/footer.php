@@ -102,7 +102,8 @@ if ($show_footer_checkbox) {
                       'menu_id' => 'footer-menu',
                       'depth' => 1,
                       'container' => 'div',
-                      'container_class' => 'footer-navigation'
+                      'container_class' => 'footer-navigation',
+                      'fallback_cb'    => false
                     )); ?>
                   </div>
                 </div>
@@ -118,7 +119,7 @@ if ($show_footer_checkbox) {
                       'menu_id' => 'social-menu',
                       'container' => 'div',
                       'container_class' => 'social-navigation',
-                      'fallback_cb'    => false,
+                      'fallback_cb'    => false
                     ));
                     ?>
                   </div>

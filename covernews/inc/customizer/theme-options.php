@@ -348,6 +348,33 @@ $wp_customize->add_control(
 
 // Setting - global content alignment of news.
 $wp_customize->add_setting(
+  'global_post_author_icon_setting',
+  array(
+    'default'           => $default['global_post_author_icon_setting'],
+    'capability'        => 'edit_theme_options',
+    'sanitize_callback' => 'covernews_sanitize_select',
+  )
+);
+
+$wp_customize->add_control(
+  'global_post_author_icon_setting',
+  array(
+    'label'       => __('Author Icon Options', 'covernews'),
+    'description' => __('Select author display display format', 'covernews'),
+    'section'     => 'site_layout_settings',
+    'type'        => 'select',
+    'choices'               => array(
+      'show-author-icon' => __('Author name with icon', 'covernews'),
+      'show-author-image' => __('Author name with image', 'covernews'),
+      'show-author-only' => __('Author name only', 'covernews'),
+
+    ),
+    'priority'    => 130,
+  )
+);
+
+// Setting - global content alignment of news.
+$wp_customize->add_setting(
   'global_post_date_author_setting',
   array(
     'default' => $default['global_post_date_author_setting'],

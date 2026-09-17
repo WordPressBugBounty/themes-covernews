@@ -1,3 +1,17 @@
+### 7.5.0 - Sep 17, 2026
+* Added support for displaying author images in featured news and header post blocks.
+* Added Author Icon Options support for featured banner news blocks.
+* Added and improved local font support.
+* Improved mobile trending news display.
+* Improved featured banner tabs and category handling.
+* Improved theme menus and admin bar functionality.
+* Improved starter site links and useful plugin recommendations.
+* Improved translation and language file support.
+* Fixed issues with header menu settings.
+* Fixed banner tabs and category display issues.
+* Optimized theme styles and CSS.
+* Updated theme documentation and readme.
+
 ### 7.3.2 - Jun 30, 2026
 * Added local font loading for improved performance and privacy.
 * Added Theme JSON enhancements for improved Block Editor compatibility.
