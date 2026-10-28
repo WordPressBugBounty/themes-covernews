@@ -296,7 +296,7 @@ if (!class_exists('AF_themes_info')) {
       if (($covernews_blockspare_installed && $covernews_blockspare_active) && $plugin_update == 'false') {
 
       ?>
-        <div id="bs-dashboard"></div>
+        <div id="bs-starter-sites"></div>
 
 
       <?php
